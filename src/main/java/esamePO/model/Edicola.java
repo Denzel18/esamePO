@@ -13,16 +13,16 @@ public class Edicola {
 	private String FormaVenditaEdicole;
 	private boolean VenditaEsclusiva;
 	private int Municipio;
-	private float LONGIT;
-	private float LATIT;
-	private float [] Location;
+	private double LONGIT;
+	private double LATIT;
+	private Double[] Location;
 	
 	
 	
 
 	public Edicola(String codice, String ubicazione, String areaDiCompetenza, String descrizioneVia, int civico,
 			int codiceVia, String localita, String formaVenditaEdicole, boolean venditaEsclusiva, int municipio,
-			float lONGIT, float lATIT, float[] location) {
+			double lONGIT, double lATIT, Double[] location2) {
 		super();
 		this.Codice = codice;
 		this.Ubicazione = ubicazione;
@@ -36,14 +36,14 @@ public class Edicola {
 		this.Municipio = municipio;
 		this.LONGIT = lONGIT;
 		this.LATIT = lATIT;
-		this.Location = location;
+		this.Location = location2;
 	}
 	
-	protected String getCodice() {
+	public String getCodice() {
 		return Codice;
 	}
-	protected void setCodice(String codice) {
-		Codice = codice;
+	public void setCodice(String codice) {
+		this.Codice = codice;
 	}
 	protected String getUbicazione() {
 		return Ubicazione;
@@ -99,22 +99,22 @@ public class Edicola {
 	protected void setMUNICIPIO(int mUNICIPIO) {
 		this.Municipio = mUNICIPIO;
 	}
-	protected float getLONGIT() {
+	protected double getLONGIT() {
 		return LONGIT;
 	}
 	protected void setLONGIT(float lONGIT) {
 		LONGIT = lONGIT;
 	}
-	protected float getLATIT() {
+	protected double getLATIT() {
 		return LATIT;
 	}
 	protected void setLATIT(float lATIT) {
 		LATIT = lATIT;
 	}
-	protected float[] getLocation() {
+	protected Double[] getLocation() {
 		return Location;
 	}
-	protected void setLocation(float[] location) {
+	protected void setLocation(Double[] location) {
 		Location = location;
 	}
 
@@ -137,8 +137,11 @@ public class Edicola {
 		result = prime * result + CodiceVia;
 		result = prime * result + ((DescrizioneVia == null) ? 0 : DescrizioneVia.hashCode());
 		result = prime * result + ((FormaVenditaEdicole == null) ? 0 : FormaVenditaEdicole.hashCode());
-		result = prime * result + Float.floatToIntBits(LATIT);
-		result = prime * result + Float.floatToIntBits(LONGIT);
+		long temp;
+		temp = Double.doubleToLongBits(LATIT);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		temp = Double.doubleToLongBits(LONGIT);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + ((Localita == null) ? 0 : Localita.hashCode());
 		result = prime * result + Arrays.hashCode(Location);
 		result = prime * result + Municipio;
@@ -180,9 +183,9 @@ public class Edicola {
 				return false;
 		} else if (!FormaVenditaEdicole.equals(other.FormaVenditaEdicole))
 			return false;
-		if (Float.floatToIntBits(LATIT) != Float.floatToIntBits(other.LATIT))
+		if (Double.doubleToLongBits(LATIT) != Double.doubleToLongBits(other.LATIT))
 			return false;
-		if (Float.floatToIntBits(LONGIT) != Float.floatToIntBits(other.LONGIT))
+		if (Double.doubleToLongBits(LONGIT) != Double.doubleToLongBits(other.LONGIT))
 			return false;
 		if (Localita == null) {
 			if (other.Localita != null)
@@ -202,6 +205,10 @@ public class Edicola {
 			return false;
 		return true;
 	}
+
+
+
+	
 	
 	
 }

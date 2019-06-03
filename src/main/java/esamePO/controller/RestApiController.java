@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import esamePO.model.User;
-import esamePO.service.UserService;
+import esamePO.model.Edicola;
+import esamePO.service.EdicolaService;
 import esamePO.util.CustomErrorType;
 
 @RestController
