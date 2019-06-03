@@ -103,5 +103,15 @@ public class EdicolaServiceImplements  implements EdicolaService {
 			return 0;
 		}
 
+		public Edicola getEdicolaById(String codice) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public List<Edicola> getAllEdicola() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
 	}
 
