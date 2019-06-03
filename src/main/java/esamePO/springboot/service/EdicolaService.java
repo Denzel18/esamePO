@@ -1,10 +1,9 @@
 package esamePO.springboot.service;
 import java.util.List;
-import esamePO.model.Edicola;
+import esamePO.springboot.model.Edicola;
 
 public interface EdicolaService {
 	
-	Edicola getEdicolaByCodice(long codice);
 	
 
 	//campi no string 

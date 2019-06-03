@@ -39,6 +39,10 @@ public class Edicola {
 		this.Location = location2;
 	}
 	
+	public Edicola() {
+		
+	}
+	
 	public String getCodice() {
 		return Codice;
 	}

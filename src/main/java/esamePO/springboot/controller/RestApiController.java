@@ -17,7 +17,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import esamePO.springboot.model.Edicola;
 import esamePO.springboot.service.EdicolaService;
-import esamePO.util.CustomErrorType;
+import esamePO.springboot.util.CustomErrorType;
 
 @RestController
 @RequestMapping("/api")
@@ -30,7 +30,7 @@ public class RestApiController {
 
 	// -------------------Retrieve All Edicolas---------------------------------------------
 
-	@RequestMapping(value = "/Edicola/", method = RequestMethod.GET)
+	@RequestMapping(value = "/Edicole/", method = RequestMethod.GET)
 	public ResponseEntity<List<Edicola>> listAllEdicolas() {
 		List<Edicola> Edicolas = EdicolaService.getAllEdicola();
 		if (Edicolas.isEmpty()) {
@@ -54,4 +54,5 @@ public class RestApiController {
 		return new ResponseEntity<Edicola>(Edicola, HttpStatus.OK);
 	}
 
+	
 }

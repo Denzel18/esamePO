@@ -2,7 +2,7 @@ package esamePO.springboot;
 import java.net.URI;
 import java.util.LinkedHashMap;
 import java.util.List;
-import esamePO.model.Edicola;
+import esamePO.springboot.model.Edicola;
 import org.springframework.web.client.RestTemplate;
 
 public class EsamePOAppClient {
@@ -39,8 +39,8 @@ public class EsamePOAppClient {
     private static void createUser() {
         System.out.println("Testing create User API----------");
         RestTemplate restTemplate = new RestTemplate();
-        Edicola user = new Edicola();
-        URI uri = restTemplate.postForLocation(REST_SERVICE_URI+"/user/", user, User.class);
+        Edicola edicola = new Edicola();
+        URI uri = restTemplate.postForLocation(REST_SERVICE_URI+"/user/", edicola, Edicola.class);
         System.out.println("Location : "+uri.toASCIIString());
     }
  
@@ -48,9 +48,9 @@ public class EsamePOAppClient {
     private static void updateUser() {
         System.out.println("Testing update User API----------");
         RestTemplate restTemplate = new RestTemplate();
-        User user  = new User(1,"Tomy",33, 70000);
-        restTemplate.put(REST_SERVICE_URI+"/user/1", user);
-        System.out.println(user);
+        Edicola edicola  = new Edicola();
+        restTemplate.put(REST_SERVICE_URI+"/user/1", edicola);
+        System.out.println(edicola);
     }
  
     /* DELETE */

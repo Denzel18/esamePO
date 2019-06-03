@@ -1,6 +1,6 @@
 package esamePO.springboot.service;
 import org.springframework.stereotype.Service;
-import esamePO.model.Edicola;
+import esamePO.springboot.model.Edicola;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
