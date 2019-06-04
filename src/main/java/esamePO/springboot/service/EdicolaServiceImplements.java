@@ -1,8 +1,10 @@
 package esamePO.springboot.service;
 import org.springframework.stereotype.Service;
+
+import com.websystique.springboot.model.User;
+
 import esamePO.springboot.model.Edicola;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -11,18 +13,19 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		
 		private static final AtomicLong counter = new AtomicLong();
 		
-		private static List<Edicola> Edicolas;
+		private static List<Edicola> edicole;
 		
 		static{
-			Edicolas= populateDummyEdicolas();
+			edicole= populateDummyEdicolas();
 		}
 
 		public List<Edicola> findAllEdicolas() {
-			return Edicolas;
+			return edicole;
 		}
 		
 		public Edicola findById(String id) {
-			for(Edicola Edicola : Edicolas){
+			for(Edicola Edicola : edicole){
+				System.out.println("CODICE : "+Edicola.getCodice());
 				if(Edicola.getCodice() == id){
 					return Edicola;
 				}
@@ -33,38 +36,36 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		
 		public void saveEdicola(Edicola Edicola) {
 			Edicola.setCodice("ID : "+counter.incrementAndGet());
-			Edicolas.add(Edicola);
+			edicole.add(Edicola);
 		}
 
 		public void updateEdicola(Edicola Edicola) {
-			int index = Edicolas.indexOf(Edicola);
-			Edicolas.set(index, Edicola);
+			int index = edicole.indexOf(Edicola);
+			edicole.set(index, Edicola);
 		}
 
-		public void deleteEdicolaById(String id) {
-			
-			for (Iterator<Edicola> iterator = Edicolas.iterator(); iterator.hasNext(); ) {
-			    Edicola Edicola = iterator.next();
-			    if (Edicola.getCodice() == id) {
-			        iterator.remove();
-			    }
-			}
-		}
-
-		
 		public void deleteAllEdicolas(){
-			Edicolas.clear();
+			edicole.clear();
 		}
 
 		private static List<Edicola> populateDummyEdicolas(){
-			List<Edicola> Edicolas = new ArrayList<Edicola>();
-			Double[]  location  = new Double [] {0.9999,1.122};
-			Edicolas.add(new Edicola ("AA","BB","CC","DD",54,123,"AA","XX",true,4, 0.672811, 0.123123,location));
-			return Edicolas;
+			List<Edicola> edicole = new ArrayList<Edicola>();
+			int n = 10; 
+			edicole.add(new Edicola());
+			for(int i=0;i<n ;i++) {
+				Edicola x = new Edicola ();
+				System.out.println(x.toString());
+				edicole.add(new Edicola());
+			}
+			return edicole;
 		}
 
-		public Edicola getEdicolaByCodice(long codice) {
-			// TODO Auto-generated method stub
+		public Edicola getEdicolaByCodice(String codice) {
+			for(Edicola Edicola : edicole){
+				if(Edicola.getCodice() == codice){
+					return Edicola;
+				}
+			}
 			return null;
 		}
 
@@ -109,8 +110,7 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		}
 
 		public List<Edicola> getAllEdicola() {
-			// TODO Auto-generated method stub
-			return null;
+			return EdicolaServiceImplements.edicole;
 		}
 
 	}

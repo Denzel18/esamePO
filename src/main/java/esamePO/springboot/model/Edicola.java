@@ -40,7 +40,19 @@ public class Edicola {
 	}
 	
 	public Edicola() {
-		
+		super();
+		this.Codice = "AA";
+		this.Ubicazione = "Via Rossi ";
+		this.AreaDiCompetenza = "3";
+		this.DescrizioneVia = "MIlano";
+		this.Civico = 454;
+		this.CodiceVia = 2;
+		this.Localita = "Milano";
+		this.FormaVenditaEdicole = "riservata";
+		this.VenditaEsclusiva = true;
+		this.Municipio = 3;
+		this.LONGIT = 0.000;
+		this.LATIT = 0.1000;
 	}
 	
 	public String getCodice() {
