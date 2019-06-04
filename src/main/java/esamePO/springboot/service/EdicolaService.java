@@ -15,7 +15,8 @@ public interface EdicolaService {
 	double countData(List<Edicola> edicole, String data);
 	
 	
-	Edicola getEdicolaById(String codice);
+	Edicola getEdicolaByCodice(String codice);
+	Edicola getEdicolaById(int codice);
 	List <Edicola> getAllEdicola ();
 	//getMetaData
 	

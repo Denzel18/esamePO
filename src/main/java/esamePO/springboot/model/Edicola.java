@@ -3,6 +3,7 @@ package esamePO.springboot.model;
 import java.util.Arrays;
 
 public class Edicola {
+	private int id ; 
 	private String Codice;
 	private String Ubicazione;
 	private String AreaDiCompetenza;
@@ -20,10 +21,11 @@ public class Edicola {
 	
 	
 
-	public Edicola(String codice, String ubicazione, String areaDiCompetenza, String descrizioneVia, int civico,
+	public Edicola(int id, String codice, String ubicazione, String areaDiCompetenza, String descrizioneVia, int civico,
 			int codiceVia, String localita, String formaVenditaEdicole, boolean venditaEsclusiva, int municipio,
 			double lONGIT, double lATIT, Double[] location2) {
 		super();
+		this.id = id;
 		this.Codice = codice;
 		this.Ubicazione = ubicazione;
 		this.AreaDiCompetenza = areaDiCompetenza;
@@ -39,8 +41,9 @@ public class Edicola {
 		this.Location = location2;
 	}
 	
-	public Edicola() {
+	public Edicola(int id) {
 		super();
+		this.id= id; 
 		this.Codice = "AA";
 		this.Ubicazione = "Via Rossi ";
 		this.AreaDiCompetenza = "3";
@@ -54,174 +57,129 @@ public class Edicola {
 		this.LONGIT = 0.000;
 		this.LATIT = 0.1000;
 	}
-	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getCodice() {
 		return Codice;
 	}
+
 	public void setCodice(String codice) {
-		this.Codice = codice;
+		Codice = codice;
 	}
-	protected String getUbicazione() {
+
+	public String getUbicazione() {
 		return Ubicazione;
 	}
-	protected void setUbicazione(String ubicazione) {
+
+	public void setUbicazione(String ubicazione) {
 		Ubicazione = ubicazione;
 	}
-	protected String getAreaDiCompetenza() {
+
+	public String getAreaDiCompetenza() {
 		return AreaDiCompetenza;
 	}
-	protected void setAreaDiCompetenza(String areaDiCompetenza) {
+
+	public void setAreaDiCompetenza(String areaDiCompetenza) {
 		AreaDiCompetenza = areaDiCompetenza;
 	}
-	protected String getDescrizioneVia() {
+
+	public String getDescrizioneVia() {
 		return DescrizioneVia;
 	}
-	protected void setDescrizioneVia(String descrizioneVia) {
+
+	public void setDescrizioneVia(String descrizioneVia) {
 		DescrizioneVia = descrizioneVia;
 	}
-	protected int getCivico() {
+
+	public int getCivico() {
 		return Civico;
 	}
-	protected void setCivico(int civico) {
+
+	public void setCivico(int civico) {
 		Civico = civico;
 	}
-	protected int getCodiceVia() {
+
+	public int getCodiceVia() {
 		return CodiceVia;
 	}
-	protected void setCodiceVia(int codiceVia) {
+
+	public void setCodiceVia(int codiceVia) {
 		CodiceVia = codiceVia;
 	}
-	protected String getLocalita() {
+
+	public String getLocalita() {
 		return Localita;
 	}
-	protected void setLocalita(String localita) {
+
+	public void setLocalita(String localita) {
 		Localita = localita;
 	}
-	protected String getForma_vendita_edicole() {
+
+	public String getFormaVenditaEdicole() {
 		return FormaVenditaEdicole;
 	}
-	protected void setForma_vendita_edicole(String forma_vendita_edicole) {
-		this.FormaVenditaEdicole = forma_vendita_edicole;
+
+	public void setFormaVenditaEdicole(String formaVenditaEdicole) {
+		FormaVenditaEdicole = formaVenditaEdicole;
 	}
-	protected boolean isVendita_esclusiva() {
+
+	public boolean isVenditaEsclusiva() {
 		return VenditaEsclusiva;
 	}
-	protected void setVendita_esclusiva(boolean vendita_esclusiva) {
-		this.VenditaEsclusiva = vendita_esclusiva;
+
+	public void setVenditaEsclusiva(boolean venditaEsclusiva) {
+		VenditaEsclusiva = venditaEsclusiva;
 	}
-	protected int getMUNICIPIO() {
+
+	public int getMunicipio() {
 		return Municipio;
 	}
-	protected void setMUNICIPIO(int mUNICIPIO) {
-		this.Municipio = mUNICIPIO;
+
+	public void setMunicipio(int municipio) {
+		Municipio = municipio;
 	}
-	protected double getLONGIT() {
+
+	public double getLONGIT() {
 		return LONGIT;
 	}
-	protected void setLONGIT(float lONGIT) {
+
+	public void setLONGIT(double lONGIT) {
 		LONGIT = lONGIT;
 	}
-	protected double getLATIT() {
+
+	public double getLATIT() {
 		return LATIT;
 	}
-	protected void setLATIT(float lATIT) {
+
+	public void setLATIT(double lATIT) {
 		LATIT = lATIT;
 	}
-	protected Double[] getLocation() {
+
+	public Double[] getLocation() {
 		return Location;
 	}
-	protected void setLocation(Double[] location) {
+
+	public void setLocation(Double[] location) {
 		Location = location;
 	}
 
 	@Override
 	public String toString() {
-		return "Edicola [Codice=" + Codice + ", Ubicazione=" + Ubicazione + ", AreaDiCompetenza=" + AreaDiCompetenza
-				+ ", DescrizioneVia=" + DescrizioneVia + ", Civico=" + Civico + ", CodiceVia=" + CodiceVia
-				+ ", Localita=" + Localita + ", FormaVenditaEdicole=" + FormaVenditaEdicole + ", VenditaEsclusiva="
-				+ VenditaEsclusiva + ", Municipio=" + Municipio + ", LONGIT=" + LONGIT + ", LATIT=" + LATIT
-				+ ", Location=" + Arrays.toString(Location) + "]";
+		return "Edicola [id=" + id + ", Codice=" + Codice + ", Ubicazione=" + Ubicazione + ", AreaDiCompetenza="
+				+ AreaDiCompetenza + ", DescrizioneVia=" + DescrizioneVia + ", Civico=" + Civico + ", CodiceVia="
+				+ CodiceVia + ", Localita=" + Localita + ", FormaVenditaEdicole=" + FormaVenditaEdicole
+				+ ", VenditaEsclusiva=" + VenditaEsclusiva + ", Municipio=" + Municipio + ", LONGIT=" + LONGIT
+				+ ", LATIT=" + LATIT + ", Location=" + Arrays.toString(Location) + "]";
 	}
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((AreaDiCompetenza == null) ? 0 : AreaDiCompetenza.hashCode());
-		result = prime * result + Civico;
-		result = prime * result + ((Codice == null) ? 0 : Codice.hashCode());
-		result = prime * result + CodiceVia;
-		result = prime * result + ((DescrizioneVia == null) ? 0 : DescrizioneVia.hashCode());
-		result = prime * result + ((FormaVenditaEdicole == null) ? 0 : FormaVenditaEdicole.hashCode());
-		long temp;
-		temp = Double.doubleToLongBits(LATIT);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		temp = Double.doubleToLongBits(LONGIT);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		result = prime * result + ((Localita == null) ? 0 : Localita.hashCode());
-		result = prime * result + Arrays.hashCode(Location);
-		result = prime * result + Municipio;
-		result = prime * result + ((Ubicazione == null) ? 0 : Ubicazione.hashCode());
-		result = prime * result + (VenditaEsclusiva ? 1231 : 1237);
-		return result;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Edicola other = (Edicola) obj;
-		if (AreaDiCompetenza == null) {
-			if (other.AreaDiCompetenza != null)
-				return false;
-		} else if (!AreaDiCompetenza.equals(other.AreaDiCompetenza))
-			return false;
-		if (Civico != other.Civico)
-			return false;
-		if (Codice == null) {
-			if (other.Codice != null)
-				return false;
-		} else if (!Codice.equals(other.Codice))
-			return false;
-		if (CodiceVia != other.CodiceVia)
-			return false;
-		if (DescrizioneVia == null) {
-			if (other.DescrizioneVia != null)
-				return false;
-		} else if (!DescrizioneVia.equals(other.DescrizioneVia))
-			return false;
-		if (FormaVenditaEdicole == null) {
-			if (other.FormaVenditaEdicole != null)
-				return false;
-		} else if (!FormaVenditaEdicole.equals(other.FormaVenditaEdicole))
-			return false;
-		if (Double.doubleToLongBits(LATIT) != Double.doubleToLongBits(other.LATIT))
-			return false;
-		if (Double.doubleToLongBits(LONGIT) != Double.doubleToLongBits(other.LONGIT))
-			return false;
-		if (Localita == null) {
-			if (other.Localita != null)
-				return false;
-		} else if (!Localita.equals(other.Localita))
-			return false;
-		if (!Arrays.equals(Location, other.Location))
-			return false;
-		if (Municipio != other.Municipio)
-			return false;
-		if (Ubicazione == null) {
-			if (other.Ubicazione != null)
-				return false;
-		} else if (!Ubicazione.equals(other.Ubicazione))
-			return false;
-		if (VenditaEsclusiva != other.VenditaEsclusiva)
-			return false;
-		return true;
-	}
-
+	
+	
 
 
 	

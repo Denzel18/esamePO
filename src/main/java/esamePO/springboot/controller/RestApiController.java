@@ -43,7 +43,7 @@ public class RestApiController {
 	// -------------------Retrieve Single Edicola------------------------------------------
 
 	@RequestMapping(value = "/Edicola/{id}", method = RequestMethod.GET)
-	public ResponseEntity<?> getEdicola(@PathVariable("id") String id) {
+	public ResponseEntity<?> getEdicola(@PathVariable("id") int id) {
 		logger.info("Fetching Edicola with id {}", id);
 		Edicola Edicola = EdicolaService.getEdicolaById(id);
 		if (Edicola == null) {

@@ -20,10 +20,10 @@ public class EdicolaServiceImplements  implements EdicolaService {
 			return edicole;
 		}
 		
-		public Edicola findById(String id) {
+		public Edicola getEdicolaById(int id) {
 			for(Edicola Edicola : edicole){
 				System.out.println("CODICE : "+Edicola.getCodice());
-				if(Edicola.getCodice() == id){
+				if(Edicola.getId() == id){
 					return Edicola;
 				}
 			}
@@ -48,11 +48,11 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		private static List<Edicola> populateDummyEdicolas(){
 			List<Edicola> edicole = new ArrayList<Edicola>();
 			int n = 10; 
-			edicole.add(new Edicola());
-			for(int i=0;i<n ;i++) {
-				Edicola x = new Edicola ();
+			edicole.add(new Edicola(1));
+			for(int i=2;i<n ;i++) {
+				Edicola x = new Edicola (i);
 				System.out.println(x.toString());
-				edicole.add(new Edicola());
+				edicole.add(new Edicola(i));
 			}
 			return edicole;
 		}
@@ -67,11 +67,17 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		}
 
 		public double avgData(List<Edicola> edicole, String data) {
-			// TODO Auto-generated method stub
-			return 0;
+			double somma = this.sumData(edicole, data);
+			double conteggio = this.countData(edicole, data);
+			double media = somma/conteggio; 
+			return media;
 		}
 
 		public double minData(List<Edicola> edicole, String data) {
+			for(Edicola Edicola : edicole){
+
+				
+			}
 			// TODO Auto-generated method stub
 			return 0;
 		}
