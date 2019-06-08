@@ -3,12 +3,12 @@ package esamePO.springboot.model;
 import java.util.Arrays;
 
 public class Edicola {
-	private int id ; 
+	private long id ; 
 	private String Codice;
 	private String Ubicazione;
 	private String AreaDiCompetenza;
 	private String DescrizioneVia;
-	private int Civico;
+	private String Civico;
 	private int CodiceVia;
 	private String Localita;
 	private String FormaVenditaEdicole;
@@ -16,14 +16,14 @@ public class Edicola {
 	private int Municipio;
 	private double LONGIT;
 	private double LATIT;
-	private Double[] Location;
+	private double[] location;
 	
 	
 	
 
-	public Edicola(int id, String codice, String ubicazione, String areaDiCompetenza, String descrizioneVia, int civico,
+	public Edicola(long id, String codice, String ubicazione, String areaDiCompetenza, String descrizioneVia, String civico,
 			int codiceVia, String localita, String formaVenditaEdicole, boolean venditaEsclusiva, int municipio,
-			double lONGIT, double lATIT, Double[] location2) {
+			double lONGIT, double lATIT, double[] location) {
 		super();
 		this.id = id;
 		this.Codice = codice;
@@ -38,31 +38,31 @@ public class Edicola {
 		this.Municipio = municipio;
 		this.LONGIT = lONGIT;
 		this.LATIT = lATIT;
-		this.Location = location2;
+		this.location = location;
 	}
 	
-	public Edicola(int id) {
+	public Edicola(long id) {
 		super();
 		this.id= id; 
 		this.Codice = "AA";
 		this.Ubicazione = "Via Rossi ";
 		this.AreaDiCompetenza = "3";
 		this.DescrizioneVia = "MIlano";
-		this.Civico = 454;
+		this.Civico = "454";
 		this.CodiceVia = 2;
 		this.Localita = "Milano";
 		this.FormaVenditaEdicole = "riservata";
 		this.VenditaEsclusiva = true;
 		this.Municipio = 3;
-		this.LONGIT = 0.000;
-		this.LATIT = 0.1000;
+		this.LONGIT = (double) 0.00000000;
+		this.LATIT =  (double) 0.22200000;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -98,11 +98,11 @@ public class Edicola {
 		DescrizioneVia = descrizioneVia;
 	}
 
-	public int getCivico() {
+	public String getCivico() {
 		return Civico;
 	}
 
-	public void setCivico(int civico) {
+	public void setCivico(String civico) {
 		Civico = civico;
 	}
 
@@ -150,7 +150,7 @@ public class Edicola {
 		return LONGIT;
 	}
 
-	public void setLONGIT(double lONGIT) {
+	public void setLONGIT(long lONGIT) {
 		LONGIT = lONGIT;
 	}
 
@@ -162,12 +162,12 @@ public class Edicola {
 		LATIT = lATIT;
 	}
 
-	public Double[] getLocation() {
-		return Location;
+	public double[] getLocation() {
+		return location;
 	}
 
-	public void setLocation(Double[] location) {
-		Location = location;
+	public void setLocation(double[] location) {
+		this.location = location;
 	}
 
 	@Override
@@ -176,7 +176,7 @@ public class Edicola {
 				+ AreaDiCompetenza + ", DescrizioneVia=" + DescrizioneVia + ", Civico=" + Civico + ", CodiceVia="
 				+ CodiceVia + ", Localita=" + Localita + ", FormaVenditaEdicole=" + FormaVenditaEdicole
 				+ ", VenditaEsclusiva=" + VenditaEsclusiva + ", Municipio=" + Municipio + ", LONGIT=" + LONGIT
-				+ ", LATIT=" + LATIT + ", Location=" + Arrays.toString(Location) + "]";
+				+ ", LATIT=" + LATIT + ", Location=" + Arrays.toString(location) + "]"+"\n";
 	}
 	
 	

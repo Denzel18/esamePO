@@ -17,7 +17,7 @@ public interface EdicolaService {
 	
 	Edicola getEdicolaByCodice(String codice);
 	Edicola getEdicolaById(int codice);
-	List <Edicola> getAllEdicola ();
+	List <Edicola> getEdicole ();
 	//getMetaData
 	
 	//getData 

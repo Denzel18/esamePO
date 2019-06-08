@@ -32,7 +32,7 @@ public class RestApiController {
 
 	@RequestMapping(value = "/Edicole/", method = RequestMethod.GET)
 	public ResponseEntity<List<Edicola>> listAllEdicolas() {
-		List<Edicola> Edicolas = EdicolaService.getAllEdicola();
+		List<Edicola> Edicolas = EdicolaService.getEdicole();
 		if (Edicolas.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NO_CONTENT);
 			// You many decide to return HttpStatus.NOT_FOUND
