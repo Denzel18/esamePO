@@ -26,26 +26,23 @@ public class RestApiController {
 	public static final Logger logger = LoggerFactory.getLogger(RestApiController.class);
 
 	@Autowired
-	EdicolaService EdicolaService; //Service which will do all data retrieval/manipulation work
+	EdicolaService EdicolaService;
 
-	// -------------------Retrieve All Edicolas---------------------------------------------
 
 	@RequestMapping(value = "/Edicole/", method = RequestMethod.GET)
 	public ResponseEntity<List<Edicola>> listAllEdicolas() {
 		List<Edicola> Edicolas = EdicolaService.getEdicole();
 		if (Edicolas.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NO_CONTENT);
-			// You many decide to return HttpStatus.NOT_FOUND
 		}
 		return new ResponseEntity<List<Edicola>>(Edicolas, HttpStatus.OK);
 	}
 
-	// -------------------Retrieve Single Edicola------------------------------------------
 
 	@RequestMapping(value = "/Edicola/{id}", method = RequestMethod.GET)
 	public ResponseEntity<?> getEdicola(@PathVariable("id") int id) {
 		logger.info("Fetching Edicola with id {}", id);
-		Edicola Edicola = EdicolaService.getEdicolaById(id);
+		Edicola Edicola = EdicolaService.getEdicolaById(1);
 		if (Edicola == null) {
 			logger.error("Edicola with id {} not found.", id);
 			return new ResponseEntity(new CustomErrorType("Edicola with id " + id 

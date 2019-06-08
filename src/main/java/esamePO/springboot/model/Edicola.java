@@ -57,6 +57,24 @@ public class Edicola {
 		this.LONGIT = (double) 0.00000000;
 		this.LATIT =  (double) 0.22200000;
 	}
+	
+	public Edicola(Edicola a) {
+		super();
+		this.id = a.id;
+		this.Codice = a.getCodice();
+		this.Ubicazione = a.getUbicazione();
+		this.AreaDiCompetenza = a.getAreaDiCompetenza();
+		this.DescrizioneVia = a.getDescrizioneVia();
+		this.Civico = a.getCivico();
+		this.CodiceVia = a.getCodiceVia();
+		this.Localita = a.getLocalita();
+		this.FormaVenditaEdicole = a.getFormaVenditaEdicole();
+		this.VenditaEsclusiva = a.isVenditaEsclusiva();
+		this.Municipio = a.getMunicipio();
+		this.LONGIT = a.getLONGIT();
+		this.LATIT = a.getLATIT();
+		this.location = a.getLocation();
+	}
 
 	public long getId() {
 		return id;
