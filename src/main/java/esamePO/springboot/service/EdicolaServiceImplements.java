@@ -80,6 +80,30 @@ public class EdicolaServiceImplements  implements EdicolaService {
 
 		return count;
 	}
+	
+
+	public String maxEdicolaByVariable(String variable) throws IOException {
+		String maximumS = "" ;
+		int maximum = 0;
+		int municipio = 0;
+		switch(variable) {
+		case "municipio":
+			for(Edicola Edicola : edicole){
+				int max = countEdicolaByVariable ("municipio", Integer.toString( Edicola.getMunicipio()));
+				if(maximum < max) {
+					maximum = max; 
+					municipio = Edicola.getMunicipio();
+				}	
+			}
+			maximumS = "Il municipio con il maggior numero di edicole  è : "+municipio+ ", numero di edicole : "+maximum;
+			break;
+		case "venditaEsclusiva":
+			
+			break;
+		}
+		return maximumS;
+	}
+	
 
 	private static ArrayList<Edicola> populate() throws IOException, ParserCSVException{
 		ArrayList<Edicola> edicoleS = new ArrayList<Edicola>();
@@ -99,5 +123,7 @@ public class EdicolaServiceImplements  implements EdicolaService {
 
 		return edicoleS;
 	}
+
+
 }
 

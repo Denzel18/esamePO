@@ -14,7 +14,6 @@ public interface EdicolaService {
 	double maxData(ArrayList<Edicola> edicole, String data);
 	double devStdData(ArrayList<Edicola> edicole, String data);
 	double sumData(ArrayList<Edicola> edicole, String data);
-	double countData(ArrayList<Edicola> edicole, String data);
 	*/
 	
 	Edicola getEdicolaByCodice(String codice);
@@ -22,6 +21,7 @@ public interface EdicolaService {
 	ArrayList <Edicola> getEdicole ();
 	
 	int countEdicolaByVariable (String variable, String value) throws IOException;
+	String maxEdicolaByVariable (String variable) throws IOException;
 	//getMetaData
 	
 	//getData 

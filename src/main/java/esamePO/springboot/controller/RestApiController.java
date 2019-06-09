@@ -34,6 +34,7 @@ public class RestApiController {
 		}
 		return new ResponseEntity<List<Edicola>>(Edicolas, HttpStatus.OK);
 	}
+	
 	@RequestMapping(value = "/Edicola/{id}", method = RequestMethod.GET)
 	public ResponseEntity<?> getEdicola(@PathVariable("id") int id) {
 		logger.info("Fetching Edicola with id {}", id);
@@ -44,8 +45,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Edicola>(Edicola, HttpStatus.OK);
 	}
+	
 	@RequestMapping(value = "/Edicola/Codice/{code}", method = RequestMethod.GET)
-	public ResponseEntity<?> getEdicolaByCodice(@PathVariable("codice") String codice) {
+	public ResponseEntity<?> getEdicolaByCodice(@PathVariable("code") String codice) {
 		logger.info("Fetching Edicola with code {}", codice);
 		Edicola Edicola = EdicolaService.getEdicolaByCodice(codice);
 		if (Edicola == null) {
@@ -54,6 +56,7 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Edicola>(Edicola, HttpStatus.OK);
 	}
+	
 	@RequestMapping(value = "/Edicole/Count/{variable}/Value/{value}", method = RequestMethod.GET)
 	public ResponseEntity<?> countEdicolaByVariable(@PathVariable("variable") String variable , @PathVariable("value") String value) throws IOException {
 		logger.info("counting Edicole with variable {} and value {}", variable,value);
@@ -65,5 +68,17 @@ public class RestApiController {
 		return new ResponseEntity<Integer>(count, HttpStatus.OK);
 	}
 	
+	@RequestMapping(value = "/Edicole/Max/{variable}", method = RequestMethod.GET)
+	public ResponseEntity<?> maxEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
+		logger.info("counting Edicole with variable {} and value {}", variable);
+		String max = EdicolaService.maxEdicolaByVariable(variable);
+		if (max == null) {
+			logger.error("Error request, variable : {} not found.", variable);
+			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable + " not found"), HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<String>(max, HttpStatus.OK);
+	}
+	
+
 	
 }
