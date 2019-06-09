@@ -3,6 +3,9 @@ package esamePO.springboot.controller;
 import java.io.IOException;
 import java.util.List;
 
+import esamePO.springboot.model.Edicola;
+import esamePO.springboot.model.Risposta;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +15,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import esamePO.springboot.model.Edicola;
 import esamePO.springboot.service.EdicolaService;
 import esamePO.springboot.util.CustomErrorType;
 
@@ -60,23 +62,23 @@ public class RestApiController {
 	@RequestMapping(value = "/Edicole/Count/{variable}/Value/{value}", method = RequestMethod.GET)
 	public ResponseEntity<?> countEdicolaByVariable(@PathVariable("variable") String variable , @PathVariable("value") String value) throws IOException {
 		logger.info("counting Edicole with variable {} and value {}", variable,value);
-		int count = EdicolaService.countEdicolaByVariable(variable, value);
-		if (count == 0 || count == -1) {
+		Risposta risposta = EdicolaService.countEdicolaByVariable(variable, value);
+		if (risposta == null) {
 			logger.error("Error request, variable : {}  with value {} not found.", variable,value);
 			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable +" with value : "+value+ " not found"), HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<Integer>(count, HttpStatus.OK);
+		return new ResponseEntity<Risposta>(risposta, HttpStatus.OK);
 	}
 	
 	@RequestMapping(value = "/Edicole/Max/{variable}", method = RequestMethod.GET)
 	public ResponseEntity<?> maxEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
-		logger.info("counting Edicole with variable {} and value {}", variable);
-		String max = EdicolaService.maxEdicolaByVariable(variable);
-		if (max == null) {
+		logger.info("counting Edicole with variable {}", variable);
+		Risposta risposta = EdicolaService.maxEdicolaByVariable(variable);
+		if (risposta == null) {
 			logger.error("Error request, variable : {} not found.", variable);
 			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable + " not found"), HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<String>(max, HttpStatus.OK);
+		return new ResponseEntity<Risposta>(risposta, HttpStatus.OK);
 	}
 	
 
