@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import esamePO.springboot.model.Edicola;
-import esamePO.springboot.model.Risposta;
+import esamePO.springboot.model.Response;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -62,23 +62,56 @@ public class RestApiController {
 	@RequestMapping(value = "/Edicole/Count/{variable}/Value/{value}", method = RequestMethod.GET)
 	public ResponseEntity<?> countEdicolaByVariable(@PathVariable("variable") String variable , @PathVariable("value") String value) throws IOException {
 		logger.info("counting Edicole with variable {} and value {}", variable,value);
-		Risposta risposta = EdicolaService.countEdicolaByVariable(variable, value);
+		Response risposta = EdicolaService.countEdicolaByVariable(variable, value);
 		if (risposta == null) {
 			logger.error("Error request, variable : {}  with value {} not found.", variable,value);
 			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable +" with value : "+value+ " not found"), HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<Risposta>(risposta, HttpStatus.OK);
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
 	
 	@RequestMapping(value = "/Edicole/Max/{variable}", method = RequestMethod.GET)
 	public ResponseEntity<?> maxEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
 		logger.info("counting Edicole with variable {}", variable);
-		Risposta risposta = EdicolaService.maxEdicolaByVariable(variable);
+		Response risposta = EdicolaService.maxEdicolaByVariable(variable);
 		if (risposta == null) {
 			logger.error("Error request, variable : {} not found.", variable);
 			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable + " not found"), HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<Risposta>(risposta, HttpStatus.OK);
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
+	}
+	
+	@RequestMapping(value = "/Edicole/Min/{variable}", method = RequestMethod.GET)
+	public ResponseEntity<?> minEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
+		logger.info("counting Edicole with variable {}", variable);
+		Response risposta = EdicolaService.minEdicolaByVariable(variable);
+		if (risposta == null) {
+			logger.error("Error request, variable : {} not found.", variable);
+			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable + " not found"), HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
+	}
+	@RequestMapping(value = "/Edicole/Avg/{variable}", method = RequestMethod.GET)
+	public ResponseEntity<?> avgEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
+		logger.info("counting Edicole with variable {}", variable);
+		Response risposta = EdicolaService.avgEdicolaByVariable(variable);
+		if (risposta == null) {
+			logger.error("Error request, variable : {} not found.", variable);
+			return new ResponseEntity(new CustomErrorType("Error request, variable : " + variable + " not found"), HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
+	}
+	
+	
+	@RequestMapping(value = "/Metadata/", method = RequestMethod.GET)
+	public ResponseEntity<?> getMetadata() throws IOException {
+		logger.info("get metadata");
+		Response risposta = EdicolaService.getMetaData();
+		if (risposta == null) {
+			logger.error("Error request, metadata ");
+			return new ResponseEntity(new CustomErrorType("Error request, metadata not found"), HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
 	
 

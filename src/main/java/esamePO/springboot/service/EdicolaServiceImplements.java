@@ -2,8 +2,9 @@ package esamePO.springboot.service;
 import org.springframework.stereotype.Service;
 
 import esamePO.springboot.model.Edicola;
-import esamePO.springboot.model.Risposta;
+import esamePO.springboot.model.Response;
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 
@@ -80,9 +81,9 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		return x;
 	}
 
-	public Risposta countEdicolaByVariable (String variable, String value) throws IOException {
+	public Response countEdicolaByVariable (String variable, String value) throws IOException {
 		int count = -1; 
-		Risposta risposta = null; 
+		Response risposta = null; 
 		switch(variable) {
 		case "municipio": 
 			count = 0; 
@@ -91,7 +92,7 @@ public class EdicolaServiceImplements  implements EdicolaService {
 					count++;
 				}
 			}
-			risposta = new Risposta ("Hai ricercato il numero di edicole presenti nel municipio : "+value,
+			risposta = new Response ("Hai ricercato il numero di edicole presenti nel municipio : "+value,
 					"Sono presenti : "+count+ " edicole nel municipio "+value);
 			break;
 
@@ -102,7 +103,7 @@ public class EdicolaServiceImplements  implements EdicolaService {
 					count++;
 				}
 			}
-			risposta = new Risposta ("Hai ricercato il numero di edicole con vendita esclusiva uguale a : "+value,
+			risposta = new Response ("Hai ricercato il numero di edicole con vendita esclusiva uguale a : "+value,
 					"Sono presenti : "+count+ " edicole con vendita esclusiva uguale a : "+value);
 			break;
 
@@ -113,7 +114,7 @@ public class EdicolaServiceImplements  implements EdicolaService {
 					count++;
 				}
 			}
-			risposta = new Risposta ("Hai ricercato il numero di edicole con la forma di vendita : "+value,
+			risposta = new Response ("Hai ricercato il numero di edicole con la forma di vendita : "+value,
 					"Sono presenti : "+count+ " edicole, con la forma di vendita :  "+value);
 			break;
 		}
@@ -122,9 +123,9 @@ public class EdicolaServiceImplements  implements EdicolaService {
 	}
 	
 
-	public Risposta maxEdicolaByVariable(String variable) throws IOException {
+	public Response maxEdicolaByVariable(String variable) throws IOException {
 		String msg = "" ;
-		Risposta risposta = null; 
+		Response risposta = null; 
 
 		switch(variable) {
 		case "municipio":
@@ -138,18 +139,18 @@ public class EdicolaServiceImplements  implements EdicolaService {
 				}	
 			}
 			msg = "Il municipio con il maggior numero di edicole è il : "+municipio+ ", numero di edicole : "+maximum;
-			risposta = new Risposta ("Hai ricercato il numero max di edicole in base al  : "+variable,msg);
+			risposta = new Response ("Hai ricercato il numero max di edicole in base al  : "+variable,msg);
 			break;
 		case "venditaEsclusiva":
 				int venditaEsclusivaTrue = count ("venditaEsclusiva", "true");
 				int venditaEsclusivaFalse = count ("venditaEsclusiva", "false");
 				
 				if(venditaEsclusivaTrue < venditaEsclusivaFalse) {
-					msg = "Sono presenti più edicola senza la vendita esclusiva, sono infatti : "+venditaEsclusivaFalse;
+					msg = "Sono presenti più edicole senza la vendita esclusiva, sono infatti : "+venditaEsclusivaFalse;
 				}else {
-					msg = "Sono presenti più edicola con la vendita esclusiva, sono infatti : "+venditaEsclusivaTrue;
+					msg = "Sono presenti più edicole con la vendita esclusiva, sono infatti : "+venditaEsclusivaTrue;
 				}
-				risposta = new Risposta ("Hai ricercato il numero max di edicole 'con' e 'senza' vendita esclusiva",msg);
+				risposta = new Response ("Hai ricercato il numero max di edicole 'con' e 'senza' vendita esclusiva",msg);
 			break;
 		case "formaVendita":
 			String formaVendita="";
@@ -164,12 +165,114 @@ public class EdicolaServiceImplements  implements EdicolaService {
 				
 			}
 			msg = "il numero massimo di edicole in base ad una determinata forma vendita è : "+maxFV+ " e la forma vendità più gettonata è : "+formaVendita;
-			risposta = new Risposta ("Hai ricercato il numero max di edicole in base al  : "+variable,msg);
+			risposta = new Response ("Hai ricercato il numero max di edicole in base al  : "+variable,msg);
 			break;
 		}
 		return risposta;
 	}
 	
+	public Response minEdicolaByVariable(String variable) throws IOException {
+		String msg = "" ;
+		Response risposta = null; 
+
+		switch(variable) {
+		case "municipio":
+			int minum = 1000000;
+			int municipio = 0;
+			for(Edicola Edicola : edicole){
+				int min = count ("municipio", Integer.toString( Edicola.getMunicipio()));
+				if(minum > min) {
+					minum = min; 
+					municipio = Edicola.getMunicipio();
+				}	
+			}
+			msg = "Il municipio con il minur numero di edicole è il : "+municipio+ ", numero di edicole : "+minum;
+			risposta = new Response ("Hai ricercato il numero min di edicole in base al  : "+variable,msg);
+			break;
+		case "venditaEsclusiva":
+				int venditaEsclusivaTrue = count ("venditaEsclusiva", "true");
+				int venditaEsclusivaFalse = count ("venditaEsclusiva", "false");
+				
+				if(venditaEsclusivaTrue < venditaEsclusivaFalse) {
+					msg = "Sono presenti meno edicole con la vendita esclusiva, sono infatti : "+venditaEsclusivaTrue;
+				}else {
+					msg = "Sono presenti meno edicole senza la vendita esclusiva, sono infatti : "+venditaEsclusivaFalse;
+				}
+				risposta = new Response ("Hai ricercato il numero max di edicole 'con' e 'senza' vendita esclusiva",msg);
+			break;
+		case "formaVendita":
+			String formaVendita="";
+			int min = 0;
+			int minFV = 1000000; 
+			for(Edicola Edicola : edicole){
+				min = count("formaVendita",Edicola.getFormaVenditaEdicole());
+				if(minFV > min) {
+					minFV = min ; 
+					formaVendita = Edicola.getFormaVenditaEdicole();
+				}
+			}
+			msg = "il numero minimo di edicole in base ad una determinata forma vendita è : "+minFV+ " e la forma vendità più gettonata è : "+formaVendita;
+			risposta = new Response ("Hai ricercato il numero min di edicole in base al  : "+variable,msg);
+			break;
+		}
+		return risposta;
+	}
+	
+	public Response getMetaData() {
+		Response risposta = null; 
+		String msg ="long : id , String : codice ,"
+				+ " String : ubicazione "+
+				"String : areaDiCompetenza,"
+				+ " String : descrizioneVia,"
+				+ " String : Civico,"
+				+ " int : codiceVia,"
+				+ " String : Localita,"
+				+ " String : formaVenditaEdicole,"
+				+ " boolean : VenditaEsclusiva,"
+				+ " int : municipio,"
+				+ " double : LONGIT,"
+				+ " double : LATIT,"
+				+ " double[] : location";
+		risposta = new Response ("Hai richiesto i metadata", msg);
+		return risposta; 
+		
+	}
+	
+	public Response avgEdicolaByVariable (String variable) throws IOException{
+		String msg = "" ;
+		Response risposta = null;
+		int somma = 0;
+		double media = 0.0;
+
+		switch(variable) {
+		case "municipio":
+			int i = 0;
+			for( i = 1 ; i < 10 ; i++){
+				somma += count ("municipio", Integer.toString(i));
+			}
+			media = (double)somma/(double) 9;
+			msg = "La media di Edicole per municipio e' : "+media;
+			risposta = new Response ("Hai cercato media di edicole per municipio",msg);
+			break;
+		case "venditaEsclusiva":
+				int venditaEsclusivaTrue = count ("venditaEsclusiva", "true");
+				int venditaEsclusivaFalse = count ("venditaEsclusiva", "false");
+
+				msg = "La media di edicole con vendita esclusiva e' pari a : "+(double)venditaEsclusivaTrue/(double)edicole.size();
+				msg+= " ,mentre la media di edicole senza vendita esclusiva e' pari a : "+(double)venditaEsclusivaFalse/(double)edicole.size();
+				
+				risposta = new Response ("Hai cercato la media di edicole 'con' e 'senza' vendita esclusiva",msg);
+			break;
+		case "formaVendita":
+			for(Edicola Edicola : edicole){
+				somma = count ("formaVendita", Edicola.getFormaVenditaEdicole());
+				msg+=" media edicole con forma vendita : "+Edicola.getFormaVenditaEdicole()+" e pari a : "+somma/edicole.size();
+			}
+			risposta = new Response ("Hai cercato media di edicole per forma di vendita",msg);
+			break;
+		}
+		return risposta;
+	}
 
 	private static ArrayList<Edicola> populate() throws IOException, ParserCSVException{
 		ArrayList<Edicola> edicoleS = new ArrayList<Edicola>();
@@ -186,7 +289,6 @@ public class EdicolaServiceImplements  implements EdicolaService {
 		for(int i = 0 ; i < edicole.size() ; i++) {
 			edicoleS.add(new Edicola(edicole.get(i)));
 		}
-
 		return edicoleS;
 	}
 

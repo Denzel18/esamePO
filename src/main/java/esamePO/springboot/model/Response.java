@@ -1,10 +1,10 @@
 package esamePO.springboot.model;
 
-public class Risposta {
+public class Response {
 	private String message; 
 	private String info;
 
-	public Risposta(String message, String info) {
+	public Response(String message, String info) {
 		this.message = message;
 		this.info = info;
 	}

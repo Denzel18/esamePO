@@ -152,7 +152,7 @@ public class Parser {
 						elements[4],
 						Integer.parseInt(elements[5]),
 						elements[6],
-						elements[7].replace(" ", "").trim(),
+						(elements[7].replace(" ", "").trim()).isEmpty() ? "FormaVenditaNonIdentifica" : elements[7].replace(" ", "").trim(),
 						elements[8].trim().contains("S") ? true : false,
 								Integer.parseInt(elements[9]),
 								Double.parseDouble(elements[10]),
