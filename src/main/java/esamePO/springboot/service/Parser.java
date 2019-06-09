@@ -143,17 +143,16 @@ public class Parser {
 				location[0] = Double.parseDouble(elements[10]);
 				location[1] = Double.parseDouble(elements[11]);
 
-
 				Edicola e = new Edicola (
 						counter.incrementAndGet(),
-						elements[0],
+						elements[0]=elements[0].replace("/","-"),
 						elements[1],
 						elements[2],
 						elements[3],
 						elements[4],
 						Integer.parseInt(elements[5]),
 						elements[6],
-						elements[7],
+						elements[7].replace(" ", "").trim(),
 						elements[8].trim().contains("S") ? true : false,
 								Integer.parseInt(elements[9]),
 								Double.parseDouble(elements[10]),

@@ -1,4 +1,5 @@
 package esamePO.springboot.service;
+import java.io.IOException;
 import java.util.ArrayList;
 import esamePO.springboot.model.Edicola;
 
@@ -19,6 +20,8 @@ public interface EdicolaService {
 	Edicola getEdicolaByCodice(String codice);
 	Edicola getEdicolaById(int codice);
 	ArrayList <Edicola> getEdicole ();
+	
+	int countEdicolaByVariable (String variable, String value) throws IOException;
 	//getMetaData
 	
 	//getData 
