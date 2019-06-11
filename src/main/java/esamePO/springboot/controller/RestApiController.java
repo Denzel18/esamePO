@@ -114,6 +114,17 @@ public class RestApiController {
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
 	
+	@RequestMapping(value = "/DevStd/", method = RequestMethod.GET)
+	public ResponseEntity<?> devStdData() throws IOException {
+		logger.info("get devStd");
+		Response risposta = EdicolaService.devStdData();
+		if (risposta == null) {
+			logger.error("Error request, metadata ");
+			return new ResponseEntity(new CustomErrorType("Error request, metadata not found"), HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
+	}
+	
 
 	
 }

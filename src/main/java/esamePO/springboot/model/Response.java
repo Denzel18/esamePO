@@ -1,6 +1,12 @@
 package esamePO.springboot.model;
 
+/**
+ * 
+ * @author denis bernovschi
+ * @version = 1.0;
+ */
 public class Response {
+
 	private String message; 
 	private String info;
 
