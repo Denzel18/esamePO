@@ -77,8 +77,8 @@ public class Response {
 	private String message; 
 	private String info;
 `````
-##### Parser
-###### Parser JSON 
+### Parser
+##### Parser JSON 
 `````
 protected String parseJSON (String file) throws FileNotFoundException {
 		BufferedReader reader = new BufferedReader(new FileReader(file));
@@ -117,7 +117,7 @@ protected String parseJSON (String file) throws FileNotFoundException {
 	}
 
 `````
-###### Parser JSON
+##### Parser CSV
 `````
 protected void parseCSV (ArrayList<String> lines) throws ParserCSVException {
 		ArrayList <Edicola> edicole = new ArrayList<Edicola>();
@@ -218,6 +218,100 @@ protected void downloadCSV(String urlStr, String file) throws IOException{
 		bis.close();
 	}
 `````
+### Edicola Service 
+_ EdicolaService.java_ è l'interfaccia per quanto concerne l'interazione con l'utente 
+`````
+package esamePO.springboot.service;
+import java.io.IOException;
+import java.util.ArrayList;
+import esamePO.springboot.model.Edicola;
+import esamePO.springboot.model.Response;
+public interface EdicolaService {
+	Response devStdData() throws IOException;
+	Edicola getEdicolaByCodice(String codice);
+	Edicola getEdicolaById(int codice);
+	ArrayList <Edicola> getEdicole ();
+	Response countEdicolaByVariable (String variable, String value) throws IOException;
+	Response maxEdicolaByVariable (String variable) throws IOException;
+	Response minEdicolaByVariable (String variable) throws IOException;
+	Response getMetaData(); 
+	Response avgEdicolaByVariable (String variable) throws IOException;
+	Response sumData(String data , String value);
+}
+`````
+_EdicolaServiceImplements.java_ è la classe che implementa l'interfaccia vista sopra 
+ecco quindi un snippet della classe 
+`````
+package esamePO.springboot.service;
+
+import org.springframework.stereotype.Service;
+import esamePO.springboot.model.Edicola;
+import esamePO.springboot.model.Response;
+import java.io.IOException;
+import java.util.ArrayList;
+
+@Service("edicolaService")
+public class EdicolaServiceImplements  implements EdicolaService {
+    ---- 
+}
+`````
+all'interno di questa classe è opportuno porre l'attenzio su 3 fondamentali blocchi di codice. 
+
+il primo è relativo al l'istanza di un'array list che servirà appunto poi a tutti gli altri metodi definiti all'interno della classe : 
+`````
+private static ArrayList<Edicola> edicole;
+`````
+il secondo :
+`````
+	static{
+		try {
+			edicole= populate();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParserCSVException e) {
+			e.printStackTrace();
+		}
+	}
+`````
+è relativo al popolamento dell'arraylist visto nello snippet precendente ed infine, 
+
+`````
+private static ArrayList<Edicola> populate() throws IOException, ParserCSVException{
+		ArrayList<Edicola> edicoleS = new ArrayList<Edicola>();
+
+		String filenameJSON = "miofile.json";
+		String filenameCSV = "miofile.csv";
+
+		Parser p = new Parser();
+		p.download("https://www.dati.gov.it/api/3/action/package_show?id=19eb95bf-6b06-43b8-b28a-e774eb5a7391", "miofile.json");
+		String url_csv = p.parseJSON(filenameJSON);
+		System.out.println("URL : "+url_csv);
+		p.downloadCSV(url_csv, filenameCSV);
+		p.parseCSV(p.readFile(filenameCSV));
+		
+		ArrayList <Edicola> edicole = p.getEdicole();
+
+		System.out.println("edicole memorizzate : "+edicole.size());
+
+		for(int i = 0 ; i < edicole.size() ; i++) {
+			edicoleS.add(new Edicola(edicole.get(i)));
+		}
+		return edicoleS;
+	}
+
+`````
+ecco quindi lo snippet qui sopra riporta permette il reale popolamento dell'array list su cui poi svolgeremo le operazioni richieste dall'utente. 
+
+## UML 
+
+## In breve ... 
+
+Nel package service innanzitutto eseguo il download del json tramite l'url consegnatoci. Terminato il download, parte il parse di quest'ultimo al fine di trovare l'url della risorsa _csv_, una volta trovato, eseguo il download e comincio il suo parsing grazie a questo ho ora in mano l'array list delle varie _edicole_. 
+Questo arraylist passa poi alla classe _EdicolaServiceImplements.java_ e attraverso il meccanismo visto qui sopra posso sfruttarlo al fine di elaborare le informazioni richieste. Una volta terminata la definizione di questi metodi, essi verrano utilizzati dal _controller_ al fine di visualizzare o meglio elaborare la risposta da rispedire al client. 
+
+## Una ultima precisazione ...
+
+Nel repository compaiono due utenti contribuenti, in realtà si tratta di una svista in quanto l'utente contribuente è singolo. A causa di problemi tecnici ho dovuto cambiare il computer e per errore ho configurato e-git con un e-mail diversa da quella usata per creare il repository. Infatti l'utente che ha creato il repository è *denisberno* con e-mail : _s1077134@studenti.univpm.it_ mentre l'utente che ha seguito le varie **commit** è *Denzel18* con e-mail : bernovschi.denis@gmail.com
 
 
 
