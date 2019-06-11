@@ -35,71 +35,13 @@ import esamePO.springboot.model.Edicola;
  */
 
 public class Parser {
-
-	private String json; 
-	private String filename;
 	private BufferedReader br;
-
 	private static final String DEFAULT_SEPARATOR = ";";
 	private static final AtomicLong counter = new AtomicLong();
 	private ArrayList <Edicola> edicole;
-
-	/**
-	 * 
-	 * Il costruttore ci permette di instanziare un nuovo oggetto con le 
-	 * caratteristiche desiderate, attraverso il passaggio dei parametri.
-	 * 
-	 * @param json l'oggetto String contenente il json
-	 * @param filename l'oggetto String contente il nome del file
-	 * 
-	 */
-	protected Parser(String json, String filename){
-		this.json = json; 
-		this.filename = filename ; 
-	}
 	
 	protected Parser() {
 		
-	}
-
-	/**
-	 * Ci restituisce il nome del file che l'utente ha inserito al momento della creazione del oggetto Parser @see Parser
-	 * 
-	 * @return filename filename è 
-	 * 
-	 */
-	protected String getFilename() {
-		return filename;
-	}
-	/**
-	 * 
-	 * @param filename Ci permette di impostare il nome del file in un secondo momento 
-	 * 
-	 */
-
-	protected void setFilename(String filename) {
-		this.filename = filename;
-	}
-
-	/**
-	 * Ci restituisce il contenuto del attributo json valorizzato al momento della creazione del oggetto Parser @see Parser
-	 * 
-	 * @return json 
-	 * 
-	 */
-	protected String getJson() {
-		return json;
-	}
-	/**
-	 * 
-	 * Ci permette di impostare il json in un secondo momento 
-	 * 
-	 * @param json una stringa contenente il json
-	 *
-	 */
-
-	protected void setJson(String json) {
-		this.json = json;
 	}
 
 	/**

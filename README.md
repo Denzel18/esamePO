@@ -12,6 +12,7 @@ Ho sviluppato il progetto grazie a diversi software :
 - Github : Per il versioning dell'applicazione
 - Eclipse : Per lo sviluppo dell'applicazione, con il plug-in di "e-git" 
 - Brackets : Per la scrittura del file README.md grazie all'ausilio del plug-in   MarkDown 
+- Postman : Per verificare il reale corretto funzionamento 
 
 ## Packaging 
 
@@ -303,13 +304,19 @@ private static ArrayList<Edicola> populate() throws IOException, ParserCSVExcept
 ecco quindi lo snippet qui sopra riporta permette il reale popolamento dell'array list su cui poi svolgeremo le operazioni richieste dall'utente. 
 
 ## UML 
+![diagramma UML](https://github.com/denisberno/esamePO/blob/master/diagrammaUML.jpg)
+
+è possibile inoltre visionarlo al seguente indirizzo [UML](https://github.com/denisberno/esamePO/blob/master/diagrammaUML.jpg)
 
 ## In breve ... 
 
 Nel package service innanzitutto eseguo il download del json tramite l'url consegnatoci. Terminato il download, parte il parse di quest'ultimo al fine di trovare l'url della risorsa _csv_, una volta trovato, eseguo il download e comincio il suo parsing grazie a questo ho ora in mano l'array list delle varie _edicole_. 
 Questo arraylist passa poi alla classe _EdicolaServiceImplements.java_ e attraverso il meccanismo visto qui sopra posso sfruttarlo al fine di elaborare le informazioni richieste. Una volta terminata la definizione di questi metodi, essi verrano utilizzati dal _controller_ al fine di visualizzare o meglio elaborare la risposta da rispedire al client. 
 
-## Una ultima precisazione ...
+## Autori 
+ - Denis Bernovschi - USER ID : Denzel18 - [Denzel18](https://github.com/Denzel18) per visionare invece il repository [esamePO](https://github.com/denisberno/esamePO)
+ 
+#### Una ultima precisazione ...
 
 Nel repository compaiono due utenti contribuenti, in realtà si tratta di una svista in quanto l'utente contribuente è singolo. A causa di problemi tecnici ho dovuto cambiare il computer e per errore ho configurato e-git con un e-mail diversa da quella usata per creare il repository. Infatti l'utente che ha creato il repository è *denisberno* con e-mail : _s1077134@studenti.univpm.it_ mentre l'utente che ha seguito le varie **commit** è *Denzel18* con e-mail : bernovschi.denis@gmail.com
 
