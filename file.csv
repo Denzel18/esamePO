@@ -1,0 +1,582 @@
+Codice;Ubicazione;Area di Competenza;DescrizioneVia;Civico;CodiceVia;Localita;forma_vendita_edicole;vendita_esclusiva;MUNICIPIO;LONGIT;LATIT;Location
+ED/3044;VIALE FAMAGOSTA N. 56 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIALE FAMAGOSTA;56;5353;;rivendita in supermercato;No;6;9.16750549367106;45.4371214488939;45.4371214488939, 9.16750549367106
+ED/2948;Viale UMBRIA N. 28 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UMBRIA;28;3145;;rivendita in supermercato;No;4;9.21278494068;45.4502345606;45.4502345606, 9.21278494068
+ED/2887;Via MECENATE N. 2 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via MECENATE;2;3323;;rivendita in negozio;Si;4;9.24226558714;45.4568691836;45.4568691836, 9.24226558714
+ED/2908;Via PISINO N. 1 ang. via asiago (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via PISINO;1;2460;ang. via asiago;rivendita in negozio;Si;2;9.22856895832;45.5058519;45.5058519, 9.22856895832
+ED/2999;Via TRAIANO MARCO ULPIO N. 11 ang. via teodorico (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via TRAIANO MARCO ULPIO;11;7157;ANG. VIA TEODORICO;edicola su suolo pubblico;No;8;9.1516912608;45.485193484;45.485193484, 9.1516912608
+ED/2910;Via CASSINARI BRUNO N. 30 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via CASSINARI BRUNO;30;4386;;rivendita in negozio;No;4;9.24406174609;45.4379766391;45.4379766391, 9.24406174609
+ED/2947;Via PIANELL SALVATORE N. 54 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via PIANELL SALVATORE;54;1426;;rivendita in negozio;No;9;9.20124979195;45.5086331143;45.5086331143, 9.20124979195
+ED/2896;Via NOE ENRICO ang. viale abruzzi;AREE PUBBLICHE - Giornali e riviste;Via NOE ENRICO;;2211;ANG. VIALE ABRUZZI;edicola su suolo pubblico;Si;;;;
+ED/2897;Via LOSANNA N. 2 ang. corso sempione (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via LOSANNA;2;7190;ang. Corso Sempione;edicola su suolo pubblico;Si;8;9.16177263605;45.4845392352;45.4845392352, 9.16177263605
+ED/2913;Corso VITTORIO EMANUELE II N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso VITTORIO EMANUELE II;1;214;;rivendita in negozio;No;1;9.19351083085;45.4649629913;45.4649629913, 9.19351083085
+ED/2892;Piazzale PORTA LODOVICA (DI) fr. civ. 6 ang. viale col di lana (area verde);AREE PUBBLICHE - Giornali e riviste;Piazzale PORTA LODOVICA (DI);;4039;fr. civ. 6 ang. Viale Col di Lana (area verde);edicola su suolo pubblico;Si;;;;
+ED/2889;Corso PLEBISCITI n°21, angolo via cicognara;AREE PUBBLICHE - Giornali e riviste;Corso PLEBISCITI;;3120;N°21, ANGOLO VIA CICOGNARA;edicola su suolo pubblico;Si;;;;
+C-ED/2806;MM3-ROGOREDO F.S. (z.d. 4);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/2809;Via CALDERA N. 21 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via CALDERA;21;6302;;rivendita in negozio;No;7;9.10188335982;45.4780033617;45.4780033617, 9.10188335982
+C-ED/2813;Via GIAMBELLINO N. 128 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via GIAMBELLINO;128;5136;;rivendita in negozio;Si;6;9.13453574635;45.4462559213;45.4462559213, 9.13453574635
+C-ED/2821;Corso PORTA NUOVA (DI) N. 23 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso PORTA NUOVA (DI);23;1044;;rivendita in ospedale;Si;1;9.19217648517;45.4785745087;45.4785745087, 9.19217648517
+C-ED/2477;Corso LODI n. 98 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Corso LODI;;4068;N. 98;rivendita in supermercato;No;;;;
+ED/2904;Piazza NOVELLI ERMETE N. 10 ang. via sidoli (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza NOVELLI ERMETE;10;3110;ang. via Sidoli;edicola su suolo pubblico;Si;3;9.21991088546;45.4703917257;45.4703917257, 9.21991088546
+C-ED/155;Via MURAT GIOACCHINO N. 65 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via MURAT GIOACCHINO;65;1316;;rivendita in negozio;Si;9;9.18996542028;45.5011310565;45.5011310565, 9.18996542028
+C-ED/265;Via FORZE ARMATE (DELLE) N. 230 angolo f.lli zoia| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via FORZE ARMATE (DELLE);230;6643;angolo f.lli zoia|;edicola su suolo privato;Si;7;9.11021836398;45.4606723696;45.4606723696, 9.11021836398
+C-ED/270;Via NEGROLI N. 23 angolo via zanella i.a.c.p.| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via NEGROLI;23;3279;angolo via zanella i.a.c.p.|;edicola su suolo privato;Si;4;9.23232457441;45.4649096988;45.4649096988, 9.23232457441
+C-ED/272;Via BOIFAVA PIETRO N. 80 fr.civ.80 ang. via dei missaglia (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via BOIFAVA PIETRO;80;5341;fr.civ.80 ang. via dei missaglia;edicola su suolo privato;Si;5;9.17613660649;45.4265764133;45.4265764133, 9.17613660649
+C-ED/274;Via VAL DI BONDO ang. via val sabbia (suolo aler) - lato numeri dispari (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via VAL DI BONDO;;1648;ang. via val sabbia (suolo Aler) - lato numeri dispari;edicola su suolo privato;Si;;;;
+C-ED/280;Via NOVARA N. 105 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via NOVARA;105;6624;;edicola su suolo pubblico;Si;7;9.11839260217;45.4730444405;45.4730444405, 9.11839260217
+C-ED/281;VIA DECORATI AL VALOR CIVILE ang. via montessori (z.d. 4);AREE PUBBLICHE - Giornali e riviste;VIA DECORATI AL VALOR CIVILE;;3366;ANG. Via Montessori;edicola su suolo pubblico;Si;;;;
+C-ED/414;Via SPAVENTA SILVIO N. 19 angolo via meda (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via SPAVENTA SILVIO;19;5255;angolo via Meda;edicola su suolo pubblico;Si;5;9.17805496816;45.4407312322;45.4407312322, 9.17805496816
+C-ED/416;Via ELENA (SANT') N. 5 ang. via novara| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via ELENA (SANT');5;6308;ang. via novara|;edicola su suolo pubblico;Si;7;9.11156832351;45.4758617272;45.4758617272, 9.11156832351
+C-ED/5;Piazzale SUSA N. 15 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazzale SUSA;15;3101;;rivendita in negozio;Si;3;9.22487654003;45.4686218294;45.4686218294, 9.22487654003
+C-ED/12;Via CARDINALE MEZZOFANTI N. 29 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via CARDINALE MEZZOFANTI;29;3277;;rivendita in negozio;Si;4;9.23497153386;45.4651802431;45.4651802431, 9.23497153386
+C-ED/13;Via DE AMICIS EDMONDO N. 45 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via DE AMICIS EDMONDO;45;574;;rivendita in negozio;Si;1;9.17551797834;45.4599808388;45.4599808388, 9.17551797834
+C-ED/16;Via CARNIA N. 7 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via CARNIA;7;2395;;rivendita in negozio;Si;3;9.23616340781;45.4929197331;45.4929197331, 9.23616340781
+C-ED/18;Via MEUCCI ANTONIO N. 2 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via MEUCCI ANTONIO;2;2497;;rivendita in negozio;Si;2;9.24693445874;45.5100024134;45.5100024134, 9.24693445874
+C-ED/19;Piazzale GORINI PAOLO N. 11 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazzale GORINI PAOLO;11;3170;;rivendita in negozio;Si;3;9.22957272859;45.4731194762;45.4731194762, 9.22957272859
+C-ED/23;Viale SUZZANI GIOVANNI N. 12 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale SUZZANI GIOVANNI;12;1446;;rivendita in negozio;Si;9;9.19744565322;45.5054198938;45.5054198938, 9.19744565322
+C-ED/27;Via FARINI CARLO N. 53 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via FARINI CARLO;53;1114;;rivendita in negozio;Si;9;9.18402577683;45.4918462888;45.4918462888, 9.18402577683
+C-ED/167;Via PADOVA N. 178 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via PADOVA;178;2275;;rivendita in negozio;Si;2;9.23612424709;45.5006532091;45.5006532091, 9.23612424709
+C-ED/169;Via CADORE N. 30 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via CADORE;30;3077;;rivendita in negozio;Si;4;9.21241632824;45.4574361288;45.4574361288, 9.21241632824
+C-ED/170;Via ORNATO LUIGI N. 113 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ORNATO LUIGI;113;1591;;rivendita in negozio;Si;9;9.19187703645;45.5221303945;45.5221303945, 9.19187703645
+C-ED/171;Via MANZONI ALESSANDRO N. 12 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MANZONI ALESSANDRO;12;230;;rivendita in negozio;Si;1;9.19132402711;45.4685867534;45.4685867534, 9.19132402711
+C-ED/177;Via PADOVA N. 204 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via PADOVA;204;2275;;rivendita in negozio;Si;2;9.23989515535;45.5034521306;45.5034521306, 9.23989515535
+C-ED/181;Via GNOCCHI DON CARLO N. 3 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via GNOCCHI DON CARLO;3;6483;;rivendita in negozio;Si;7;9.12365694755;45.4748722902;45.4748722902, 9.12365694755
+C-ED/182;Via BRUNELLESCHI FILIPPO N. 2 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via BRUNELLESCHI FILIPPO;2;5384;;rivendita in negozio;Si;6;9.14379787631;45.448754589;45.448754589, 9.14379787631
+C-ED/1519;Ripa PORTA TICINESE (DI) N. 97 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Ripa PORTA TICINESE (DI);97;5150;;rivendita in negozio;Si;6;9.16357728419;45.4491672179;45.4491672179, 9.16357728419
+C-ED/1520;Via MOROSINI EMILIO N. 26 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via MOROSINI EMILIO;26;3073;;rivendita in negozio;Si;4;9.21047924854;45.4583223636;45.4583223636, 9.21047924854
+C-ED/284;Via PASCARELLA CESARE N. 18 fronte chiesa| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PASCARELLA CESARE;18;7349;fronte chiesa|;edicola su suolo privato;Si;8;9.14366698429;45.5157580896;45.5157580896, 9.14366698429
+C-ED/285;VIA BARONI COSTANTINO N. 11 ang. via saponaro (quartiere gratosoglio) (z.d. 5);AREE PUBBLICHE - Giornali e riviste;VIA BARONI COSTANTINO;11;5422;ang. via saponaro (quartiere gratosoglio);edicola su suolo pubblico;Si;5;9.17225191449;45.4113809373;45.4113809373, 9.17225191449
+C-ED/288;Viale UNGHERIA N. 1 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UNGHERIA;1;3357;;edicola su suolo privato;Si;4;9.24183309384;45.4457582267;45.4457582267, 9.24183309384
+C-ED/289;Via MECENATE N. 25 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via MECENATE;25;3323;;edicola su suolo privato;Si;4;9.24560375805;45.4549792302;45.4549792302, 9.24560375805
+C-ED/290;Via FERABOLI ACHILLE N. 25 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via FERABOLI ACHILLE;25;5421;;edicola su suolo privato;Si;5;9.17211347209;45.4144140163;45.4144140163, 9.17211347209
+C-ED/295;Via BETULLE (DELLE) alt. civ.. 12 fronte standa - quartiere olmi - suolo aler (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via BETULLE (DELLE);;6828;alt. civ.. 12 fronte standa - quartiere olmi - suolo Aler;edicola su suolo privato;Si;;;;
+C-ED/296;Via MONTEFELTRO N. 4 ang. via b. oriani (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MONTEFELTRO;4;7411;ang. via B. Oriani;edicola su suolo pubblico;Si;8;9.1308748849;45.5009048498;45.5009048498, 9.1308748849
+C-ED/296;Via MONTEFELTRO N. 4 ang. via b. oriani (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MONTEFELTRO;4;7411;ang. via B. Oriani;edicola su suolo pubblico;Si;8;9.1308748849;45.5009048498;45.5009048498, 9.1308748849
+C-ED/1969;Via CECHOV ANTONIO fr.civ. 41| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via CECHOV ANTONIO;;7515;fr.civ. 41|;edicola su suolo pubblico;Si;;;;
+C-ED/1978;Via FREGUGLIA CARLO N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via FREGUGLIA CARLO;1;3014;;rivendita in palazzo di giust.;Si;1;9.20041864108;45.4610665982;45.4610665982, 9.20041864108
+C-ED/1994;via s. pertini 331/11 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;VIA S. PERTINI 331/11;rivendita in area di servizio;Si;;;;
+C-ED/2064;Piazza DUCA D'AOSTA N. 4 int. stazione centrale (riv. 7) (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza DUCA D'AOSTA;4;1200;INT. STAZIONE CENTRALE (RIV. 7);rivendita in stazione ferrov.;Si;2;9.20318279247;45.4836970161;45.4836970161, 9.20318279247
+C-ED/2064;Piazza DUCA D'AOSTA N. 4 int. stazione centrale (riv. 7) (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza DUCA D'AOSTA;4;1200;INT. STAZIONE CENTRALE (RIV. 7);rivendita in stazione ferrov.;Si;2;9.20336439701;45.4837709021;45.4837709021, 9.20336439701
+C-ED/417;Piazzale LAVATER num.000 ang. via jan| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazzale LAVATER;;2155;NUM.000 ang. via jan|;edicola su suolo pubblico;Si;;;;
+C-ED/418;Piazza MARIA DEL SUFFRAGIO (SANTA) N. 2 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza MARIA DEL SUFFRAGIO (SANTA);2;3078;;edicola su suolo pubblico;Si;4;9.21172527605;45.4620498816;45.4620498816, 9.21172527605
+C-ED/420;Piazzale LORETO N. 7 ang. viale brianza| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazzale LORETO;7;2264;ang. Viale Brianza|;edicola su suolo pubblico;Si;2;9.21620535726;45.4865143263;45.4865143263, 9.21620535726
+C-ED/421;Piazzale STAZIONE DI PORTA GENOVA N. 3 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Piazzale STAZIONE DI PORTA GENOVA;3;5120;;edicola su suolo pubblico;Si;6;9.17046096698;45.4534580495;45.4534580495, 9.17046096698
+C-ED/422;Via MEDEGHINO N. 9 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via MEDEGHINO;9;5335;;edicola su suolo privato;Si;5;9.18245347449;45.4323107217;45.4323107217, 9.18245347449
+C-ED/423;Via SILVA GUGLIELMO num.000 angolo via montebianco| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via SILVA GUGLIELMO;;6400;NUM.000 angolo via montebianco|;edicola su suolo pubblico;Si;;;;
+C-ED/424;PIAZZA STEFANO (SANTO) civ. 7c01 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA STEFANO (SANTO);;354;Civ. 7C01;;Si;;;;
+C-ED/426;VIA CASTEL MORRONE (lato numeri pari) ang. via g. modena (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA CASTEL MORRONE;;3185;(lato numeri pari) ang. via G. Modena;edicola su suolo pubblico;Si;;;;
+C-ED/427;Via FILZI FABIO N. 1 ang. piazza s. gioachino| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via FILZI FABIO;1;1190;ang. piazza s. gioachino|;edicola su suolo pubblico;Si;2;9.19855315725064;45.4819986952795;45.4819986952795, 9.19855315725064
+C-ED/428;PIAZZA CINQUE GIORNATE N. 10 lato dx ang. viale montenero (z.d. 4);AREE PUBBLICHE - Giornali e riviste;PIAZZA CINQUE GIORNATE;10;3053;lato dx ang. Viale Montenero;edicola su suolo pubblico;Si;4;9.20785731101;45.4620316166;45.4620316166, 9.20785731101
+C-ED/431;Via SAMMARTINI GIOVANNI BATTISTA num.000 angolo via tonale (lato pari)| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via SAMMARTINI GIOVANNI BATTISTA;;1202;NUM.000 angolo via tonale (lato pari)|;edicola su suolo pubblico;Si;;;;
+C-ED/432;Largo CAIROLI fr. civ. 2 ang. via dante (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Largo CAIROLI;;710;fr. civ. 2 ang. via dante;edicola su suolo pubblico;Si;;;;
+C-ED/433;VIA WASHINGTON GIORGIO N. 55 ang. via costanza (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIA WASHINGTON GIORGIO;55;6111;ang. via costanza;edicola su suolo pubblico;Si;7;9.15509058541;45.4600585271;45.4600585271, 9.15509058541
+C-ED/434;PIAZZA FIRENZE 2ac01 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;PIAZZA FIRENZE;;7173;2AC01;edicola su suolo pubblico;Si;;;;
+C-ED/435;Piazzale ISTRIA num.000| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazzale ISTRIA;;1347;NUM.000|;edicola su suolo pubblico;Si;;;;
+C-ED/438;Via CANONICA LUIGI N. 74 angolo paolo sarpi| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via CANONICA LUIGI;74;7121;angolo paolo sarpi|;edicola su suolo pubblico;Si;8;9.17089978723;45.4806604505;45.4806604505, 9.17089978723
+C-ED/440;Via ANTONA TRAVERSI (F.LLI) N. 18 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via ANTONA TRAVERSI (F.LLI);18;7354;;edicola su suolo pubblico;Si;8;9.13948363501;45.5151279182;45.5151279182, 9.13948363501
+C-ED/444;Corso GOTTARDO (SAN) alt. civ. 21 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Corso GOTTARDO (SAN);;5203;ALT. CIV. 21;edicola su suolo pubblico;Si;;;;
+C-ED/446;Piazza DIOCLEZIANO ang. via mac mahon (lato numeri dispari di via mac mahon)| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazza DIOCLEZIANO;;7220;ang. via Mac Mahon (lato numeri dispari di Via Mac Mahon)|;edicola su suolo pubblico;Si;;;;
+C-ED/447;Piazzale BARACCA FRANCESCO N. 10 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazzale BARACCA FRANCESCO;10;6180;;edicola su suolo pubblico;Si;7;9.16482422653;45.4664994317;45.4664994317, 9.16482422653
+C-ED/448;Via ROMBON N. 34 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via ROMBON;34;2659;;edicola su suolo pubblico;Si;3;9.24118510714;45.4860223383;45.4860223383, 9.24118510714
+C-ED/449;Via TOLSTOI LEONE N. 20 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via TOLSTOI LEONE;20;5133;;edicola su suolo pubblico;Si;6;9.15088157644;45.4516579326;45.4516579326, 9.15088157644
+C-ED/2314;Via LODOVICO IL MORO N. 159 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LODOVICO IL MORO;159;5290;;rivendita in negozio;Si;6;9.12972211449;45.4409819152;45.4409819152, 9.12972211449
+C-ED/2320;Via RIPAMONTI GIUSEPPE N. 244 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via RIPAMONTI GIUSEPPE;244;4066;;rivendita in negozio;No;5;9.20236799901;45.4284123448;45.4284123448, 9.20236799901
+C-ED/2321;Via MELZO N. 11 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via MELZO;11;2184;;rivendita in negozio;No;3;9.20932611899;45.4735305006;45.4735305006, 9.20932611899
+C-ED/2322;Via OLIVETANI (DEGLI) N. 21 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via OLIVETANI (DEGLI);21;6220;;rivendita in negozio;No;1;9.16723223661;45.460488894;45.460488894, 9.16723223661
+C-ED/29;Via IGLESIAS N. 45 ang. via astico n.19 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via IGLESIAS;45;2458;ang. via astico n.19;rivendita in negozio;Si;2;9.23349819782;45.5055712648;45.5055712648, 9.23349819782
+C-ED/34;Via VAL DI SOLE N. 22 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via VAL DI SOLE;22;4295;;rivendita in negozio;Si;5;9.20358680671;45.4300787926;45.4300787926, 9.20358680671
+C-ED/569;Corso VENEZIA ang. via della spiga| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso VENEZIA;;238;ang. via della spiga|;edicola su suolo pubblico;Si;;;;
+C-ED/573;VIA PALLADIO ANDREA ang. via ripamonti| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;VIA PALLADIO ANDREA;;4213;ang. via Ripamonti|;edicola su suolo pubblico;Si;;;;
+C-ED/574;Piazzale LAGOSTA num.000| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazzale LAGOSTA;;1155;NUM.000|;edicola su suolo pubblico;Si;;;;
+C-ED/576;Piazza IMPERATORE TITO (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza IMPERATORE TITO;;3216;;edicola su suolo pubblico;Si;;;;
+C-ED/577;Via PONTE VETERO num.000 fr. civ. 9| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via PONTE VETERO;;718;NUM.000 fr. civ. 9|;edicola su suolo pubblico;Si;;;;
+C-ED/580;Via PARAVIA PIER ALESSANDRO N. 59 angolo via civitali| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via PARAVIA PIER ALESSANDRO;59;6571;angolo via civitali|;edicola su suolo pubblico;Si;7;9.13279751393;45.4727247287;45.4727247287, 9.13279751393
+C-ED/582;VIA PRIMATICCIO FRANCESCO ang. via benedettini (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIA PRIMATICCIO FRANCESCO;;6646;ang. Via Benedettini;edicola su suolo pubblico;Si;;;;
+C-ED/583;Via TRAIANO MARCO ULPIO ang. via grosotto| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via TRAIANO MARCO ULPIO;;7157;ang. via grosotto|;edicola su suolo pubblico;Si;;;;
+C-ED/594;Piazza FREUD SIGMUND N. 1 int. staz. ff.ss. garibaldi (riv. n.1)| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza FREUD SIGMUND;1;1705;int. Staz. FF.SS. Garibaldi (riv. n.1)|;rivendita in stazione ferrov.;Si;9;9.18855749725;45.4845388516;45.4845388516, 9.18855749725
+C-ED/595;Piazza FREUD SIGMUND N. 1 int. staz. ff.ss. garibaldi n.2 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza FREUD SIGMUND;1;1705;int. staz. ff.ss. garibaldi n.2;rivendita in stazione ferrov.;Si;9;9.18855749725;45.4845388516;45.4845388516, 9.18855749725
+C-ED/1553;Via DE PRETIS AGOSTINO num.066/28|;AREE PUBBLICHE - Giornali e riviste;Via DE PRETIS AGOSTINO;;5431;NUM.066/28|;rivendita in negozio;No;;;;
+C-ED/1555;codvia 9129 mm1 urugua| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9129 mm1 urugua|;rivendita in stazione metrop.;Si;;;;
+C-ED/1558;VIA MUGGIANO in pubblico esercizio all'interno di area di servizio muggiano est- tangenziale ovest;AREE PUBBLICHE - Giornali e riviste;VIA MUGGIANO;;6715;in pubblico esercizio all'interno di area di servizio Muggiano est- Tangenziale Ovest;rivendita in area di servizio;Si;;;;
+C-ED/1560;VIA MUGGIANO in pubblico esercizio all'interno di area di servizio muggiano ovest - tangenziale ovest (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA MUGGIANO;;6715;in pubblico esercizio all'interno di area di servizio Muggiano Ovest - Tangenziale Ovest;rivendita in area di servizio;Si;;;;
+C-ED/1568;Via SARZANA N. 40 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via SARZANA;40;1334;;rivendita in negozio;Si;9;9.19328527442;45.5031172797;45.5031172797, 9.19328527442
+C-ED/1570;Via BOVISASCA num.173 int. centro comm.le unicenter| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via BOVISASCA;;1460;NUM.173 int. centro comm.le unicenter|;rivend. in centro commerciale;Si;;;;
+C-ED/1572;MM1-BISCEGLIE (z.d. 7);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/2826;Piazzale CADORNA LUIGI N. 14 int. atrio staz. f.n.m. cadorna (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazzale CADORNA LUIGI;14;601;int. atrio Staz. F.N.M. Cadorna;rivendita in stazione ferrov.;Si;1;9.17597333938;45.4684163515;45.4684163515, 9.17597333938
+C-ED/2827;Via UMILIATI (DEGLI) N. 35 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via UMILIATI (DEGLI);35;3347;;rivendita in negozio;No;4;9.26524425891;45.4394105554;45.4394105554, 9.26524425891
+C-ED/2828;Via FARINI CARLO N. 29 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via FARINI CARLO;29;1114;;rivendita in negozio;Si;9;9.18278956444;45.4889595188;45.4889595188, 9.18278956444
+C-ED/2835;VIA VARCHI BENEDETTO N. 4 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;VIA VARCHI BENEDETTO;4;1252;;rivendita in negozio;Si;9;9.16531364982;45.4993542;45.4993542, 9.16531364982
+C-ED/2843;Piazza DUCA D'AOSTA int. staz. centrale (libreria) (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza DUCA D'AOSTA;;1200;int. staz. centrale (libreria);rivendita in negozio;No;;;;
+C-ED/2844;Corso BUENOS AIRES N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Corso BUENOS AIRES;2;2129;;edicola su suolo pubblico;Si;3;9.20595185227;45.4749620453;45.4749620453, 9.20595185227
+C-ED/2850;Via BIANCOSPINI (DEI) N. 2 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via BIANCOSPINI (DEI);2;6711;;rivendita in negozio;Si;6;9.13970482139;45.4483115328;45.4483115328, 9.13970482139
+C-ED/2851;Via AMORETTI CARLO N. 68 stazione quarto oggiaro| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via AMORETTI CARLO;68;7340;stazione quarto oggiaro|;rivendita in stazione ferrov.;Si;8;9.1440439245;45.5203598362;45.5203598362, 9.1440439245
+C-ED/2855;Via TARAMELLI TORQUATO N. 70 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via TARAMELLI TORQUATO;70;1164;;rivendita in negozio;No;2;9.19592339229;45.4943879143;45.4943879143, 9.19592339229
+C-ED/2860;Corso GARIBALDI GIUSEPPE N. 22 ingresso via s. simpliciano| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso GARIBALDI GIUSEPPE;22;1010;ingresso via s. simpliciano|;rivendita in negozio;No;1;9.18365369297;45.4737864813;45.4737864813, 9.18365369297
+C-ED/2862;Via VENEZIAN GIACOMO N. 1 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via VENEZIAN GIACOMO;1;2227;;rivendita in ospedale;Si;3;9.23136434578529;45.4743948787263;45.4743948787263, 9.23136434578529
+C-ED/2069;VIA RISMONDO FRANCESCO ang. via f. armate (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA RISMONDO FRANCESCO;;6756;ang. via F. Armate;edicola su suolo privato;Si;;;;
+C-ED/2071;CORSO EUROPA ang. corsia dei servi (z.d. 1);AREE PUBBLICHE - Giornali e riviste;CORSO EUROPA;;300;ang. corsia dei servi;edicola su suolo pubblico;Si;;;;
+C-ED/2074;Via PISANI VITTOR N. 9 ang.via marangoni| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via PISANI VITTOR;9;1201;ang.via marangoni|;edicola su suolo pubblico;Si;2;9.19956998186;45.4816266834;45.4816266834, 9.19956998186
+C-ED/2076;Via SASSETTI FILIPPO num.000 ang. sebenico| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via SASSETTI FILIPPO;;1157;NUM.000 ang. sebenico|;edicola su suolo pubblico;Si;;;;
+C-ED/2090;Viale GIMIGNANO (SAN) num.000 ang. via soderini| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale GIMIGNANO (SAN);;6613;NUM.000 ang. via soderini|;edicola su suolo pubblico;Si;;;;
+C-ED/2102;GALLERIA VITTORIO EMANUELE n. 79 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;GALLERIA VITTORIO EMANUELE;;10;N. 79;rivendita in negozio;Si;;;;
+C-ED/2103;VIA BRERA ang. via fiori chiari (trasferimento provv.)| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA BRERA;;122;ang. via fiori chiari (trasferimento provv.)|;edicola su suolo pubblico;Si;;;;
+C-ED/599;Piazza BOTTINI ENRICO N. 10 interno staz.ff.ss. lambrate| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza BOTTINI ENRICO;10;2572;interno staz.ff.ss. lambrate|;rivendita in stazione ferrov.;Si;3;9.2367455474;45.4847357072;45.4847357072, 9.2367455474
+C-ED/602;Piazza GIOVINE ITALIA N. 2 angolo via mascheroni| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza GIOVINE ITALIA;2;6162;angolo via mascheroni|;edicola su suolo pubblico;Si;1;9.16925119327;45.4680620965;45.4680620965, 9.16925119327
+C-ED/603;Via TEODOSIO N. 2 angolo via pacini| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via TEODOSIO;2;2550;angolo via pacini|;edicola su suolo pubblico;Si;3;9.23018163393;45.4829454923;45.4829454923, 9.23018163393
+C-ED/2486;Via FOPPA VINCENZO N. 21 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via FOPPA VINCENZO;21;6109;;rivendita in negozio;No;6;9.16065854971;45.4575889571;45.4575889571, 9.16065854971
+C-ED/185;Via CASORETTO N. 60 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via CASORETTO;60;2420;;rivendita in negozio;Si;3;9.23220636987;45.4891821345;45.4891821345, 9.23220636987
+C-ED/187;Largo BRASILIA N. 6 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Largo BRASILIA;6;6145;;rivendita in negozio;Si;6;9.13617482843;45.4514689835;45.4514689835, 9.13617482843
+C-ED/190;Viale UMBRIA N. 29 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UMBRIA;29;3145;;rivendita in negozio;Si;4;9.21226028579;45.4504012887;45.4504012887, 9.21226028579
+C-ED/194;Via LESSONA MICHELE N. 48 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via LESSONA MICHELE;48;7490;;edicola su suolo privato;Si;8;9.13556391798;45.5183026273;45.5183026273, 9.13556391798
+C-ED/195;Viale ARGONNE N. 32 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale ARGONNE;32;3254;;rivendita in negozio;Si;4;9.2282702819;45.4676561329;45.4676561329, 9.2282702819
+ED/2898;Via MEDA GIUSEPPE N. 14 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via MEDA GIUSEPPE;14;5242;;rivendita in negozio;Si;5;9.17904918285;45.4447491795;45.4447491795, 9.17904918285
+C-ED/2503;Via CECILIA (SANTA) N. 2 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via CECILIA (SANTA);2;349;;rivendita in negozio;No;1;9.20018093241;45.4670937595;45.4670937595, 9.20018093241
+C-ED/201;Via BENIGNO (SAN) N. 4 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via BENIGNO (SAN);4;3247;;rivendita in negozio;Si;3;9.23685703946;45.4707896191;45.4707896191, 9.23685703946
+C-ED/202;Viale MONZA N. 70 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Viale MONZA;70;2274;;rivendita in negozio;Si;2;9.21946556158;45.4946725587;45.4946725587, 9.21946556158
+C-ED/203;Via FABRIANO N. 3 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via FABRIANO;3;1642;;rivendita in negozio;Si;9;9.17622430655;45.5154653094;45.5154653094, 9.17622430655
+C-ED/205;codvia 9110 num.002 mm1 palest| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9110 NUM.002 mm1 palest|;rivendita in stazione metrop.;Si;;;;
+C-ED/206;codvia 9130 mm1 bonola| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9130 mm1 bonola|;rivendita in stazione metrop.;Si;;;;
+C-ED/207;MM1-GORLA (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/208;MM2-CAIAZZO (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/209;MM2-CRESCENZAGO (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/210;codvia 9106 mm1 pasteu| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9106 mm1 pasteu|;rivendita in stazione metrop.;Si;;;;
+C-ED/212;MM1-LOTTO (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/213;codvia 9104 mm1 turro| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9104 mm1 turro|;rivendita in stazione metrop.;Si;;;;
+C-ED/214;codvia 9109 mm1 pta ve| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9109 mm1 pta ve|;rivendita in stazione metrop.;Si;;;;
+C-ED/215;codvia 9203 mm2 cimian| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9203 mm2 cimian|;rivendita in stazione metrop.;Si;;;;
+C-ED/217;MM1-MOLINO DORINO (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/218;MM1-S. LEONARDO (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/219;codvia 9127 mm1 primat| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9127 mm1 primat|;rivendita in stazione metrop.;Si;;;;
+C-ED/220;MM2-P.TA GENOVA (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/221;MM2-LORETO lato abruzzi (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;LATO ABRUZZI;rivendita in stazione metrop.;Si;;;;
+C-ED/222;MM1-S. BABILA (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/223;codvia 9118 mm1 buonar| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9118 mm1 buonar|;rivendita in stazione metrop.;Si;;;;
+C-ED/224;MM1-DUOMO (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/1575;codvia 9318 mm3 corvet| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9318 mm3 corvet|;rivendita in stazione metrop.;Si;;;;
+C-ED/1578;MM3-MISSORI (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/1583;Piazza MISSORI GIUSEPPE N. 2 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza MISSORI GIUSEPPE;2;525;;rivendita in negozio;No;1;9.18810767357;45.4613882354;45.4613882354, 9.18810767357
+C-ED/1586;Via VETTABBIA N. 7 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via VETTABBIA;7;5187;;rivendita in negozio;No;1;9.18440784875;45.4557314276;45.4557314276, 9.18440784875
+C-ED/263;Via VALLE ANTRONA num.000 angolo via gozzoli| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via VALLE ANTRONA;;6807;NUM.000 angolo via gozzoli|;edicola su suolo pubblico;Si;;;;
+C-ED/303;Via ASELLI GASPARE N. 18 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via ASELLI GASPARE;18;3167;;edicola su suolo pubblico;Si;3;9.23033328722;45.470570059;45.470570059, 9.23033328722
+C-ED/304;Piazza NAZARO IN BROLO (SAN) fr. civ. 52 di c.so porta romana| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza NAZARO IN BROLO (SAN);;353;fr. civ. 52 di c.so porta romana|;edicola su suolo pubblico;Si;;;;
+C-ED/305;Piazzale MARTINI FERDINANDO angolo via strigelli| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazzale MARTINI FERDINANDO;;3219;angolo via Strigelli|;edicola su suolo pubblico;Si;;;;
+C-ED/308;Viale MONZA N. 170 ang. p.le martesana| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Viale MONZA;170;2274;ang. p.le martesana|;edicola su suolo pubblico;Si;2;9.22348578204;45.5078633962;45.5078633962, 9.22348578204
+C-ED/309;PIAZZA DURANTE FRANCESCO fr.civ. 11| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA DURANTE FRANCESCO;;2277;fr.civ. 11|;edicola su suolo pubblico;Si;;;;
+C-ED/311;VIA VITRUVIO num.000 angolo benedetto marcello| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA VITRUVIO;;2134;NUM.000 angolo benedetto marcello|;edicola su suolo pubblico;Si;;;;
+C-ED/312;VIALE CERTOSA ang. via serra (z.d. 8);AREE PUBBLICHE - Giornali e riviste;VIALE CERTOSA;;7174;ang. Via Serra;edicola su suolo pubblico;Si;;;;
+C-ED/41;Via SISMONDI GIANCARLO N. 1 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via SISMONDI GIANCARLO;1;3256;;rivendita in negozio;Si;4;9.22438637657;45.4656350143;45.4656350143, 9.22438637657
+C-ED/42;Via LORENTEGGIO N. 45 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LORENTEGGIO;45;5132;;rivendita in negozio;Si;6;9.14635853619;45.4529404387;45.4529404387, 9.14635853619
+C-ED/55;Via MONTE SAN GENESIO N. 2 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via MONTE SAN GENESIO;2;1299;;rivendita in negozio;Si;9;9.18257814734;45.50064278;45.50064278, 9.18257814734
+C-ED/58;Viale TUNISIA N. 25 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Viale TUNISIA;25;2121;;rivendita in negozio;Si;3;9.20281705453;45.4783758631;45.4783758631, 9.20281705453
+C-ED/2866;Piazza DUOMO (DEL) lato via marconi - portici meridionali (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza DUOMO (DEL);;1;lato Via Marconi - Portici Meridionali;edicola su suolo pubblico;Si;;;;
+C-ED/2869;PIAZZA DUCA D'AOSTA N. 4 int. stazione centrale - piano ammezzato (a5) - negozio (z.d. 2);AREE PUBBLICHE - Giornali e riviste;PIAZZA DUCA D'AOSTA;4;1200;int. Stazione Centrale - piano ammezzato (a5) - negozio;rivendita in stazione ferrov.;Si;2;9.20318279247;45.4836970161;45.4836970161, 9.20318279247
+C-ED/2869;PIAZZA DUCA D'AOSTA N. 4 int. stazione centrale - piano ammezzato (a5) - negozio (z.d. 2);AREE PUBBLICHE - Giornali e riviste;PIAZZA DUCA D'AOSTA;4;1200;int. Stazione Centrale - piano ammezzato (a5) - negozio;rivendita in stazione ferrov.;Si;2;9.20336439701;45.4837709021;45.4837709021, 9.20336439701
+C-ED/2878;Via ASTESANI ALESSANDRO N. 54 interno stazione f.n.m.affori| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ASTESANI ALESSANDRO;54;1558;interno stazione f.n.m.affori|;rivendita in stazione ferrov.;Si;9;9.16936710002;45.520929112;45.520929112, 9.16936710002
+C-ED/318;Piazzale DE AGOSTINI GIOVANNI num.000 via boni alt.civ. 32| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazzale DE AGOSTINI GIOVANNI;;6138;NUM.000 via boni alt.civ. 32|;edicola su suolo pubblico;Si;;;;
+C-ED/321;Via ARSIA ang. via carbonia| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via ARSIA;;7472;ang. via carbonia|;edicola su suolo pubblico;Si;;;;
+C-ED/322;Largo QUINTO ALPINI centro strada| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Largo QUINTO ALPINI;;6346;centro strada|;edicola su suolo pubblico;Si;;;;
+C-ED/326;Piazzale CADORNA LUIGI N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazzale CADORNA LUIGI;1;601;;edicola su suolo pubblico;Si;1;9.17775330566;45.4676637535;45.4676637535, 9.17775330566
+C-ED/327;VIALE MONTE SANTO angolo via galileo galilei (z.d. 2);AREE PUBBLICHE - Giornali e riviste;VIALE MONTE SANTO;;1056;angolo via galileo galilei;edicola su suolo pubblico;Si;;;;
+C-ED/328;Via MAMBRETTI ANTONIO ang. via palizzi (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MAMBRETTI ANTONIO;;7455;ang. Via Palizzi;edicola su suolo pubblico;Si;;;;
+C-ED/331;Piazzale SEGESTA n. 91| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazzale SEGESTA;;6535;N. 91|;edicola su suolo pubblico;Si;;;;
+C-ED/332;Piazzale PRINCIPESSA CLOTILDE (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazzale PRINCIPESSA CLOTILDE;;1061;;edicola su suolo pubblico;Si;;;;
+C-ED/333;PIAZZA MORBEGNO (z.d. 2);AREE PUBBLICHE - Giornali e riviste;PIAZZA MORBEGNO;;2289;;edicola su suolo pubblico;Si;;;;
+C-ED/334;Via BRA' N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via BRA';2;2542;;rivendita in negozio;Si;3;9.24717968116;45.5025653391;45.5025653391, 9.24717968116
+C-ED/335;Via JACOPINO DA TRADATE N. 11 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via JACOPINO DA TRADATE;11;7292;;edicola su suolo pubblico;Si;8;9.14986061982;45.496391979;45.496391979, 9.14986061982
+C-ED/2126;Via ROMEO NICOLA N. 10 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via ROMEO NICOLA;10;5479;;rivendita in negozio;Si;5;9.17824646901;45.4194367332;45.4194367332, 9.17824646901
+C-ED/2138;Via GULLI TOMMASO N. 60 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via GULLI TOMMASO;60;6634;;rivendita in negozio;Si;7;9.12994746982;45.465494513;45.465494513, 9.12994746982
+C-ED/452;Via RICCIARELLI DANIELE N. 12 angolo via dolci| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via RICCIARELLI DANIELE;12;6553;angolo via dolci|;edicola su suolo pubblico;Si;7;9.14217363672;45.4721194467;45.4721194467, 9.14217363672
+C-ED/454;Piazzale MEDAGLIE D'ORO N. 1 ang. corso lodi (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazzale MEDAGLIE D'ORO;1;4104;ang. corso lodi;edicola su suolo pubblico;Si;1;9.20231654931;45.4523763218;45.4523763218, 9.20231654931
+C-ED/455;LARGO LA FOPPA fr.civ. 1| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;LARGO LA FOPPA;;1033;fr.civ. 1|;edicola su suolo pubblico;Si;;;;
+C-ED/456;Piazza ERBA CARLO N. 4 ang. via pascoli| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza ERBA CARLO;4;3131;ang. via pascoli|;edicola su suolo pubblico;Si;3;9.22176019417;45.4750299896;45.4750299896, 9.22176019417
+C-ED/458;VIA GIOIA MELCHIORRE fr. civ. 39 ang. via g.b. pirelli (z.d. 2);AREE PUBBLICHE - Giornali e riviste;VIA GIOIA MELCHIORRE;;1108;fr. civ. 39 ang. Via G.B. Pirelli;edicola su suolo pubblico;Si;;;;
+C-ED/460;Via GIOVANNI DA PROCIDA N. 29 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GIOVANNI DA PROCIDA;29;7151;;edicola su suolo pubblico;Si;8;9.16050731416;45.4808414483;45.4808414483, 9.16050731416
+C-ED/461;Piazza FUSINA ANDREA N. 3 davanti m.c.c.| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza FUSINA ANDREA;3;3300;davanti m.c.c.|;edicola su suolo pubblico;Si;3;9.22984589982;45.4686445802;45.4686445802, 9.22984589982
+C-ED/463;Piazza MATERNO (SAN) num.000 alt.civ.15 ang. via mancinelli| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza MATERNO (SAN);;2423;NUM.000 alt.civ.15 ang. via mancinelli|;edicola su suolo pubblico;Si;;;;
+C-ED/465;Piazzale FARINA SALVATORE num.000 ang. via comandini| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazzale FARINA SALVATORE;;1373;NUM.000 ang. via comandini|;edicola su suolo pubblico;Si;;;;
+C-ED/473;Piazza AMENDOLA GIOVANNI N. 1 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazza AMENDOLA GIOVANNI;1;6363;;edicola su suolo pubblico;Si;7;9.15126586315247;45.4732052500772;45.4732052500772, 9.15126586315247
+C-ED/474;Via MONTE ROTONDO N. 3 angolo via danzi| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via MONTE ROTONDO;3;1449;angolo via danzi|;edicola su suolo pubblico;Si;9;9.19425637831;45.5150292603;45.5150292603, 9.19425637831
+C-ED/476;Corso GENOVA N. 1 angolo de amicis| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso GENOVA;1;5164;angolo de amicis|;edicola su suolo pubblico;Si;1;9.17741695385;45.4583524827;45.4583524827, 9.17741695385
+C-ED/477;Piazza CASTELLI POMPEO num.000 ang. via grosseto 1| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazza CASTELLI POMPEO;;7277;NUM.000 ang. via grosseto 1|;edicola su suolo pubblico;Si;;;;
+C-ED/478;Via TABACCHI ODOARDO N. 2 ang. corso s. gottardo| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via TABACCHI ODOARDO;2;5223;ang. corso s. gottardo|;edicola su suolo pubblico;Si;5;9.17976525724;45.4472090366;45.4472090366, 9.17976525724
+C-ED/479;piazza precotto 11 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;PIAZZA PRECOTTO 11;edicola su suolo pubblico;Si;;;;
+C-ED/480;Via MASOLINO DA PANICALE N. 7 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MASOLINO DA PANICALE;7;7264;;edicola su suolo pubblico;Si;8;9.15128195516;45.4933804234;45.4933804234, 9.15128195516
+C-ED/481;Via MAC MAHON N. 107 angolo via campo dei fiori| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MAC MAHON;107;7221;angolo via campo dei fiori|;edicola su suolo pubblico;Si;8;9.1543645019;45.4964142306;45.4964142306, 9.1543645019
+C-ED/483;Piazza EUSTORGIO (SANT');AREE PUBBLICHE - Giornali e riviste;Piazza EUSTORGIO (SANT');;5186;;;Si;;;;
+C-ED/485;Via MARCELLO BENEDETTO (centro strada) ang. via san gregorio| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via MARCELLO BENEDETTO;;2128;(centro strada) ang. via San Gregorio|;edicola su suolo pubblico;Si;;;;
+C-ED/486;Piazzale VELASQUEZ DIEGO ang. via pisanello (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazzale VELASQUEZ DIEGO;;6595;ang. Via Pisanello;edicola su suolo pubblico;Si;;;;
+C-ED/488;Piazzale CANTORE ANTONIO N. 2 angolo corso genova| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazzale CANTORE ANTONIO;2;5103;angolo corso genova|;edicola su suolo pubblico;Si;1;9.17344846265;45.4563800563;45.4563800563, 9.17344846265
+C-ED/489;Piazza MARIA BELTRADE (SANTA) fr. civ. 2 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza MARIA BELTRADE (SANTA);;514;fr. civ. 2;edicola su suolo pubblico;Si;;;;
+C-ED/61;Via QUARENGHI GIACOMO N. 23 centro commerciale bonola| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via QUARENGHI GIACOMO;23;7478;centro commerciale bonola|;rivend. in centro commerciale;Si;8;9.11479754273;45.495837865;45.495837865, 9.11479754273
+C-ED/62;Via RICCIARELLI DANIELE N. 37 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via RICCIARELLI DANIELE;37;6553;;rivendita in negozio;Si;7;9.13819092932;45.4691810089;45.4691810089, 9.13819092932
+C-ED/63;Via RUSSO VINCENZO N. 8 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via RUSSO VINCENZO;8;2328;;rivendita in negozio;Si;2;9.22524130937;45.4972350785;45.4972350785, 9.22524130937
+C-ED/64;Via CINO DA PISTOIA N. 18 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via CINO DA PISTOIA;18;1445;;rivendita in negozio;Si;9;9.20036538879;45.5085431906;45.5085431906, 9.20036538879
+C-ED/67;Via PARETO VILFREDO N. 11 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PARETO VILFREDO;11;7440;;rivendita in negozio;Si;8;9.12728027245;45.5023690008;45.5023690008, 9.12728027245
+C-ED/70;Via MODENA GUSTAVO N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via MODENA GUSTAVO;2;3122;;rivendita in negozio;Si;3;9.21155080301;45.470668485;45.470668485, 9.21155080301
+C-ED/71;Via TEODOSIO N. 52 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via TEODOSIO;52;2550;;rivendita in negozio;Si;3;9.23011730888;45.486359945;45.486359945, 9.23011730888
+C-ED/74;Via RITA DA CASCIA (SANTA) N. 35 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via RITA DA CASCIA (SANTA);35;5301;;rivendita in negozio;Si;6;9.15192221179;45.4397755262;45.4397755262, 9.15192221179
+C-ED/607;Via INGANNI ANGELO N. 52 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via INGANNI ANGELO;52;6672;;edicola su suolo pubblico;Si;6;9.12508771946;45.4527616775;45.4527616775, 9.12508771946
+C-ED/610;PIAZZA DUOMO (DEL) ang. via mazzini - portici meridionali (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA DUOMO (DEL);;1;ang. Via Mazzini - Portici Meridionali;edicola su suolo pubblico;Si;;;;
+C-ED/612;PIAZZA ARGENTINA ang. via stradivari (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA ARGENTINA;;2233;ang. Via Stradivari;edicola su suolo pubblico;Si;;;;
+C-ED/615;Via LORENTEGGIO num.000 fr. civ. 3| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LORENTEGGIO;;5132;NUM.000 fr. civ. 3|;edicola su suolo pubblico;Si;;;;
+C-ED/616;VIA PIO II N. 1 fronte ospedale san carlo (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA PIO II;1;6832;fronte Ospedale San Carlo;edicola su suolo privato;Si;7;9.1153559461;45.4697564726;45.4697564726, 9.1153559461
+C-ED/618;Via RAVIZZA CARLO N. 24 ang. via correggio| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via RAVIZZA CARLO;24;6285;ang. via correggio|;edicola su suolo pubblico;Si;7;9.15024673908;45.4693520079;45.4693520079, 9.15024673908
+C-ED/624;Via MOLINO DELLE ARMI num.000 angolo via wittgens| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MOLINO DELLE ARMI;;591;NUM.000 angolo via wittgens|;edicola su suolo pubblico;Si;;;;
+C-ED/625;Largo TREVES CLAUDIO N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Largo TREVES CLAUDIO;1;1026;;edicola su suolo pubblico;Si;1;9.18654967786;45.4752936676;45.4752936676, 9.18654967786
+C-ED/2145;Viale REGINA GIOVANNA num.024/a| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Viale REGINA GIOVANNA;;2157;NUM.024/A|;rivendita in negozio;Si;;;;
+C-ED/2153;Via GIOIA MELCHIORRE N. 175 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via GIOIA MELCHIORRE;175;1108;;rivendita in negozio;Si;2;9.20764140502;45.4961598342;45.4961598342, 9.20764140502
+C-ED/2154;Via MASCAGNI PIETRO N. 2 angolo via v. di modrone| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MASCAGNI PIETRO;2;3155;angolo via v. di modrone|;edicola su suolo pubblico;Si;1;9.20066717475;45.4656926209;45.4656926209, 9.20066717475
+C-ED/2162;Via CUSAGO N. 2 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via CUSAGO;2;6785;;rivendita in negozio;Si;7;9.08732500647;45.4625997547;45.4625997547, 9.08732500647
+C-ED/2164;PIAZZALE CADORNA LUIGI N. 6 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZALE CADORNA LUIGI;6;601;;edicola su suolo pubblico;Si;1;9.17710211271;45.4687759704;45.4687759704, 9.17710211271
+C-ED/2364;Via PREVIATI GAETANO N. 14 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via PREVIATI GAETANO;14;6384;;rivendita in negozio;No;7;9.14989727383;45.4722061668;45.4722061668, 9.14989727383
+C-ED/2378;Via BARNABA (SAN) N. 39 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via BARNABA (SAN);39;3010;;rivendita in negozio;No;1;9.20288874642;45.4600786234;45.4600786234, 9.20288874642
+C-ED/2380;Piazza SEI FEBBRAIO N. 22 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazza SEI FEBBRAIO;22;6358;;rivendita in negozio;No;8;9.16121193765;45.4779727925;45.4779727925, 9.16121193765
+C-ED/2384;Via TERTULLIANO N. 35 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via TERTULLIANO;35;4094;;rivendita in negozio;No;4;9.21825158618;45.4492307245;45.4492307245, 9.21825158618
+C-ED/632;Piazzale CORVETTO LUIGI EMANUELE ang. via polesine (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazzale CORVETTO LUIGI EMANUELE;;4174;ang. via Polesine;edicola su suolo pubblico;Si;;;;
+C-ED/634;Piazzale LIBIA N. 1 angolo viale lazio| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazzale LIBIA;1;4088;angolo viale lazio|;edicola su suolo pubblico;Si;4;9.20910643865;45.4537779077;45.4537779077, 9.20910643865
+C-ED/635;VIA COSTA ANDREA ang. piazzale loreto (z.d. 2);AREE PUBBLICHE - Giornali e riviste;VIA COSTA ANDREA;;2276;ang. Piazzale Loreto;edicola su suolo pubblico;Si;;;;
+C-ED/2515;CORSO ITALIA N. 10 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;CORSO ITALIA;10;526;;rivendita in negozio;No;1;9.18770019237;45.4589779596;45.4589779596, 9.18770019237
+C-ED/2517;Viale JENNER EDOARDO N. 23 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale JENNER EDOARDO;23;1230;;rivendita in negozio;No;9;9.18153691125;45.4970185173;45.4970185173, 9.18153691125
+C-ED/2521;Piazza TIRANA N. 5 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Piazza TIRANA;5;5378;;rivendita in negozio;No;6;9.12995999782;45.444357284;45.444357284, 9.12995999782
+C-ED/2527;Piazzale EGEO N. 8 int. staz. ff.ss. greco| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazzale EGEO;8;1629;int. staz. ff.ss. greco|;rivendita in stazione ferrov.;Si;9;9.21408179604;45.5127859892;45.5127859892, 9.21408179604
+C-ED/2531;Via MONTEGANI LODOVICO N. 8 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via MONTEGANI LODOVICO;8;5330;;rivendita in negozio;No;5;9.17802370838;45.4365673535;45.4365673535, 9.17802370838
+C-ED/2535;Via DESIDERIO DA SETTIGNANO N. 14 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via DESIDERIO DA SETTIGNANO;14;6395;;rivendita in negozio;No;8;9.14957593728;45.4769517391;45.4769517391, 9.14957593728
+C-ED/2560;Piazza REPUBBLICA (DELLA) N. 32 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza REPUBBLICA (DELLA);32;1055;;rivendita in negozio;Si;2;9.1993562963;45.4802338335;45.4802338335, 9.1993562963
+ED/2899;Via PECETTA (DELLA) n. 31/33;AREE PUBBLICHE - Giornali e riviste;Via PECETTA (DELLA);;7251;N. 31/33;rivendita in supermercato;No;;;;
+C-ED/2568;Viale BACCHIGLIONE N. 1 angolo corso lodi| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale BACCHIGLIONE;1;4171;angolo corso lodi|;edicola su suolo pubblico;Si;4;9.21951463149;45.4428537459;45.4428537459, 9.21951463149
+C-ED/2593;Piazza BAUSAN GIOVANNI N. 8 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza BAUSAN GIOVANNI;8;1262;;rivendita in negozio;Si;9;9.16560377436;45.5025801762;45.5025801762, 9.16560377436
+C-ED/2594;Via LORENTEGGIO N. 219 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LORENTEGGIO;219;5132;;rivendita in supermercato;No;6;9.12333744037;45.4454259088;45.4454259088, 9.12333744037
+C-ED/2595;Via DE ANGELI CARLO N. 1 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via DE ANGELI CARLO;1;4326;;rivendita in supermercato;No;5;9.19831709812;45.4432380934;45.4432380934, 9.19831709812
+C-ED/2597;Viale MOLISE N. 46 spartitraffico centrale (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale MOLISE;46;3178;SPARTITRAFFICO CENTRALE;edicola su suolo pubblico;Si;4;9.22436394016;45.4533137935;45.4533137935, 9.22436394016
+C-ED/339;VIA AMPERE ANDREA MARIA N. 83 ang. via porpora 104| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA AMPERE ANDREA MARIA;83;2428;ang. via porpora 104|;edicola su suolo pubblico;Si;3;9.22629132761;45.4856497685;45.4856497685, 9.22629132761
+C-ED/341;Piazza SALGARI EMILIO N. 1 ang. via venosa| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza SALGARI EMILIO;1;4087;ang. Via Venosa|;;Si;4;9.2205085449;45.4505666151;45.4505666151, 9.2205085449
+C-ED/343;Piazzale GIULIO CESARE N. 5 angolo buonarroti| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazzale GIULIO CESARE;5;6361;angolo buonarroti|;;Si;8;9.15448992008;45.473037936;45.473037936, 9.15448992008
+C-ED/344;Largo SETTIMIO SEVERO N. 1 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Largo SETTIMIO SEVERO;1;6210;;edicola su suolo pubblico;Si;7;9.16244108356;45.4661141481;45.4661141481, 9.16244108356
+C-ED/345;Via PLINIO CAIO SECONDO ang. via morgagni (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via PLINIO CAIO SECONDO;;2144;ang. via morgagni;edicola su suolo pubblico;Si;;;;
+C-ED/347;Via PACINI GIOVANNI N. 60 ang.bardelli-astolfo| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via PACINI GIOVANNI;60;2571;ang.bardelli-astolfo|;edicola su suolo pubblico;Si;3;9.23368815099;45.4836168622;45.4836168622, 9.23368815099
+C-ED/348;Largo CAIROLI ang. via camperio (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Largo CAIROLI;;710;ang. via camperio;edicola su suolo pubblico;Si;;;;
+C-ED/76;Via GOVONE GIUSEPPE N. 19 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GOVONE GIUSEPPE;19;7222;;rivendita in negozio;Si;8;9.16818568303;45.4885518278;45.4885518278, 9.16818568303
+C-ED/79;Via IMBONATI CARLO N. 4 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via IMBONATI CARLO;4;1311;;rivendita in negozio;Si;9;9.18435271574;45.4987866498;45.4987866498, 9.18435271574
+C-ED/81;Viale UMBRIA N. 109 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UMBRIA;109;3145;;rivendita in negozio;Si;4;9.21707006492;45.4580997023;45.4580997023, 9.21707006492
+C-ED/85;Via PRESTINARI MARCELLO N. 6 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via PRESTINARI MARCELLO;6;1269;;rivendita in negozio;Si;9;9.16688110965;45.50067533;45.50067533, 9.16688110965
+C-ED/86;Via CALIFORNIA N. 23 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via CALIFORNIA;23;6101;;rivendita in negozio;Si;6;9.16175126556;45.4572492254;45.4572492254, 9.16175126556
+C-ED/90;Viale ZARA N. 118 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Viale ZARA;118;1170;;rivendita in negozio;Si;2;9.19683288106;45.4988944431;45.4988944431, 9.19683288106
+C-ED/351;Viale GIOVANNI DA CERMENATE parterre centrale| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Viale GIOVANNI DA CERMENATE;;5261;parterre centrale|;edicola su suolo pubblico;Si;;;;
+C-ED/353;Via LIVIGNO N. 6 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via LIVIGNO;6;1296;;edicola su suolo pubblico;Si;9;9.17869667096;45.4983968281;45.4983968281, 9.17869667096
+C-ED/355;Piazza STUPARICH CARLO N. 2 fronte via albani| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazza STUPARICH CARLO;2;6468;fronte via albani|;edicola su suolo pubblico;Si;8;9.14341710186;45.4823464337;45.4823464337, 9.14341710186
+C-ED/356;VIA MORGANTINI MARIO N. 15 ang. via amundsen| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA MORGANTINI MARIO;15;6568;ang. Via Amundsen|;edicola su suolo pubblico;Si;7;9.13411754707;45.4697367069;45.4697367069, 9.13411754707
+C-ED/357;Piazza CINCINNATO num.000 ang. via settembrini| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza CINCINNATO;;2125;NUM.000 ang. via settembrini|;edicola su suolo pubblico;Si;;;;
+C-ED/358;PIAZZALE BRESCIA ang. faruffini (z.d. 7);AREE PUBBLICHE - Giornali e riviste;PIAZZALE BRESCIA;;6554;ang. Faruffini;edicola su suolo pubblico;Si;;;;
+C-ED/359;Via BOCCONI FERDINANDO ang. viale bligny| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via BOCCONI FERDINANDO;;4050;ang. viale bligny|;edicola su suolo pubblico;Si;;;;
+C-ED/360;Via SARDEGNA N. 22 angolo via gentili| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via SARDEGNA;22;6265;angolo via gentili|;edicola su suolo pubblico;Si;7;9.15226371101;45.4637153975;45.4637153975, 9.15226371101
+C-ED/363;Via SANZIO RAFFAELLO N. 36 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via SANZIO RAFFAELLO;36;6283;;edicola su suolo pubblico;Si;7;9.15028902937;45.4672209232;45.4672209232, 9.15028902937
+C-ED/367;Piazza MIRABELLO CARLO N. 5 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza MIRABELLO CARLO;5;1038;;edicola su suolo pubblico;Si;1;9.19027109368;45.475175877;45.475175877, 9.19027109368
+C-ED/368;Piazza DUCA D'AOSTA N. 10 lato vitruvio (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza DUCA D'AOSTA;10;1200;lato vitruvio;edicola su suolo pubblico;Si;2;9.20445091013;45.4837994459;45.4837994459, 9.20445091013
+C-ED/371;Via GIOVANNI SUL MURO (SAN) fr.civ. 9 ang. via puccini (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via GIOVANNI SUL MURO (SAN);;609;fr.civ. 9 ang. via Puccini;edicola su suolo pubblico;Si;;;;
+C-ED/373;VIALE LUNIGIANA N. 3 ang. via ponte seveso (z.d. 2);AREE PUBBLICHE - Giornali e riviste;VIALE LUNIGIANA;3;1214;ang. Via Ponte Seveso;edicola su suolo pubblico;Si;2;9.20632466525;45.4905981044;45.4905981044, 9.20632466525
+C-ED/374;Via PATTI ADELINA civ. 5c01 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via PATTI ADELINA;;1279;CIV. 5C01;edicola su suolo pubblico;Si;;;;
+C-ED/2197;LARGO ASCARI ang. v.le cassala 48 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;LARGO ASCARI;;5463;ang. V.le Cassala 48;edicola su suolo pubblico;Si;;;;
+C-ED/2198;VIA MARCONI GUGLIELMO angolo piazza diaz| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA MARCONI GUGLIELMO;;340;angolo piazza diaz|;edicola su suolo pubblico;Si;;;;
+C-ED/2218;VIA MARGHERA N. 28 interno mondadori multicenter| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA MARGHERA;28;6280;interno mondadori multicenter|;rivendita in negozio;Si;7;9.15153625786;45.4667592103;45.4667592103, 9.15153625786
+C-ED/2224;Via VAL DI LEDRO N. 11 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via VAL DI LEDRO;11;1532;;rivendita in negozio;Si;9;9.18868862761;45.515769547;45.515769547, 9.18868862761
+C-ED/2230;Via FIAMMA GALVANO N. 20 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via FIAMMA GALVANO;20;3079;;rivendita in negozio;Si;4;9.21145057997;45.4647303215;45.4647303215, 9.21145057997
+C-ED/2231;Piazza OSPEDALE MAGGIORE N. 3 int. ospedale niguarda| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza OSPEDALE MAGGIORE;3;1523;int. ospedale niguarda|;rivendita in ospedale;Si;9;9.18869470033;45.509231827;45.509231827, 9.18869470033
+C-ED/492;Piazza FORTUNATO GIUSTINO fr. civ. 7 lato via galeazzi| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza FORTUNATO GIUSTINO;;1576;FR. CIV. 7 lato via galeazzi|;edicola su suolo pubblico;Si;;;;
+C-ED/493;Via BERGOGNONE AMBROGIO DA FOSSANO N. 31 angolo via voghera| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via BERGOGNONE AMBROGIO DA FOSSANO;31;5130;angolo via voghera|;edicola su suolo pubblico;Si;6;9.16388619042;45.4539823619;45.4539823619, 9.16388619042
+C-ED/495;VIA RIPAMONTI GIUSEPPE N. 2 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;VIA RIPAMONTI GIUSEPPE;2;4066;;edicola su suolo pubblico;Si;5;9.19639878315;45.4514908925;45.4514908925, 9.19639878315
+C-ED/497;VIA CIMAROSA DOMENICO N. 1 angolo corso vercelli| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA CIMAROSA DOMENICO;1;6291;angolo corso vercelli|;edicola su suolo pubblico;Si;7;9.15913932554;45.4662197855;45.4662197855, 9.15913932554
+C-ED/498;VIA FORZE ARMATE (DELLE) angolo via nikolajevka| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIA FORZE ARMATE (DELLE);;6643;angolo via nikolajevka|;edicola su suolo pubblico;Si;;;;
+C-ED/500;Via PACINI GIOVANNI N. 26 angolo ampere| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via PACINI GIOVANNI;26;2571;angolo ampere|;edicola su suolo pubblico;Si;3;9.22906135141;45.4819006532;45.4819006532, 9.22906135141
+C-ED/501;Via SANZIO RAFFAELLO N. 7 angolo via san siro| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via SANZIO RAFFAELLO;7;6283;angolo via san siro|;edicola su suolo pubblico;Si;7;9.1539610138;45.469203413;45.469203413, 9.1539610138
+C-ED/502;Via FOPPA VINCENZO N. 37 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via FOPPA VINCENZO;37;6109;;edicola su suolo pubblico;Si;6;9.15829328574;45.4568224556;45.4568224556, 9.15829328574
+C-ED/507;codvia 9311 mm3 monten| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9311 mm3 monten|;rivendita in stazione metrop.;Si;;;;
+C-ED/510;Piazza FRATTINI PIETRO N. 4 ang. via d'alviano| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Piazza FRATTINI PIETRO;4;5389;ang. via d'alviano|;edicola su suolo pubblico;Si;6;9.14303886844;45.4524300924;45.4524300924, 9.14303886844
+C-ED/511;Piazza OSPEDALE MAGGIORE ang. v.le ca' granda| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza OSPEDALE MAGGIORE;;1523;ang. v.le Ca' Granda|;edicola su suolo pubblico;Si;;;;
+C-ED/513;PIAZZA LEGA LOMBARDA N. 5 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA LEGA LOMBARDA;5;7084;;edicola su suolo pubblico;Si;1;9.18021266831;45.4780414848;45.4780414848, 9.18021266831
+C-ED/515;Foro BUONAPARTE fr. civ. 18 angolo via arco (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Foro BUONAPARTE;;711;fr. civ. 18 angolo via Arco;edicola su suolo pubblico;Si;;;;
+C-ED/519;Piazza LIMA num.000 ang. via ozanam| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza LIMA;;2135;NUM.000 ang. via ozanam|;edicola su suolo pubblico;Si;;;;
+C-ED/520;Piazza DUOMO (DEL) N. 21 portici sett.li lato sinistro galleria vittorio emanuele (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza DUOMO (DEL);21;1;portici sett.li lato sinistro galleria vittorio emanuele;edicola su suolo pubblico;Si;1;9.1895970373;45.46478924;45.46478924, 9.1895970373
+C-ED/522;largo marco biagi 1c01 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;largo Marco Biagi 1C01;edicola su suolo pubblico;Si;;;;
+C-ED/99;Via CASTELVETRO LODOVICO N. 13 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via CASTELVETRO LODOVICO;13;7195;;rivendita in negozio;Si;8;9.16453935362094;45.484975460811;45.484975460811, 9.16453935362094
+C-ED/104;Piazzale CORVETTO LUIGI EMANUELE N. 7 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazzale CORVETTO LUIGI EMANUELE;7;4174;;rivendita in negozio;Si;4;9.22494290046;45.4399055141;45.4399055141, 9.22494290046
+C-ED/637;Via PROCACCINI GIULIO CESARE N. 61 ang. p.zza gramsci| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PROCACCINI GIULIO CESARE;61;7204;ang. p.zza gramsci|;edicola su suolo pubblico;Si;8;9.16760649332;45.4815154778;45.4815154778, 9.16760649332
+C-ED/638;Viale LOMBARDIA N. 1 ang. piazzale piola (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Viale LOMBARDIA;1;2400;ang. Piazzale Piola;edicola su suolo pubblico;Si;3;9.22340747454;45.4810855654;45.4810855654, 9.22340747454
+C-ED/639;PIAZZA MELOZZO DA FORLI' fr. civ. 11 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;PIAZZA MELOZZO DA FORLI';;6619;fr. civ. 11;edicola su suolo pubblico;Si;;;;
+C-ED/640;Piazza QUATTRO NOVEMBRE fr.civ. 3| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza QUATTRO NOVEMBRE;;1199;fr.civ. 3|;edicola su suolo pubblico;Si;;;;
+C-ED/641;Via MASCAGNI PIETRO N. 22 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MASCAGNI PIETRO;22;3155;;edicola su suolo pubblico;Si;1;9.20399542375;45.4662699721;45.4662699721, 9.20399542375
+C-ED/642;Piazza INSUBRIA fr. civ. 24 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza INSUBRIA;;3221;fr. civ. 24;edicola su suolo pubblico;Si;;;;
+C-ED/644;largo tortora fr. corso magenta 24 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;largo Tortora fr. Corso Magenta 24;edicola su suolo pubblico;Si;;;;
+C-ED/645;Via OGLIO N. 20 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via OGLIO;20;4105;;edicola su suolo pubblico;Si;4;9.21740645418;45.4399484356;45.4399484356, 9.21740645418
+C-ED/646;Via BASSI PAOLO N. 22 angolo via nava| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via BASSI PAOLO;22;1320;angolo via nava|;edicola su suolo pubblico;Si;9;9.18917775724;45.4957193155;45.4957193155, 9.18917775724
+C-ED/647;Piazza DUOMO (DEL) portici settentrionali - lato dx galleria vittorio emanuele (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza DUOMO (DEL);;1;Portici Settentrionali - lato dx Galleria Vittorio emanuele;edicola su suolo pubblico;Si;;;;
+C-ED/649;Via ROMANO GIULIO N. 31 ang. via crema (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via ROMANO GIULIO;31;4057;ang. Via Crema;edicola su suolo pubblico;Si;5;9.20240309288;45.4489430665;45.4489430665, 9.20240309288
+C-ED/650;Piazza DERGANO num.000| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza DERGANO;;1500;NUM.000|;edicola su suolo pubblico;Si;;;;
+C-ED/651;Via VERDI GIUSEPPE N. 5 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via VERDI GIUSEPPE;5;118;;edicola su suolo pubblico;Si;1;9.18859296171;45.4682986558;45.4682986558, 9.18859296171
+C-ED/652;Via SARDEGNA N. 59 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via SARDEGNA;59;6265;;edicola su suolo pubblico;Si;7;9.15050142974;45.4609674464;45.4609674464, 9.15050142974
+C-ED/653;Piazzale UDINE N. 1 fr. civ. 1/3 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazzale UDINE;1;2651;fr. civ. 1/3;edicola su suolo pubblico;Si;3;9.23676774145;45.4906811149;45.4906811149, 9.23676774145
+C-ED/654;Via CARDUCCI GIOSUE' num.000 fr.civ. 38 ang. via s. vittore| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via CARDUCCI GIOSUE';;602;NUM.000 fr.civ. 38 ang. via s. vittore|;edicola su suolo pubblico;Si;;;;
+C-ED/655;Piazza NAPOLI fr. civ. 27| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Piazza NAPOLI;;5131;fr. civ. 27|;edicola su suolo pubblico;Si;;;;
+C-ED/657;Via BIONDI EZIO N. 4 ang. corso sempione (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via BIONDI EZIO;4;7186;ang. Corso Sempione;edicola su suolo pubblico;Si;8;9.16002975699575;45.4866506454723;45.4866506454723, 9.16002975699575
+C-ED/658;Via ANTONINI GIACOMO N. 50 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via ANTONINI GIACOMO;50;4250;;edicola su suolo pubblico;Si;5;9.19497637935;45.4370809528;45.4370809528, 9.19497637935
+C-ED/662;Piazza BONOMELLI GEREMIA N. 4 viale brenta| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Piazza BONOMELLI GEREMIA;4;4150;viale brenta|;edicola su suolo pubblico;Si;4;9.21389185166;45.4413106166;45.4413106166, 9.21389185166
+ED/2893;VIA MATTEUCCI CARLO N. 5 lato scuola materna (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA MATTEUCCI CARLO;5;2167;lato scuola materna;edicola su suolo pubblico;Si;3;9.21641240171747;45.4813195479991;45.4813195479991, 9.21641240171747
+C-ED/2250;Piazza FRATTINI PIETRO N. 4 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Piazza FRATTINI PIETRO;4;5389;;rivendita in supermercato;No;6;9.14303886844;45.4524300924;45.4524300924, 9.14303886844
+C-ED/2251;Via MARIANI POMPEO N. 2 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via MARIANI POMPEO;2;2490;;rivendita in supermercato;No;2;9.2306831103;45.5105249914;45.5105249914, 9.2306831103
+C-ED/2256;Via DOMENICHINO N. 2 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via DOMENICHINO;2;6383;;rivendita in supermercato;No;7;9.15005352208;45.4739228123;45.4739228123, 9.15005352208
+C-ED/2258;Viale ZARA N. 123 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale ZARA;123;1170;;rivendita in supermercato;No;9;9.19602276851;45.4989964958;45.4989964958, 9.19602276851
+C-ED/2259;Via MORGANTINI MARIO N. 15 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via MORGANTINI MARIO;15;6568;;rivendita in supermercato;No;7;9.13411754707;45.4697367069;45.4697367069, 9.13411754707
+C-ED/2260;Via MAC MAHON N. 128 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via MAC MAHON;128;7221;;rivendita in supermercato;No;8;9.15346834634;45.4975026094;45.4975026094, 9.15346834634
+C-ED/2261;Via TRILUSSA num.024| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via TRILUSSA;;7367;NUM.024|;rivendita in supermercato;No;;;;
+C-ED/2262;Via PEZZOTTI GIOVANNI ang. via s. ampelio (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via PEZZOTTI GIOVANNI;;5244;ang. Via S. Ampelio;rivendita in supermercato;No;;;;
+C-ED/2263;Via LOSANNA num.020/22| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via LOSANNA;;7190;NUM.020/22|;rivendita in supermercato;No;;;;
+C-ED/2264;Via FORZE ARMATE (DELLE) N. 199 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via FORZE ARMATE (DELLE);199;6643;;rivendita in supermercato;No;7;9.11173902492;45.4602582763;45.4602582763, 9.11173902492
+C-ED/2265;Via TOSCOLANO N. 7 ang. piazza ovidio (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via TOSCOLANO;7;3362;ang. Piazza Ovidio;rivendita in supermercato;No;4;9.24248162496;45.4582568684;45.4582568684, 9.24248162496
+C-ED/2403;Via ORTI N. 12 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via ORTI;12;4031;;rivendita in negozio;No;1;9.20033530286;45.4549519013;45.4549519013, 9.20033530286
+C-ED/2412;Corso INDIPENDENZA N. 5 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Corso INDIPENDENZA;5;3118;;rivendita in negozio;No;3;9.21203668974;45.4683026055;45.4683026055, 9.21203668974
+C-ED/2416;Via COMPAGNI DINO N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via COMPAGNI DINO;2;2203;;rivendita in negozio;No;3;9.22553502576;45.4800336325;45.4800336325, 9.22553502576
+C-ED/2419;Via PARUTA PAOLO N. 29 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via PARUTA PAOLO;29;2363;;rivendita in negozio;No;2;9.23594462297;45.5019847401;45.5019847401, 9.23594462297
+C-ED/665;Corso BUENOS AIRES N. 9 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Corso BUENOS AIRES;9;2129;;edicola su suolo pubblico;Si;3;9.20674553964;45.4764351436;45.4764351436, 9.20674553964
+C-ED/674;Piazza CINQUE GIORNATE ang. viale premuda (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza CINQUE GIORNATE;;3053;ANG. VIALE PREMUDA;edicola su suolo pubblico;Si;;;;
+C-ED/2613;MM3-BRENTA (z.d. 4);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/2617;Via NOVARA N. 86 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via NOVARA;86;6624;;rivendita in supermercato;No;7;9.12060188917;45.4721594539;45.4721594539, 9.12060188917
+C-ED/2621;Via LECCHI ANTONIO N. 20 ingresso viale liguria 39 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LECCHI ANTONIO;20;5263;ingresso Viale Liguria 39;rivendita in negozio;Si;6;9.1737904443;45.4439973597;45.4439973597, 9.1737904443
+C-ED/2623;Via PALIZZI FILIPPO N. 69 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PALIZZI FILIPPO;69;7451;;rivendita in supermercato;No;8;9.13803241329116;45.5073925941426;45.5073925941426, 9.13803241329116
+C-ED/2640;Via BARTOLOMEO D'ALVIANO N. 78 int. ist. radaelli| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via BARTOLOMEO D'ALVIANO;78;6612;int. ist. radaelli|;rivendita in ospedale;No;6;9.13815810682;45.4595933322;45.4595933322, 9.13815810682
+C-ED/2645;Via PIERLUIGI GIOVANNI DA PALESTRINA N. 9 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via PIERLUIGI GIOVANNI DA PALESTRINA;9;2235;;rivendita in negozio;Si;3;9.21363398567;45.4852113949;45.4852113949, 9.21363398567
+C-ED/2652;Via ROSSI PELLEGRINO N. 90 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ROSSI PELLEGRINO;90;1510;;rivendita in negozio;Si;9;9.17311258803;45.5149311096;45.5149311096, 9.17311258803
+C-ED/2662;Via FORTIGUERRA NICOLO' N. 12 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via FORTIGUERRA NICOLO';12;1439;;edicola su suolo privato;Si;9;9.20830619088;45.5141183919;45.5141183919, 9.20830619088
+C-ED/2664;Via GALVANI LUIGI N. 15 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via GALVANI LUIGI;15;1179;;rivendita in negozio;No;9;9.19835872139897;45.486741194252;45.486741194252, 9.19835872139897
+C-ED/2666;Via SAINT BON SIMONE N. 20 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via SAINT BON SIMONE;20;6670;;rivendita in ospedale;No;7;9.12140230038992;45.4587375147393;45.4587375147393, 9.12140230038992
+C-ED/2667;PIAZZALE MACIACHINI CARLO fr. civ. 18 ang. via imbonati (z.d. 9);AREE PUBBLICHE - Giornali e riviste;PIAZZALE MACIACHINI CARLO;;1361;fr. civ. 18 ang. via imbonati;edicola su suolo pubblico;Si;;;;
+C-ED/2679;Via DE NICOLA ENRICO civ. 8/10| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via DE NICOLA ENRICO;;5430;civ. 8/10|;edicola su suolo pubblico;Si;;;;
+C-ED/2683;VIA ASTESANI ALESSANDRO N. 17 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;VIA ASTESANI ALESSANDRO;17;1558;;rivendita in negozio;Si;9;9.17100480683;45.5175677475;45.5175677475, 9.17100480683
+C-ED/2701;codvia 9307 mm3 sondri| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9307 mm3 sondri|;rivendita in stazione metrop.;Si;;;;
+C-ED/2703;VIA TANGENZIALE EST cascina gobba est (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA TANGENZIALE EST;;8501;CASCINA GOBBA EST;rivendita in area di servizio;No;;;;
+C-ED/2707;MM2-CASCINA GOBBA (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/2713;mm2 - abbiategrasso (z.d. 5);AREE PUBBLICHE - Giornali e riviste;;;;MM2 - ABBIATEGRASSO;rivendita in stazione metrop.;Si;;;;
+C-ED/2422;Via SPARTACO N. 2 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via SPARTACO;2;3186;;rivendita in negozio;No;4;9.20765466006;45.4594785638;45.4594785638, 9.20765466006
+C-ED/2425;Via BROGGINI BONAVENTURA N. 3 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via BROGGINI BONAVENTURA;3;6700;;rivendita in negozio;No;7;9.09258899794;45.4638750083;45.4638750083, 9.09258899794
+C-ED/2726;Corso PORTA VITTORIA (DI) N. 46 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso PORTA VITTORIA (DI);46;3016;;rivendita in negozio;Si;1;9.20504130041;45.4621237243;45.4621237243, 9.20504130041
+C-ED/376;PIAZZA FONTANA alt. civ. 6 ang. via larga| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA FONTANA;;308;alt. civ. 6 ang. via larga|;edicola su suolo pubblico;Si;;;;
+C-ED/377;Via AMPELLIO (SANT') N. 3 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via AMPELLIO (SANT');3;5253;;edicola su suolo pubblico;Si;5;9.1840947622;45.4389810877;45.4389810877, 9.1840947622
+C-ED/379;Via CONTE ROSSO N. 9 ang. via rimembranze di lambrate| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via CONTE ROSSO;9;2667;ang. Via Rimembranze di Lambrate|;;Si;3;9.24244274493;45.482089585;45.482089585, 9.24244274493
+C-ED/381;PIAZZA MONTE TITANO N. 4 ang. via ronchi (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA MONTE TITANO;4;2654;ang. Via Ronchi;edicola su suolo pubblico;Si;3;9.23776889832;45.4865432072;45.4865432072, 9.23776889832
+C-ED/383;Largo VULCI ang. via veglia 44| (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Largo VULCI;;1339;ang. via veglia 44|;edicola su suolo pubblico;Si;;;;
+C-ED/114;Via COMPAGNONI GIUSEPPE N. 24 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via COMPAGNONI GIUSEPPE;24;3096;;rivendita in negozio;Si;4;9.22162376755;45.4653534876;45.4653534876, 9.22162376755
+C-ED/115;Via ROVELLO N. 8 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via ROVELLO;8;722;;rivendita in negozio;Si;1;9.18468038174;45.4670371619;45.4670371619, 9.18468038174
+C-ED/118;Via MAMIANI TERENZIO N. 1 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via MAMIANI TERENZIO;1;2338;;rivendita in negozio;Si;2;9.23112877847;45.4974561997;45.4974561997, 9.23112877847
+C-ED/119;Piazza BRUZZANO N. 5 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Piazza BRUZZANO;5;1655;;rivendita in negozio;Si;9;9.17361676839;45.527231187;45.527231187, 9.17361676839
+C-ED/120;Piazzale SIENA N. 4 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazzale SIENA;4;6616;;rivendita in negozio;Si;7;9.13625453546;45.4655174988;45.4655174988, 9.13625453546
+C-ED/122;Via MONTE SAN GABRIELE N. 1 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via MONTE SAN GABRIELE;1;2481;;rivendita in negozio;Si;2;9.22271804562;45.504999188;45.504999188, 9.22271804562
+C-ED/129;Viale CATERINA DA FORLI' N. 36 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Viale CATERINA DA FORLI';36;6611;;rivendita in negozio;Si;7;9.14234728389;45.4608529524;45.4608529524, 9.14234728389
+C-ED/131;Via NOVARA N. 15 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via NOVARA;15;6624;;rivendita in supermercato;Si;7;9.12793645192;45.4683433378;45.4683433378, 9.12793645192
+C-ED/137;Viale FAMAGOSTA N. 2 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale FAMAGOSTA;2;5353;;rivendita in negozio;Si;6;9.15508472665;45.4368146625;45.4368146625, 9.15508472665
+C-ED/1852;Via SODERINI LUIGI N. 55 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via SODERINI LUIGI;55;6675;;rivendita in negozio;Si;6;9.13430513933;45.4540824592;45.4540824592, 9.13430513933
+C-ED/1853;Viale ZARA N. 23 ang. viale stelvio (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale ZARA;23;1170;ang. Viale Stelvio;edicola su suolo pubblico;Si;9;9.19230726596;45.492399732;45.492399732, 9.19230726596
+C-ED/1859;Via BENACO ang. via tagliamento| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via BENACO;;4143;ang. via tagliamento|;edicola su suolo pubblico;Si;;;;
+C-ED/1860;VIA OREFICI ang. passaggio osii (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA OREFICI;;547;ang. passaggio osii;edicola su suolo pubblico;Si;;;;
+C-ED/1875;VIA GIARDINI (DEI) fr. via croce rossa| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA GIARDINI (DEI);;141;fr. via croce rossa|;edicola su suolo pubblico;Si;;;;
+C-ED/385;Via FORZE ARMATE (DELLE) N. 351 fronte numero civico 346/351 (parterre centrale) (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via FORZE ARMATE (DELLE);351;6643;fronte numero civico 346/351 (parterre centrale);edicola su suolo pubblico;Si;7;9.09631927664;45.4599661346;45.4599661346, 9.09631927664
+C-ED/386;PIAZZA DUOMO (DEL) fr. civ. 19 ang. via mengoni (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA DUOMO (DEL);;1;fr. civ. 19 ang. via Mengoni;edicola su suolo pubblico;Si;;;;
+C-ED/391;Via CANOVA ANTONIO num.027/29| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via CANOVA ANTONIO;;7238;NUM.027/29|;edicola su suolo pubblico;Si;;;;
+C-ED/392;Piazza ANGELO (SANT') num.000 ang. via della moscova| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza ANGELO (SANT');;1065;NUM.000 ang. via della moscova|;edicola su suolo pubblico;Si;;;;
+C-ED/393;Via LORENTEGGIO N. 209 fr. civ. 238 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LORENTEGGIO;209;5132;fr. civ. 238;edicola su suolo pubblico;Si;6;9.12499281485;45.4460407777;45.4460407777, 9.12499281485
+C-ED/394;Via SOLARI ANDREA ang. via coni zugna| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via SOLARI ANDREA;;5111;ang. via coni zugna|;edicola su suolo pubblico;Si;;;;
+C-ED/399;Via PECORARI FRANCESCO num.000 ang. via rastrelli| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via PECORARI FRANCESCO;;323;NUM.000 ang. via rastrelli|;edicola su suolo pubblico;Si;;;;
+C-ED/403;Piazza BABILA (SAN) num.000 angolo monforte| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza BABILA (SAN);;216;NUM.000 angolo monforte|;edicola su suolo pubblico;Si;;;;
+C-ED/406;Via ARCIVESCOVADO (DELL') N. 1 ang. via camposanto (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via ARCIVESCOVADO (DELL');1;309;ang. via Camposanto;edicola su suolo pubblico;Si;1;9.1932573853;45.4638452346;45.4638452346, 9.1932573853
+C-ED/407;CORSO BUENOS AIRES N. 30 ang. via broggi| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;CORSO BUENOS AIRES;30;2129;ang. via Broggi|;edicola su suolo pubblico;Si;3;9.20919349069;45.4783446276;45.4783446276, 9.20919349069
+C-ED/408;VIA OLONA N. 25 ang. via ariberto| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA OLONA;25;5090;ang. via ariberto|;edicola su suolo pubblico;Si;1;9.17119220385159;45.4595868581695;45.4595868581695, 9.17119220385159
+C-ED/410;Via NEERA ANNA num.000 angolo via montegani 35| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via NEERA ANNA;;5326;NUM.000 angolo via montegani 35|;edicola su suolo pubblico;Si;;;;
+C-ED/411;Viale MONTE NERO N. 48 ang. via bergamo| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale MONTE NERO;48;3062;ang. via bergamo|;edicola su suolo pubblico;Si;4;9.20602032605;45.4578607371;45.4578607371, 9.20602032605
+C-ED/412;VIA BATTISTOTTI SASSI LUISA N. 28 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;VIA BATTISTOTTI SASSI LUISA;28;3273;;edicola su suolo pubblico;Si;4;9.2278080276;45.4647253969;45.4647253969, 9.2278080276
+C-ED/413;Via PATELLANI CARLO ang. viale bligny lato civ. dispari (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via PATELLANI CARLO;;4009;ang. Viale Bligny lato civ. dispari;edicola su suolo pubblico;Si;;;;
+C-ED/2268;Via LORENTEGGIO N. 230 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via LORENTEGGIO;230;5132;;rivendita in supermercato;No;6;9.12494984372;45.4464879279;45.4464879279, 9.12494984372
+C-ED/2269;Via LEGNONE N. 3 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via LEGNONE;3;1298;;rivendita in supermercato;No;9;9.18155614341;45.4982919068;45.4982919068, 9.18155614341
+C-ED/2270;Via WASHINGTON GIORGIO N. 55 ang. via digione| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via WASHINGTON GIORGIO;55;6111;ang. via digione|;rivendita in supermercato;No;7;9.15509058541;45.4600585271;45.4600585271, 9.15509058541
+C-ED/2271;Viale PIAVE N. 38 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Viale PIAVE;38;2179;;rivendita in supermercato;No;3;9.20677384163824;45.4726188732503;45.4726188732503, 9.20677384163824
+C-ED/2272;Viale CASSALA N. 22 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale CASSALA;22;5275;;rivendita in supermercato;No;6;9.16356793105;45.4443041302;45.4443041302, 9.16356793105
+C-ED/2274;Viale PAPINIANO N. 27 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Viale PAPINIANO;27;5097;;rivendita in supermercato;No;1;9.16775691476;45.4596727672;45.4596727672, 9.16775691476
+C-ED/531;Piazza DE MEIS CAMILLO N. 2 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazza DE MEIS CAMILLO;2;6209;;edicola su suolo pubblico;Si;7;9.16365836213;45.4636402755;45.4636402755, 9.16365836213
+C-ED/534;Viale MONZA num.043/b| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Viale MONZA;;2274;NUM.043/B|;edicola su suolo pubblico;Si;;;;
+C-ED/535;Piazza GRANDI GIUSEPPE ang. via piolti de bianchi (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza GRANDI GIUSEPPE;;3112;ang. Via Piolti de Bianchi;edicola su suolo pubblico;Si;;;;
+C-ED/539;Via GRAZIANO N. 48 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via GRAZIANO;48;1524;;edicola su suolo pubblico;Si;9;9.19142516306;45.5147067161;45.5147067161, 9.19142516306
+C-ED/542;Piazza BOTTINI ENRICO N. 4 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza BOTTINI ENRICO;4;2572;;edicola su suolo pubblico;Si;3;9.23612110637;45.4841563131;45.4841563131, 9.23612110637
+C-ED/544;Piazza OBERDAN GUGLIELMO N. 3 ang. via tadino (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Piazza OBERDAN GUGLIELMO;3;2108;ang. via tadino;edicola su suolo pubblico;Si;3;9.20479540117;45.475259977;45.475259977, 9.20479540117
+C-ED/549;Piazzale LOTTO LORENZO N. 2 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazzale LOTTO LORENZO;2;6539;;edicola su suolo pubblico;Si;8;9.14400477999;45.4792114872;45.4792114872, 9.14400477999
+C-ED/550;Via GRIGNA angolo viale monte ceneri| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GRIGNA;;7239;angolo viale monte ceneri|;;Si;;;;
+C-ED/553;Via COMMENDA (DELLA) fr.civ. 3 ang. via s. barnaba| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via COMMENDA (DELLA);;3146;fr.civ. 3 ang. via s. Barnaba|;edicola su suolo pubblico;Si;;;;
+C-ED/554;Via BUONARROTI MICHELANGELO N. 14 angolo piazza wagner| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via BUONARROTI MICHELANGELO;14;6253;angolo piazza wagner|;edicola su suolo pubblico;Si;7;9.15559442816;45.468859261;45.468859261, 9.15559442816
+C-ED/555;Largo ZANDONAI RICCARDO N. 3 angolo via panzini| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Largo ZANDONAI RICCARDO;3;6485;angolo via panzini|;edicola su suolo pubblico;Si;8;9.15978965652;45.470926866;45.470926866, 9.15978965652
+C-ED/557;Viale CORSICA N. 38 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale CORSICA;38;3262;;edicola su suolo pubblico;Si;4;9.228213297;45.4619841733;45.4619841733, 9.228213297
+C-ED/561;codvia 9310 mm3 turati| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9310 mm3 turati|;rivendita in stazione metrop.;Si;;;;
+C-ED/562;Via SOLARI ANDREA num.037 angolo via stendhal| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via SOLARI ANDREA;;5111;NUM.037 angolo via stendhal|;edicola su suolo pubblico;Si;;;;
+C-ED/141;Viale MONTE NERO N. 14 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale MONTE NERO;14;3062;;rivendita in negozio;Si;4;9.20377929266;45.4537866615;45.4537866615, 9.20377929266
+C-ED/145;Via PAGLIANO ELEUTERIO num.001/b| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via PAGLIANO ELEUTERIO;;6390;NUM.001/B|;rivendita in negozio;Si;;;;
+C-ED/676;Via MARGHERITA (SANTA) N. 3 (passaggio santa margherita) (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MARGHERITA (SANTA);3;108;(passaggio santa margherita);edicola su suolo pubblico;Si;1;9.18838724612;45.4660550557;45.4660550557, 9.18838724612
+C-ED/679;PIAZZA GOBETTI PIETRO N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA GOBETTI PIETRO;2;2561;;edicola su suolo pubblico;Si;3;9.23316603796;45.4859555414;45.4859555414, 9.23316603796
+C-ED/680;Via GRASSI GIOVANNI BATTISTA N. 89 p.le antist.ospedale l. sacco| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GRASSI GIOVANNI BATTISTA;89;7465;p.le antist.ospedale l. sacco|;edicola su suolo pubblico;Si;8;9.11798980808;45.5187687915;45.5187687915, 9.11798980808
+C-ED/681;Via CASTELBARCO GIAN CARLO N. 5 (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via CASTELBARCO GIAN CARLO;5;4201;;edicola su suolo pubblico;Si;5;9.18640680688;45.4491850583;45.4491850583, 9.18640680688
+C-ED/683;PIAZZALE BAIAMONTI ANTONIO ang. via farini| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;PIAZZALE BAIAMONTI ANTONIO;;7235;ang. via farini|;edicola su suolo pubblico;Si;;;;
+C-ED/685;Via LARGA N. 31 ang. chiaravalle| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via LARGA;31;318;ang. chiaravalle|;edicola su suolo pubblico;Si;1;9.19147767047;45.4606118931;45.4606118931, 9.19147767047
+C-ED/687;Piazza BABILA (SAN) num.000 angolo corso matteotti| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza BABILA (SAN);;216;NUM.000 angolo corso matteotti|;edicola su suolo pubblico;Si;;;;
+C-ED/688;Corso VENEZIA N. 51 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso VENEZIA;51;238;;edicola su suolo pubblico;Si;1;9.20174863078;45.4714322253;45.4714322253, 9.20174863078
+C-ED/689;Viale LEGIONI ROMANE N. 26 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale LEGIONI ROMANE;26;6649;;edicola su suolo pubblico;Si;6;9.13238575168;45.4603968821;45.4603968821, 9.13238575168
+C-ED/690;Viale ROMAGNA num.000 fr.civ.18 ang. via b. angelico| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Viale ROMAGNA;;3102;NUM.000 fr.civ.18 ang. via b. angelico|;edicola su suolo pubblico;Si;;;;
+C-ED/692;Viale MOLISE N. 51 angolo via sanfelice| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale MOLISE;51;3178;angolo via sanfelice|;edicola su suolo pubblico;Si;4;9.22355342329;45.4567757052;45.4567757052, 9.22355342329
+C-ED/696;Via POLIZIANO N. 7 ang. via p. della francesca| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via POLIZIANO;7;7196;ang. via p. della francesca|;edicola su suolo pubblico;Si;8;9.16444606722;45.4833102345;45.4833102345, 9.16444606722
+C-ED/697;Piazza MADONNA DELLA PROVVIDENZA N. 1 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Piazza MADONNA DELLA PROVVIDENZA;1;6851;;edicola su suolo pubblico;Si;7;9.08945473203;45.4762734979;45.4762734979, 9.08945473203
+C-ED/698;PIAZZA FIDIA ang. via m. rosso (z.d. 9);AREE PUBBLICHE - Giornali e riviste;PIAZZA FIDIA;;1144;ang. Via M. Rosso;edicola su suolo pubblico;Si;;;;
+C-ED/702;Piazza BUOZZI BRUNO N. 5 ang. corso lodi (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza BUOZZI BRUNO;5;4221;ang. Corso Lodi;edicola su suolo pubblico;Si;4;9.20679562973;45.4496529467;45.4496529467, 9.20679562973
+C-ED/704;Via GALLARATE N. 105 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GALLARATE;105;7420;;edicola su suolo pubblico;Si;8;9.13370178473;45.4962175411;45.4962175411, 9.13370178473
+C-ED/1883;Piazza SEI FEBBRAIO num.000| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Piazza SEI FEBBRAIO;;6358;NUM.000|;edicola su suolo pubblico;Si;;;;
+C-ED/1886;Via WASHINGTON GIORGIO N. 33 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via WASHINGTON GIORGIO;33;6111;;edicola su suolo pubblico;Si;7;9.1552346937;45.4626173079;45.4626173079, 9.1552346937
+C-ED/1920;CORSO GARIBALDI GIUSEPPE N. 83 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;CORSO GARIBALDI GIUSEPPE;83;1010;;edicola su suolo pubblico;Si;1;9.1838188993;45.476435024;45.476435024, 9.1838188993
+C-ED/1939;Via PAPI LAZZARO N. 17 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via PAPI LAZZARO;17;4071;;rivendita in negozio;Si;4;9.20741570726;45.4513044059;45.4513044059, 9.20741570726
+C-ED/2276;Viale CERTOSA N. 59 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Viale CERTOSA;59;7174;;rivendita in supermercato;No;8;9.1487874019;45.4910742275;45.4910742275, 9.1487874019
+C-ED/2278;Viale VIGLIANI PAOLO ONORATO n. 59 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Viale VIGLIANI PAOLO ONORATO;;6422;N. 59;rivendita in supermercato;No;;;;
+C-ED/2279;Via POLLAK LEOPOLDO N. 8 ang. via novara| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via POLLAK LEOPOLDO;8;6853;ang. via novara|;rivendita in supermercato;No;7;9.12019568377;45.4727922293;45.4727922293, 9.12019568377
+C-ED/2289;Via HOEPLI ULRICO N. 5 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via HOEPLI ULRICO;5;190;;rivendita in negozio;No;1;9.1924743083;45.4664913841;45.4664913841, 9.1924743083
+C-ED/2292;Via GOZZOLI BENOZZO N. 130 int. centro comm. la torre| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via GOZZOLI BENOZZO;130;6789;int. centro comm. la torre|;rivendita in supermercato;No;7;9.0971032272;45.4507280124;45.4507280124, 9.0971032272
+C-ED/2293;Via QUARENGHI GIACOMO N. 23 all'interno del centro commerciale bonola (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via QUARENGHI GIACOMO;23;7478;all'interno del Centro Commerciale Bonola;rivendita in supermercato;No;8;9.11479754273;45.495837865;45.495837865, 9.11479754273
+C-ED/2294;Via MARCHESI POMPEO 5 ang. via fr.lli zoia| (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via MARCHESI POMPEO;;6304;5 ang. Via Fr.lli Zoia|;rivendita in supermercato;No;;;;
+C-ED/2304;Via PRINCIPE EUGENIO N. 27 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PRINCIPE EUGENIO;27;7223;;edicola su suolo pubblico;Si;8;9.16499454025;45.4902950994;45.4902950994, 9.16499454025
+C-ED/2311;Via VARCHI BENEDETTO N. 1 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via VARCHI BENEDETTO;1;1252;;rivendita in negozio;Si;9;9.16524261063;45.4990639612;45.4990639612, 9.16524261063
+C-ED/2428;Via DE MARCHI EMILIO N. 10 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via DE MARCHI EMILIO;10;1418;;rivendita in supermercato;No;2;9.20915716296;45.5003338262;45.5003338262, 9.20915716296
+C-ED/2444;Via TRIVULZIO ANTONIO TOLOMEO N. 12 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via TRIVULZIO ANTONIO TOLOMEO;12;6277;;rivendita in supermercato;No;7;9.14572645403;45.4658944889;45.4658944889, 9.14572645403
+C-ED/705;Via FERRERA (DELLA) N. 18 centro comm.le tre castelli| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via FERRERA (DELLA);18;5451;centro comm.le tre castelli|;rivend. in centro commerciale;Si;6;9.13641476465;45.4404524487;45.4404524487, 9.13641476465
+C-ED/2747;Via MORAZZONE N. 6 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MORAZZONE;6;7131;;rivendita in negozio;No;1;9.17341221695;45.4802010916;45.4802010916, 9.17341221695
+C-ED/2763;Piazza LUIGI DI SAVOIA (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza LUIGI DI SAVOIA;;2260;;edicola su suolo pubblico;Si;;;;
+C-ED/2764;VIA DOGANA N. 2 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA DOGANA;2;341;;rivendita in negozio;Si;1;9.1891111561;45.4633434664;45.4633434664, 9.1891111561
+C-ED/2766;Via ASTESANI ALESSANDRO N. 46 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ASTESANI ALESSANDRO;46;1558;;edicola su suolo pubblico;Si;9;9.16976876721;45.520186337;45.520186337, 9.16976876721
+C-ED/2767;Via ALBERTINELLI MARIOTTO N. 9 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via ALBERTINELLI MARIOTTO;9;6561;;rivendita in negozio;No;7;9.13857671275;45.4753162364;45.4753162364, 9.13857671275
+C-ED/2768;Via BIANCHI MOSE' N. 90 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via BIANCHI MOSE';90;6385;;rivendita in ospedale;No;7;9.14609849057;45.4750098951;45.4750098951, 9.14609849057
+C-ED/2775;Via WASHINGTON GIORGIO N. 53 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via WASHINGTON GIORGIO;53;6111;;rivendita in supermercato;No;7;9.15514674607;45.4610432846;45.4610432846, 9.15514674607
+C-ED/2782;Via MAURILIO (SAN) N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MAURILIO (SAN);1;563;;rivendita in negozio;Si;1;9.18508554438;45.4615383741;45.4615383741, 9.18508554438
+C-ED/2788;Via CASTELVETRO LODOVICO N. 32 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via CASTELVETRO LODOVICO;32;7195;;rivendita in ospedale;Si;8;9.16635468207;45.4858649752;45.4858649752, 9.16635468207
+C-ED/2800;Via PALAZZOLO DON LUIGI N. 20 int. centro commle portello| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via PALAZZOLO DON LUIGI;20;7522;int. centro commle portello|;rivendita in supermercato;No;8;9.14448248703;45.4899773323;45.4899773323, 9.14448248703
+ED/2911;Viale RUBICONE N. 31 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale RUBICONE;31;1568;;rivendita in area di servizio;No;9;9.16290964594;45.5309738932;45.5309738932, 9.16290964594
+ED/2937;Via PITTERI RICCARDO n. 84;AREE PUBBLICHE - Giornali e riviste;Via PITTERI RICCARDO;;2674;n. 84;rivendita in supermercato;No;;;;
+ED/2940;Piazza DUCA D'AOSTA all'interno della stazione centrale - piano ferro - locale f17 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Piazza DUCA D'AOSTA;;1200;all'interno della Stazione Centrale - piano ferro - locale F17;rivendita in stazione ferrov.;Si;;;;
+ED/2943;Via BOSCOVICH RUGGERO N. 22 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via BOSCOVICH RUGGERO;22;2131;;rivendita in negozio;No;2;9.20368355157;45.4818636097;45.4818636097, 9.20368355157
+ED/3023;Via PIO II N. 3 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via PIO II;3;6832;;rivendita in negozio;No;7;9.11407110837;45.4691724636;45.4691724636, 9.11407110837
+ED/2926;Via RESSI ADEODATO N. 17 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via RESSI ADEODATO;17;1397;;rivendita in negozio;Si;2;9.20414282988;45.4963145042;45.4963145042, 9.20414282988
+C-ED/1598;Via WATT GIACOMO N. 2 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via WATT GIACOMO;2;5292;;rivendita in negozio;Si;6;9.15490721333;45.4446712768;45.4446712768, 9.15490721333
+C-ED/1601;VIA MARE (DEL) N. 35 area servizio cantalupa ovest - autostrada dei fiori a7 milano/ serravalle| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;VIA MARE (DEL);35;5318;area servizio cantalupa Ovest - autostrada dei fiori A7 Milano/ Serravalle|;rivendita in area di servizio;Si;5;9.15880237172;45.421102545;45.421102545, 9.15880237172
+C-ED/1610;Via MELZI D'ERIL FRANCESCO N. 3 ang. via bertani| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Via MELZI D'ERIL FRANCESCO;3;7118;ang. via bertani|;edicola su suolo pubblico;Si;1;9.17414803365;45.4777369965;45.4777369965, 9.17414803365
+C-ED/1661;Via BARBAVARA num.000 angolo coni zugna| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via BARBAVARA;;5108;NUM.000 angolo coni zugna|;edicola su suolo pubblico;Si;;;;
+ED/2931;Via CENA GIOVANNI p.i.i. porta vittoria ucp 4;AREE PUBBLICHE - Giornali e riviste;Via CENA GIOVANNI;;3141;P.I.I. PORTA VITTORIA UCP 4;rivendita in supermercato;No;;;;
+ED/2923;Viale FAMAGOSTA N. 50 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale FAMAGOSTA;50;5353;;rivendita in negozio;No;6;9.16430407252;45.4371113843;45.4371113843, 9.16430407252
+ED/2915;Viale CATERINA DA FORLI' N. 19 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Viale CATERINA DA FORLI';19;6611;;rivendita in negozio;No;6;9.14514338928;45.4595278417;45.4595278417, 9.14514338928
+C-ED/225;MM1-AMENDOLA FIERA (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/226;MM1-CADORNA F.N.M. (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/227;codvia 9205 mm2 lambra| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9205 mm2 lambra|;rivendita in stazione metrop.;Si;;;;
+C-ED/228;mm1 - staz. villa s. giovanni (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;MM1 - Staz. Villa S. Giovanni;rivendita in stazione metrop.;Si;;;;
+C-ED/229;MM1-PORTA VENEZIA rivendita n. 1 - lato oberdan (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;rivendita n. 1 - lato Oberdan;rivendita in stazione metrop.;Si;;;;
+C-ED/230;MM2-PIOLA (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/231;codvia 9128 mm1 lampug| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9128 mm1 lampug|;rivendita in stazione metrop.;Si;;;;
+C-ED/232;codvia 9124 mm1 q.t.8| (z.d. 8);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9124 mm1 q.t.8|;rivendita in stazione metrop.;Si;;;;
+C-ED/233;codvia 9212 mm2 moscov| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9212 mm2 moscov|;rivendita in stazione metrop.;Si;;;;
+C-ED/234;codvia 9116 mm1 concil| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9116 mm1 concil|;rivendita in stazione metrop.;Si;;;;
+C-ED/235;MM2-UDINE (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/236;codvia 9213 mm2 lanza| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9213 mm2 lanza|;rivendita in stazione metrop.;Si;;;;
+C-ED/237;MM2-S. AGOSTINO (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/238;codvia 9218 mm2 romolo| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9218 mm2 romolo|;rivendita in stazione metrop.;Si;;;;
+C-ED/239;codvia 9113 mm1 cordus| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9113 mm1 cordus|;rivendita in stazione metrop.;Si;;;;
+C-ED/240;MM1-PRECOTTO (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/242;MM1-WAGNER (z.d. 7);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/244;MM1-PAGANO;AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/245;MM1-LORETO (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/246;codvia 9205 mm2 lambra| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9205 mm2 lambra|;rivendita in stazione metrop.;Si;;;;
+C-ED/247;codvia 9207 mm2 loreto| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9207 mm2 loreto|;rivendita in stazione metrop.;Si;;;;
+C-ED/248;MM1-CAIROLI (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/249;MM2-CADORNA F.N.M. (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/250;MM1-ROVERETO (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/251;codvia 9209 mm2 centra| (z.d. 2);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9209 mm2 centra|;rivendita in stazione metrop.;Si;;;;
+C-ED/252;MM1-BANDE NERE codvia 9125 mm1 bande nere| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9125 mm1 bande nere|;rivendita in stazione metrop.;Si;;;;
+C-ED/253;MM2-GARIBALDI F.S. (z.d. 9);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/254;MM1-INGANNI (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;6672;;rivendita in stazione metrop.;Si;;;;
+C-ED/255;MM2-S. AMBROGIO (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/256;MM1-DUOMO lato s. babila (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;lato S. Babila;rivendita in stazione metrop.;Si;;;;
+C-ED/257;codvia 9108 mm1 lima| (z.d. 3);AREE PUBBLICHE - Giornali e riviste;;;;CODVIA 9108 mm1 lima|;rivendita in stazione metrop.;Si;;;;
+C-ED/259;Via SAPONARO MICHELE N. 52 ang. via c. baroni (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via SAPONARO MICHELE;52;5432;ang. Via C. Baroni;edicola su suolo privato;Si;5;9.17200147866;45.4047543181;45.4047543181, 9.17200147866
+C-ED/260;Via URUGUAY N. 10 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via URUGUAY;10;7495;;edicola su suolo pubblico;Si;8;9.12287631597;45.4960531631;45.4960531631, 9.12287631597
+C-ED/262;Via TOLSTOI LEONE N. 61 via tolstoi fronte supermercat| (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via TOLSTOI LEONE;61;5133;via tolstoi fronte supermercat|;edicola su suolo privato;Si;6;9.14818084576;45.4556002875;45.4556002875, 9.14818084576
+C-ED/1711;Via ADRIANO PUBLIO ELIO N. 104 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via ADRIANO PUBLIO ELIO;104;2410;;edicola su suolo pubblico;Si;2;9.2444279615;45.5170657626;45.5170657626, 9.2444279615
+C-ED/1715;Corso MAGENTA N. 65 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso MAGENTA;65;604;;rivendita in negozio;Si;1;9.17079939395;45.4656545403;45.4656545403, 9.17079939395
+C-ED/1719;Largo CROCETTA (DELLA) fr.civ. 7| (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Largo CROCETTA (DELLA);;654;fr.civ. 7|;edicola su suolo pubblico;Si;;;;
+C-ED/1722;Via MARCO D'AGRATE num.000 ang. riva di trento| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via MARCO D'AGRATE;;4276;NUM.000 ang. riva di trento|;edicola su suolo pubblico;Si;;;;
+C-ED/1724;VIALE ARETUSA fr. civ. 29 ang. via rembrandt (z.d. 7);AREE PUBBLICHE - Giornali e riviste;VIALE ARETUSA;;6565;fr. civ. 29 ang. Via Rembrandt;edicola su suolo pubblico;Si;;;;
+C-ED/1730;MM2-FAMAGOSTA (z.d. 6);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+C-ED/1734;Piazza ANGILBERTO II num.000 fr.civ. 9 ang. s. dionigi| (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Piazza ANGILBERTO II;;4278;NUM.000 fr.civ. 9 ang. s. dionigi|;edicola su suolo pubblico;Si;;;;
+C-ED/1740;Viale UNGHERIA num.000 ang. mecenate| (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UNGHERIA;;3357;NUM.000 ang. mecenate|;edicola su suolo pubblico;Si;;;;
+C-ED/1745;Via MISSAGLIA (DEI) n. 61/a (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via MISSAGLIA (DEI);;5340;n. 61/A;rivendita in supermercato;Si;;;;
+C-ED/1752;Via PONZIO GIUSEPPE ang. via corti (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via PONZIO GIUSEPPE;;2585;ang. via corti;edicola su suolo pubblico;Si;;;;
+ED/2927;Foro BUONAPARTE tra i civv. 70/74;AREE PUBBLICHE - Giornali e riviste;Foro BUONAPARTE;;711;tra i civv. 70/74;edicola su suolo pubblico;Si;;;;
+ED/2949;Piazza RISORGIMENTO N. 8A (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Piazza RISORGIMENTO;8A;3117;;rivendita in negozio;Si;4;9.21108623241;45.4672694742;45.4672694742, 9.21108623241
+ED/2924;Viale RUBICONE N. 30 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale RUBICONE;30;1568;;rivendita in area di servizio;No;9;9.16378807774;45.530885746;45.530885746, 9.16378807774
+ED/2928;Viale TESTI FULVIO N. 86 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale TESTI FULVIO;86;1441;;rivendita in negozio;No;9;9.2035222058;45.5106797651;45.5106797651, 9.2035222058
+ED/2929;Via SOLARI ANDREA civico 29;AREE PUBBLICHE - Giornali e riviste;Via SOLARI ANDREA;;5111;CIVICO 29;rivendita in supermercato;No;;;;
+ED/2917;Viale MONZA N. 106 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Viale MONZA;106;2274;;rivendita in negozio;No;2;9.22094034721;45.4995567062;45.4995567062, 9.22094034721
+ED/2918;Via OLGETTINA N. 60 int. ospedale s. raffaele (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via OLGETTINA;60;2530;int. ospedale s. raffaele;rivendita in negozio;Si;3;9.26786297215;45.5060615834;45.5060615834, 9.26786297215
+ED/2951;Via GROSOTTO N. 1 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via GROSOTTO;1;7328;;rivendita in negozio;No;8;9.14775086838;45.4914514114;45.4914514114, 9.14775086838
+ED/2919;Viale SUZZANI GIOVANNI N. 221 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale SUZZANI GIOVANNI;221;1446;;rivendita in supermercato;No;9;9.2042720185;45.518169276;45.518169276, 9.2042720185
+ED/2932;Via ASTESANI ALESSANDRO N. 2 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ASTESANI ALESSANDRO;2;1558;;rivendita in negozio;Si;9;9.17234947227;45.515987094;45.515987094, 9.17234947227
+ED/2933;edificio podio - p.i.i. garbaldi/repubblica u.i.u.1.;AREE PUBBLICHE - Giornali e riviste;;;;EDIFICIO PODIO - P.I.I. GARBALDI/REPUBBLICA U.I.U.1.;;No;;;;
+ED/2989;PIAZZA CASTELLO fr. civ. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA CASTELLO;;704;fr. civ. 1;edicola su suolo pubblico;Si;;;;
+ED/2988;PIAZZA OBERDAN GUGLIELMO alt. civ. 10 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA OBERDAN GUGLIELMO;;2108;alt. civ. 10;edicola su suolo pubblico;Si;;;;
+ED/2982;Via CASSINIS GIOVANNI BATTISTA N. 83 presso staz. rogoredo (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via CASSINIS GIOVANNI BATTISTA;83;4309;PRESSO STAZ. ROGOREDO;rivendita in negozio;No;4;9.23882573516;45.4338617579;45.4338617579, 9.23882573516
+ED/2996;BASTIONI PORTA VENEZIA (DI) (z.d. 1);AREE PUBBLICHE - Giornali e riviste;BASTIONI PORTA VENEZIA (DI);;2106;;edicola su suolo pubblico;Si;;;;
+ED/2965;Piazza REPUBBLICA (DELLA) fr. civ. 5 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza REPUBBLICA (DELLA);;1055;fr. civ. 5;edicola su suolo pubblico;Si;;;;
+ED/3014;PIAZZA GIUSEPPE (SAN) N. 7 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;PIAZZA GIUSEPPE (SAN);7;1442;;rivendita in negozio;Si;9;9.20532271194;45.5265164511;45.5265164511, 9.20532271194
+ED/2978;Piazza VENTIQUATTRO MAGGIO (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Piazza VENTIQUATTRO MAGGIO;;5200;;edicola su suolo pubblico;Si;;;;
+ED/2980;Via CILEA FRANCESCO N. 2 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via CILEA FRANCESCO;2;7526;;rivendita in negozio;No;8;9.10626879775;45.4975238197;45.4975238197, 9.10626879775
+ED/2954;Via CIALDINI ENRICO N. 111 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via CIALDINI ENRICO;111;1477;;rivendita in negozio;No;9;9.16930891651;45.5152393308;45.5152393308, 9.16930891651
+ED/2967;Piazza VENTIQUATTRO MAGGIO (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Piazza VENTIQUATTRO MAGGIO;;5200;;edicola su suolo pubblico;Si;;;;
+ED/2993;VIALE CONI ZUGNA N. 34 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIALE CONI ZUGNA;34;5110;;edicola su suolo pubblico;Si;6;9.16721613345;45.4581545174;45.4581545174, 9.16721613345
+ED/3013;Via BAZZINI ANTONIO N. 34 (ingresso da via bazzini) (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via BAZZINI ANTONIO;34;2427;(ingresso Da Via Bazzini);rivendita in negozio;Si;3;9.22521172191;45.4841668817;45.4841668817, 9.22521172191
+ED/2966;Via RIPAMONTI GIUSEPPE N. 435 int. istituto europeo oncologico (ieo) (z.d. 5);AREE PUBBLICHE - Giornali e riviste;Via RIPAMONTI GIUSEPPE;435;4066;int. Istituto Europeo Oncologico (IEO);;No;5;9.20632484517;45.4139313245;45.4139313245, 9.20632484517
+ED/2994;PIAZZALE DATEO N. 2 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZALE DATEO;2;3119;;edicola su suolo pubblico;Si;4;9.21589569326;45.4674289659;45.4674289659, 9.21589569326
+ED/2995;PIAZZA TRICOLORE (DEL) N. 1 ang. viale piave (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA TRICOLORE (DEL);1;3047;ang. Viale Piave;edicola su suolo pubblico;Si;1;9.20615435437;45.4681018976;45.4681018976, 9.20615435437
+ED/2957;Viale UMBRIA ang. via colletta (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale UMBRIA;;3145;ang. Via Colletta;rivendita in supermercato;No;;;;
+ED/2959;Via NOE ENRICO ang. piazza bernini (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via NOE ENRICO;;2211;ang. piazza bernini;edicola su suolo pubblico;Si;;;;
+ED/2964;VIA TORCHIO (DEL) N. 8 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;VIA TORCHIO (DEL);8;556;;rivendita in negozio;No;1;9.18055083357;45.4605218671;45.4605218671, 9.18055083357
+ED/2969;Via PAREA CARLO N. 4 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via PAREA CARLO;4;3344;;rivendita in negozio;No;4;9.26241856388;45.4440767114;45.4440767114, 9.26241856388
+ED/2981;Via FELTRE n. 38 ang. via crescenzago;AREE PUBBLICHE - Giornali e riviste;Via FELTRE;;2652;n. 38 ang. Via Crescenzago;rivendita in supermercato;No;;;;
+ED/2955;Via TRIVULZIO ANTONIO TOLOMEO N. 14 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via TRIVULZIO ANTONIO TOLOMEO;14;6277;;rivendita in negozio;Si;7;9.14528384901;45.4657636048;45.4657636048, 9.14528384901
+ED/2956;Via BIXIO NINO N. 1 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via BIXIO NINO;1;3133;;rivendita in negozio;No;3;9.2071189561;45.4720613414;45.4720613414, 9.2071189561
+ED/3000;MM1-GAMBARA;AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;Si;;;;
+ED/2997;Via ZURETTI GIANFRANCO N. 49 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via ZURETTI GIANFRANCO;49;1216;;rivendita in negozio;No;2;9.20902410852;45.4948242331;45.4948242331, 9.20902410852
+ED/2960;Via RICCARDI PADRE PLACIDO N. 25 25/27 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;Via RICCARDI PADRE PLACIDO;25;2385;25/27;rivendita in negozio;No;2;9.24071675579;45.5027801644;45.5027801644, 9.24071675579
+ED/2968;Via GIAMBELLINO N. 57 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via GIAMBELLINO;57;5136;;rivendita in negozio;No;6;9.14691669625;45.4499252429;45.4499252429, 9.14691669625
+ED/2970;Piazza MISSORI GIUSEPPE fr. civ. 8 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Piazza MISSORI GIUSEPPE;;525;fr. civ. 8;edicola su suolo pubblico;Si;;;;
+ED/2961;Via MARIGNANO N. 61 esercizio in superficie (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Via MARIGNANO;61;3351;esercizio in superficie;rivendita in negozio;No;4;9.25995291651;45.4304140522;45.4304140522, 9.25995291651
+ED/2962;Via ADRIANO PUBLIO ELIO (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via ADRIANO PUBLIO ELIO;;2410;;rivendita in supermercato;No;;;;
+ED/2979;Via NONO LUIGI ang. via procaccini (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via NONO LUIGI;;7232;ang. Via procaccini;edicola su suolo pubblico;Si;;;;
+ED/2987;Via GIAMBELLINO N. 50 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via GIAMBELLINO;50;5136;;rivendita in negozio;No;6;9.14725583621;45.4503739128;45.4503739128, 9.14725583621
+ED/3015;Viale AVIAZIONE (DELL') N. 65 (z.d. 4);AREE PUBBLICHE - Giornali e riviste;Viale AVIAZIONE (DELL');65;3319;;rivendita in aeroporto;No;4;9.25990352654;45.4548008022;45.4548008022, 9.25990352654
+ED/3016;Corso PORTA NUOVA (DI) N. 23 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;Corso PORTA NUOVA (DI);23;1044;;rivendita in negozio;No;1;9.19217648517;45.4785745087;45.4785745087, 9.19217648517
+ED/2939;Via ROSSI PELLEGRINO n. 63 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Via ROSSI PELLEGRINO;;1510;n. 63;rivendita in supermercato;No;;;;
+ED/2930;Via RATTI LUIGI N. 3 (z.d. 8);AREE PUBBLICHE - Giornali e riviste;Via RATTI LUIGI;3;6739;;rivendita in negozio;No;8;9.10068966256;45.4915314867;45.4915314867, 9.10068966256
+ED/2935;Largo MURANI ORESTE N. 4 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Largo MURANI ORESTE;4;3234;;rivendita in negozio;No;3;9.23517951939;45.4734678581;45.4734678581, 9.23517951939
+ED/2936;Via GIANELLA GIUSEPPE N. 21 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via GIANELLA GIUSEPPE;21;6775;;rivendita in negozio;No;7;9.08996964336;45.4600098806;45.4600098806, 9.08996964336
+ED/3035;mm3 - staz. comasina (z.d. 9);AREE PUBBLICHE - Giornali e riviste;;;1573;MM3 - Staz. Comasina;rivendita in stazione metrop.;No;;;;
+ED/3036;VIA LOMBROSO CESARE N. 54 interno ortomercato (z.d. 4);AREE PUBBLICHE - Giornali e riviste;VIA LOMBROSO CESARE;54;3334;INTERNO ORTOMERCATO;rivendita in negozio;Si;4;9.23094939166;45.4560329493;45.4560329493, 9.23094939166
+ED/3036;VIA LOMBROSO CESARE N. 54 interno ortomercato (z.d. 4);AREE PUBBLICHE - Giornali e riviste;VIA LOMBROSO CESARE;54;3334;INTERNO ORTOMERCATO;rivendita in negozio;Si;4;9.23212536974791;45.4552043425859;45.4552043425859, 9.23212536974791
+ED/3033;PIAZZA LEONARDO DA VINCI (z.d. 3);AREE PUBBLICHE - Giornali e riviste;PIAZZA LEONARDO DA VINCI;;2208;;edicola su suolo pubblico;Si;;;;
+ED/3034;LARGO DOMODOSSOLA N. 1A galleria castelli ferrieri - negozio sito all'int. centro commerciale citylife shopping district (z.d. 8);AREE PUBBLICHE - Giornali e riviste;LARGO DOMODOSSOLA;1A;6140;GALLERIA CASTELLI FERRIERI - NEGOZIO SITO ALL'INT. CENTRO COMMERCIALE CITYLIFE SHOPPING DISTRICT;rivendita in centro commerciale;Si;8;9.158759505;45.4799250849;45.4799250849, 9.158759505
+ED/3037;VIA GRASSI GIOVANNI BATTISTA N. 74 all'interno di bar presso ospedale sacco (z.d. 8);AREE PUBBLICHE - Giornali e riviste;VIA GRASSI GIOVANNI BATTISTA;74;7465;all'interno di bar presso Ospedale Sacco;rivendita in negozio;No;8;9.12018949304;45.5175294842;45.5175294842, 9.12018949304
+ED/3038;VIA ARICI CESARE N. 1 (z.d. 2);AREE PUBBLICHE - Giornali e riviste;VIA ARICI CESARE;1;2464;;rivendita in negozio;No;2;9.23972669518;45.5037372998;45.5037372998, 9.23972669518
+ED/3017;LARGO AUGUSTO N. 7 lato via c. battisti (z.d. 1);AREE PUBBLICHE - Giornali e riviste;LARGO AUGUSTO;7;315;lato via C. Battisti;edicola su suolo pubblico;Si;1;9.19836307043;45.4634710942;45.4634710942, 9.19836307043
+ED/3024;Via NERI POMPEO N. 2 ingresso via soderini (z.d. 6);AREE PUBBLICHE - Giornali e riviste;Via NERI POMPEO;2;6817;ingresso Via Soderini;rivendita in negozio;No;6;9.14387425706;45.4567876315;45.4567876315, 9.14387425706
+ED/3025;Via FELTRE N. 27 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;Via FELTRE;27;2652;;rivendita in negozio;No;3;9.24080310595;45.491330938;45.491330938, 9.24080310595
+ED/3032;VIA DI RUDINI' ANTONIO N. 8 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIA DI RUDINI' ANTONIO;8;5429;;rivendita in negozio;No;6;9.15802831385;45.4334685788;45.4334685788, 9.15802831385
+ED/3040;VIA WATT GIACOMO N. 2 (z.d. 6);AREE PUBBLICHE - Giornali e riviste;VIA WATT GIACOMO;2;5292;;rivendita in negozio;No;6;9.15490721333;45.4446712768;45.4446712768, 9.15490721333
+ED/3039;LARGO DOMODOSSOLA N. 1A supermercato sito all'int. del centro commerciale citylife shopping district - galleria castelli ferrieri (z.d. 8);AREE PUBBLICHE - Giornali e riviste;LARGO DOMODOSSOLA;1A;6140;supermercato sito all'int. del Centro Commerciale Citylife Shopping District - Galleria Castelli Ferrieri;rivendita in supermercato;No;8;9.158759505;45.4799250849;45.4799250849, 9.158759505
+ED/3021;MM2-GIOIA (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in negozio;No;;;;
+ED/3026;Viale SUZZANI GIOVANNI N. 270 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;Viale SUZZANI GIOVANNI;270;1446;;rivendita in negozio;No;9;9.20898884147;45.5259955117;45.5259955117, 9.20898884147
+ED/3018;MM3-CROCETTA (z.d. 1);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;No;;;;
+ED/3019;Via NOVARA N. 221 (z.d. 7);AREE PUBBLICHE - Giornali e riviste;Via NOVARA;221;6624;;rivendita in negozio;No;7;9.10707195191;45.4777290985;45.4777290985, 9.10707195191
+ED/3031;MM1-DE ANGELI (z.d. 7);AREE PUBBLICHE - Giornali e riviste;;;;;rivendita in stazione metrop.;No;;;;
+ED/3041;PIAZZA CORDUSIO N. 1 (z.d. 1);AREE PUBBLICHE - Giornali e riviste;PIAZZA CORDUSIO;1;626;;rivendita in negozio;No;1;9.18617374933;45.4649642471;45.4649642471, 9.18617374933
+ED/3042;VIA VENEZIAN GIACOMO N. 1 (z.d. 3);AREE PUBBLICHE - Giornali e riviste;VIA VENEZIAN GIACOMO;1;2227;;rivendita in università;Si;3;9.23136434578529;45.4743948787263;45.4743948787263, 9.23136434578529
+ED/3043;VIALE MONTE GRAPPA N. 2 (z.d. 9);AREE PUBBLICHE - Giornali e riviste;VIALE MONTE GRAPPA;2;1101;;rivendita in negozio;No;9;9.19224879667;45.48043242;45.48043242, 9.19224879667

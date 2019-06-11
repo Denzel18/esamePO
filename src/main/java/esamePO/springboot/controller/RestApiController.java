@@ -18,6 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 import esamePO.springboot.service.EdicolaService;
 import esamePO.springboot.util.CustomErrorType;
 
+/**
+ * E' la classe controller che permette all'utente finale di interagire con la nostra applicazione 
+ * @author denis bernovschi
+ * @version 3.0
+ */
 @RestController
 @RequestMapping("/api")
 public class RestApiController {
@@ -28,6 +33,9 @@ public class RestApiController {
 	EdicolaService EdicolaService;
 
 
+	/** 
+	 *  Restituisce tutte le edicole presenti
+	 */
 	@RequestMapping(value = "/Edicole/", method = RequestMethod.GET)
 	public ResponseEntity<List<Edicola>> listAllEdicolas() {
 		List<Edicola> Edicolas = EdicolaService.getEdicole();
@@ -36,7 +44,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<List<Edicola>>(Edicolas, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce l'edicola con l'ID scelto dall'utente
+	 */
 	@RequestMapping(value = "/Edicola/{id}", method = RequestMethod.GET)
 	public ResponseEntity<?> getEdicola(@PathVariable("id") int id) {
 		logger.info("Fetching Edicola with id {}", id);
@@ -47,7 +57,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Edicola>(Edicola, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce l'edicola con il codice scelto dall'utente
+	 */
 	@RequestMapping(value = "/Edicola/Codice/{code}", method = RequestMethod.GET)
 	public ResponseEntity<?> getEdicolaByCodice(@PathVariable("code") String codice) {
 		logger.info("Fetching Edicola with code {}", codice);
@@ -58,7 +70,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Edicola>(Edicola, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce il conteggio {variabile} e {value} scelti dall'utente
+	 */
 	@RequestMapping(value = "/Edicole/Count/{variable}/Value/{value}", method = RequestMethod.GET)
 	public ResponseEntity<?> countEdicolaByVariable(@PathVariable("variable") String variable , @PathVariable("value") String value) throws IOException {
 		logger.info("counting Edicole with variable {} and value {}", variable,value);
@@ -69,7 +83,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce il max {variabile} scelta dall'utente
+	 */
 	@RequestMapping(value = "/Edicole/Max/{variable}", method = RequestMethod.GET)
 	public ResponseEntity<?> maxEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
 		logger.info("counting Edicole with variable {}", variable);
@@ -80,7 +96,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce il min {variabile} scelta dall'utente
+	 */
 	@RequestMapping(value = "/Edicole/Min/{variable}", method = RequestMethod.GET)
 	public ResponseEntity<?> minEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
 		logger.info("counting Edicole with variable {}", variable);
@@ -91,6 +109,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
+	/** 
+	 *  Restituisce la avg {variabile} scelta dall'utente
+	 */
 	@RequestMapping(value = "/Edicole/Avg/{variable}", method = RequestMethod.GET)
 	public ResponseEntity<?> avgEdicolaByVariable(@PathVariable("variable") String variable) throws IOException {
 		logger.info("counting Edicole with variable {}", variable);
@@ -102,7 +123,9 @@ public class RestApiController {
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
 	
-	
+	/** 
+	 *  Restituisce i metadata
+	 */
 	@RequestMapping(value = "/Metadata/", method = RequestMethod.GET)
 	public ResponseEntity<?> getMetadata() throws IOException {
 		logger.info("get metadata");
@@ -113,7 +136,9 @@ public class RestApiController {
 		}
 		return new ResponseEntity<Response>(risposta, HttpStatus.OK);
 	}
-	
+	/** 
+	 *  Restituisce deviazione standard 
+	 */
 	@RequestMapping(value = "/DevStd/", method = RequestMethod.GET)
 	public ResponseEntity<?> devStdData() throws IOException {
 		logger.info("get devStd");

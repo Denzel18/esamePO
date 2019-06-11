@@ -3,10 +3,16 @@ package esamePO.springboot.service;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -17,14 +23,15 @@ import esamePO.springboot.model.Edicola;
 
 /**
  * 
+ * 
+ * Questa classe è dedita al parse JSON, che ci permette di scaricare
+ * il file .CSV, una volta scaricato il file.csv parte il parser di quest'ultimo
+ * che genera un'arraylist contente le informazioni recuperate, e le valorizza in
+ * un ArrayList
+ * 
  * @author denis bernovschi
  * @version 1.0
  * 
- * Questa classe è dedita al parse JSON, che ci permette di scaricare
- * il file .CSV, una volta scaricato il file.csv parte il parser di quest'ultimo 
- * che genera un'arraylist contente le informazioni recuperate, e le valorizza in
- * un ArrayList 
- *
  */
 
 public class Parser {
@@ -39,31 +46,34 @@ public class Parser {
 
 	/**
 	 * 
-	 * @param json
-	 * @param filename
-	 * 
 	 * Il costruttore ci permette di instanziare un nuovo oggetto con le 
 	 * caratteristiche desiderate, attraverso il passaggio dei parametri.
+	 * 
+	 * @param json l'oggetto String contenente il json
+	 * @param filename l'oggetto String contente il nome del file
+	 * 
 	 */
 	protected Parser(String json, String filename){
 		this.json = json; 
 		this.filename = filename ; 
 	}
+	
+	protected Parser() {
+		
+	}
 
 	/**
-	 * 
-	 * @return filename 
-	 * 
 	 * Ci restituisce il nome del file che l'utente ha inserito al momento della creazione del oggetto Parser @see Parser
+	 * 
+	 * @return filename filename è 
+	 * 
 	 */
 	protected String getFilename() {
 		return filename;
 	}
 	/**
 	 * 
-	 * @param filename
-	 * 
-	 * Ci permette di impostare il nome del file in un secondo momento 
+	 * @param filename Ci permette di impostare il nome del file in un secondo momento 
 	 * 
 	 */
 
@@ -72,29 +82,32 @@ public class Parser {
 	}
 
 	/**
+	 * Ci restituisce il contenuto del attributo json valorizzato al momento della creazione del oggetto Parser @see Parser
 	 * 
 	 * @return json 
-	 * Ci restituisce il contenuto del attributo json valorizzato al momento della creazione del oggetto Parser @see Parser
+	 * 
 	 */
 	protected String getJson() {
 		return json;
 	}
 	/**
 	 * 
-	 * @param filename
-	 * 
 	 * Ci permette di impostare il json in un secondo momento 
 	 * 
+	 * @param json una stringa contenente il json
+	 *
 	 */
 
 	protected void setJson(String json) {
 		this.json = json;
 	}
-	
+
 	/**
 	 * 
-	 * @return counter
 	 * Ci restituisce un contatore dedito alla valorizzazione del campo id di Edicola @see parseCSV
+	 * 
+	 * @return counter
+	 * 
 	 */
 	protected static AtomicLong getCounter() {
 		return counter;
@@ -102,8 +115,10 @@ public class Parser {
 
 	/**
 	 * 
-	 * @return edicole 
 	 * Ci restituisce l'arraylist contenente tutte le edicole memorizzate in seguito al @see parseCSV
+	 * 
+	 * @return edicole arraylist di edicola
+	 *
 	 */
 	protected ArrayList<Edicola> getEdicole() {
 		return edicole;
@@ -111,8 +126,11 @@ public class Parser {
 
 	/**
 	 * 
-	 * @param edicole
 	 * Ci permette di impostare l'arrayList edicole (attributo della classe) passando un altro arraylist del tipo Edicola
+	 * 
+	 * @param edicole arraylist di edicola, per valorizzare l'attributo della classe
+	 * 
+	 * 
 	 */
 	protected void setEdicole(ArrayList<Edicola> edicole) {
 		this.edicole = edicole;
@@ -120,12 +138,27 @@ public class Parser {
 
 	/**
 	 * 
-	 * @param json
-	 * @return url_adress
+	 * Dato un contenuto json effettuo il parser al fine di trovare l'url address relativo al file .csv
+	 * @return url_adress l'indirizzo della risorsa .csv
+	 * @file file il nome del file in cui è memorizzato il parse
+	 * @throws FileNotFoundException vista la remota possibilità che l'utente specifichi un file inesistente
 	 * 
-	 * Dato un contenuto json effettuo il parser al fine di trovare l'url address relativo al file .csv 
+	 *  
 	 */
-	public String getURL (String json) {
+	protected String parseJSON (String file) throws FileNotFoundException {
+		BufferedReader reader = new BufferedReader(new FileReader(file));
+		String json = "";
+		try {
+			String line = reader.readLine();
+			while(line!=null) {
+				json += line;
+				line = reader.readLine();
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 		String url_adress = "";
 		JSONObject obj = new JSONObject(json);
 		String name = obj.getJSONObject("result").getString("name");
@@ -147,21 +180,16 @@ public class Parser {
 		}
 		return url_adress;
 	}
-	
-	protected void download(String urlStr, String file) throws IOException{
-		URL url = new URL(urlStr);
-		BufferedInputStream bis = new BufferedInputStream(url.openStream());
-		FileOutputStream fis = new FileOutputStream(file);
-		byte[] buffer = new byte[1024];
-		int count=0;
-		while((count = bis.read(buffer,0,1024)) != -1)
-		{
-			fis.write(buffer, 0, count);
-		}
-		fis.close();
-		bis.close();
-	}
 
+	/**
+	 * 
+	 * Ci restituisce un'array list di String che poi verrano processate dal @see parseCSV
+	 * 
+	 * @param filename il nome del file @see download
+	 * @return lines arraylist di stringhe del file 
+	 * @throws IOException visto l'utilizzo di metodi di lettura/scrittura e' valido introdurre l'IOException
+	 * 
+	 */
 	protected ArrayList<String> readFile(String filename) throws IOException{
 		ArrayList <String> lines = new ArrayList<String>();
 		int contatore = 0; 
@@ -181,6 +209,17 @@ public class Parser {
 		System.out.println("linee recuperate : "+contatore);
 		return lines;
 	}
+
+	/**
+	 * 
+	 * Prende in ingresso l'arraylist creato da @see readFile e ci permette la creazione 
+	 * del array list di tipo Edicola effettuando diversi controlli al fine di garantire
+	 * dati consistenti e congruenti  
+	 * 
+	 * @param lines le linee del file letto in precedenza @see readFile
+	 * @throws ParserCSVException visto al fine di evitare nuovi eccezioni durante il parse ho previsto una classe Exception, ParserCSVException
+	 * 
+	 */
 
 	protected void parseCSV (ArrayList<String> lines) throws ParserCSVException {
 		ArrayList <Edicola> edicole = new ArrayList<Edicola>();
@@ -203,12 +242,12 @@ public class Parser {
 				}else {
 					location[0] = Double.parseDouble(elements[10]);
 				}
-				if(elements[10].trim().isEmpty()) {
+				if(elements[11].trim().isEmpty()) {
 					location[1] = 0;
 				}else {
 					location[1] = Double.parseDouble(elements[11]);
 				}
-				
+
 				Edicola e = new Edicola (
 						counter.incrementAndGet(),
 						elements[0].replace("/","-").isEmpty() ? "codiceNonIdentificato"+counter.incrementAndGet() : elements[0].replace("/","-"),
@@ -230,14 +269,54 @@ public class Parser {
 		System.out.println("rowsYes : "+rowsYes+" rowsNo : "+rowsNo);
 		setEdicole(edicole);
 	}
-
 	
-	public static void main(String[] args) throws IOException, ParserCSVException {
-		String json = "{\"help\":\"Return the metadata of a dataset (package) and its resources. :param id: the id or name of the dataset :type id: string\",\"success\":true,\"result\":{\"id\":\"19eb95bf-6b06-43b8-b28a-e774eb5a7391\",\"name\":\"attivit-commerciali-edicole\",\"title\":\"Attivit\\u00e0\\u00a0commerciali: edicole\",\"author_email\":\"opendatamilano@comune.milano.it\",\"maintainer_email\":\"opendatamilano@comune.milano.it\",\"license_url\":\"http:\\/\\/creativecommons.org\\/licenses\\/by\\/4.0\\/\",\"license_id\":\"CC-BY 4.0\",\"notes\":\"\\u003Cp\\u003EIl dataset contiene l\\u0027elenco delle rivendite di quotidiani e riviste (edicole). Sono presenti informazioni relative a: localizzazione per via e numero civico; edicola su suolo pubblico o negozio; dimensioni del chiosco; vendita esclusiva s\\u00ec\\/no; forma di vendita (p. es. in stazione mm, in centro comm.le, in stazione ferroviaria, ecc.); informazioni storiche sul settore di attivit\\u00e0. I dati sono aggiornati al 31\\/12\\/2018.\\u003C\\/p\\u003E\\n\",\"state\":\"Active\",\"log_message\":\"Update to resource \\u0027ds57_economia_edicole_2018.geojson\\u0027\",\"revision_timestamp\":\"2019-05-27T14:30:01+02:00\",\"metadata_created\":\"2017-11-09T14:36:54+01:00\",\"metadata_modified\":\"2019-05-16T14:15:27+02:00\",\"creator_user_id\":\"9bcba160-349c-4d14-8a53-d4168349d053\",\"type\":\"Dataset\",\"resources\":[{\"id\":\"056761b5-33e4-4db5-8d65-e6b497ed3226\",\"revision_id\":\"\",\"url\":\"http:\\/\\/dati.comune.milano.it\\/dataset\\/19eb95bf-6b06-43b8-b28a-e774eb5a7391\\/resource\\/30211213-5291-4ae4-ade3-38f8008159dc\\/download\\/economia_edicole_2018_coord.csv\",\"description\":\"\",\"format\":\"csv\",\"state\":\"Active\",\"revision_timestamp\":\"Domenica 19 Maggio 2019\",\"name\":\"ds57_economia_edicole\",\"mimetype\":\"csv\",\"size\":\"\",\"created\":\"\",\"resource_group_id\":\"25936114-3cb9-4c9d-a75c-6ab29dffdeb2\",\"last_modified\":\"\"},{\"id\":\"674fa9d3-4992-4d29-872d-a8937b19defc\",\"revision_id\":\"\",\"url\":\"http:\\/\\/dati.comune.milano.it\\/dataset\\/19eb95bf-6b06-43b8-b28a-e774eb5a7391\\/resource\\/a423571c-efb8-4bd4-b5e8-43f692a7488f\\/download\\/economia_edicole_2018_coord.json\",\"description\":\"\",\"format\":\"json\",\"state\":\"Active\",\"revision_timestamp\":\"Domenica 19 Maggio 2019\",\"name\":\"DS57_Economia_edicole.json\",\"mimetype\":\"json\",\"size\":\"\",\"created\":\"\",\"resource_group_id\":\"25936114-3cb9-4c9d-a75c-6ab29dffdeb2\",\"last_modified\":\"\"},{\"id\":\"003575fa-acef-4de8-a7b8-a0210ae47e2c\",\"revision_id\":\"\",\"url\":\"http:\\/\\/dati.comune.milano.it\\/dataset\\/19eb95bf-6b06-43b8-b28a-e774eb5a7391\\/resource\\/4c2fb9ba-320a-433b-a59a-5cc418485aa1\\/download\\/economia_edicole_2018.geojson\",\"description\":\"\",\"format\":\"geojson\",\"state\":\"Active\",\"revision_timestamp\":\"Domenica 19 Maggio 2019\",\"name\":\"ds57_economia_edicole_2018.geojson\",\"mimetype\":\"geojson\",\"size\":\"\",\"created\":\"\",\"resource_group_id\":\"25936114-3cb9-4c9d-a75c-6ab29dffdeb2\",\"last_modified\":\"\"}],\"tags\":[{\"id\":\"312542e2-d9ea-4c0d-ade7-5a45d8ffc04f\",\"vocabulary_id\":\"2\",\"name\":\"fare_impresa\"},{\"id\":\"27941d09-d81a-4971-8c27-54a3f292fd5e\",\"vocabulary_id\":\"2\",\"name\":\"zona\"}],\"groups\":[{\"display_name\":\"Economia e finanze\",\"description\":\"\\u003Cp\\u003EThis concept identifies datasets covering such domains as economy or finance.\\u003C\\/p\\u003E\\n\",\"id\":\"d51ce83d-0d00-4955-afbd-2c9240ee7596\",\"title\":\"ECON\",\"name\":\"Economia e finanze\"}],\"organization\":[{\"title\":\"Comune di Milano\",\"description\":\"\",\"id\":\"25936114-3cb9-4c9d-a75c-6ab29dffdeb2\",\"image_url\":\"https:\\/\\/www.dati.gov.it\\/sites\\/default\\/files\\/comune_milano.png\",\"name\":\"group\\/comune-milano\",\"created\":\"2018-01-08T11:46:21+01:00\",\"type\":\"organization\"}],\"extras\":[{\"key\":\"\",\"value\":\"\"}],\"_catalog_parent_name\":\"Comune di Milano\",\"_catalog_source_url\":\"http:\\/\\/dati.comune.milano.it\\/api\\/3\\/action\\/package_list\"}}";
-		String filename = "miofile.csv";
-		ArrayList<Edicola> edicole = new ArrayList <Edicola>();
-		Parser parse = new Parser (json, filename);
-		parse.download(parse.getURL(json),parse.getFilename());
-		parse.parseCSV(parse.readFile(parse.getFilename()));
+	/**
+	 * Questo metodo ci permette di scaricare il file dal web e memorizzarlo all'interno della nostra macchina
+	 * @param urlStr l'indirizzo url da dove scaricare il json
+	 * @param file il nome del file dove memorizzare il contenuto scaricato
+	 */
+
+	protected void download(String urlStr, String file) {
+		try {
+			FileWriter fW =new FileWriter(file);
+			BufferedWriter bW =new BufferedWriter (fW);
+			URL url = new URL(urlStr);
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestMethod("GET");
+			connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11");
+			BufferedReader read = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+			FileOutputStream fis = new FileOutputStream(file);
+			String line = read.readLine();
+			while(line!=null) {
+				bW.write(line);
+				line = read.readLine();
+				bW.flush();
+			}
+			fis.close();
+			read.close();
+		} catch(MalformedURLException ex) {
+			ex.printStackTrace();
+		} catch(IOException ioex) {
+			ioex.printStackTrace();
+		}
+
+	}
+	/**
+	 * 
+	 * @param urlStr l'url del sito web del file csv 
+	 * @param file il nome del file su cui salvare l'output
+	 * @throws IOException dovuto alla lettura/scrittura del file
+	 */
+	protected void downloadCSV(String urlStr, String file) throws IOException{
+		URL url = new URL(urlStr);
+		BufferedInputStream bis = new BufferedInputStream(url.openStream());
+		FileOutputStream fis = new FileOutputStream(file);
+		byte[] buffer = new byte[2048];
+		int count=0;
+		while((count = bis.read(buffer,0,2048)) != -1){
+			fis.write(buffer, 0, count);
+		}
+		fis.close();
+		bis.close();
 	}
 }
